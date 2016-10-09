@@ -92,4 +92,8 @@
 
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 </resources>
