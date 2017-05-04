@@ -4572,6 +4572,27 @@
             </intent-filter>
         </activity>
 
+        <!-- Fireworks -->
+        <activity android:name="Settings$SparkSettingsActivity"
+                  android:label="@string/fireworks_title"
+                  android:exported="true"
+                  android:icon="@drawable/ic_homepage_fireworks">
+            <intent-filter android:priority="1">
+                <action android:name="com.spark.settings.SparkSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.spark.settings.SparkSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                       android:value="true" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
