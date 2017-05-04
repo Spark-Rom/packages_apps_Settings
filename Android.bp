@@ -44,7 +44,19 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "Fireworks/src/**/*.java",
+        "Fireworks/src/**/*.kt",
+    ],
+
+    aaptflags: ["--extra-packages com.spark.settings"],
+
+    resource_dirs: [
+        "res",
+        "Fireworks/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -89,6 +101,9 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {

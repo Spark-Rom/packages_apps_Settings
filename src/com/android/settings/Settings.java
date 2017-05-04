@@ -436,4 +436,9 @@ public class Settings extends SettingsActivity {
      * Activity for OneHandedSettings
      */
     public static class OneHandedSettingsActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * Activity for The Fireworks
+     */
+    public static class SparkSettingsActivity extends SettingsActivity {}
 }
