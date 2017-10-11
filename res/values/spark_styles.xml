@@ -43,4 +43,13 @@
         <item name="android:paddingTop">24dp</item>
         <item name="android:paddingBottom">16dp</item>
     </style>
+
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
+        <item name="customPreferenceStyle">@style/CustomPreference</item>
+    </style>
+
+    <style name="CustomPreference" parent="Preference.Material">
+        <item name="allowDividerAbove">false</item>
+    </style>
+
 </resources>
