@@ -103,4 +103,8 @@
 
     <string name="fireworks_title">Fireworks</string>
     <string name="build_tweaks_summary_title">Customizations and more !</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
