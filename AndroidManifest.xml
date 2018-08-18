@@ -3580,5 +3580,8 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.spark.settings.fragments.HAFRAppListActivity" />
+
     </application>
 </manifest>
