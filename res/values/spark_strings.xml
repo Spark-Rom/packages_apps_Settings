@@ -70,4 +70,9 @@
     <!-- Fireworks -->
     <string name="spark_dashboard_title">Fireworks</string>
     <string name="spark_dashboard_summary">All these sparks triggered something</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
 </resources>
