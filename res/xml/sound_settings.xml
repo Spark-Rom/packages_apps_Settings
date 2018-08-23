@@ -89,7 +89,7 @@
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.spark.settings.preference.SecureSettingSwitchPreference
+    <com.spark.settings.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
