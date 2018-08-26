@@ -28,6 +28,7 @@
 
     <!-- ROM version -->
     <string name="rom_version">Spark version</string>
+    <string name="build_date">Build date</string>
     <string name="rom_version_default">Unknown</string>
 
     <!-- Hardware info -->
