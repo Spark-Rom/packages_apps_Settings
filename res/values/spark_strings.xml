@@ -372,4 +372,7 @@
 
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
+
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
 </resources>
