@@ -406,4 +406,10 @@
     <string name="data_usage_period">Data usage period</string>
     <string name="data_usage_daily">Daily</string>
     <string name="data_usage_monthly">Monthly</string>
+	
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Trigger level</string>
 </resources>
