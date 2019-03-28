@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
-     Copyright (C) 2021 The Evolution X Project
+<!-- Copyright (C) 2021 ArrowOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,16 +15,6 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
-    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
-
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false"></string>
-
-    <!-- Whether the given language capitalizes nouns -->
-    <bool name="language_capitalizes_nouns">false</bool>
-
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
+    <java-symbol type="bool" name="config_supportSmartCharging" />
 </resources>
