@@ -111,6 +111,9 @@
     <uses-permission android:name="android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK" />
     <uses-permission android:name="android.permission.ALLOW_PLACE_IN_MULTI_PANE_SETTINGS" />
 
+    <!-- LiveDisplay -->
+    <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4257,6 +4260,22 @@
                   android:label="@string/main_clear_confirm_title"
                   android:exported="false"
                   android:theme="@style/SudThemeGlif.Light">
+        </activity>
+
+
+        <!-- LiveDisplay -->
+        <activity
+            android:name="Settings$LiveDisplaySettingsActivity"
+            android:label="@*android:string/live_display_title"
+            android:parentActivityName="Settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.LIVEDISPLAY_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.livedisplay.LiveDisplaySettings" />
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
