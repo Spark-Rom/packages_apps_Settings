@@ -453,4 +453,5 @@ public class Settings extends SettingsActivity {
      * Activity for The Fireworks
      */
     public static class SparkSettingsActivity extends SettingsActivity {}
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }
