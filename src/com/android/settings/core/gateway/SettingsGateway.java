@@ -173,6 +173,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.spark.settings.SparkSettings;
+import com.spark.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -334,7 +335,8 @@ public class SettingsGateway {
             LiveDisplaySettings.class.getName(),
             SparkSettings.class.getName(),
             RunningServices.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -377,6 +379,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // Spark additions
             Settings.SparkSettingsSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName()
     };
 }

@@ -332,4 +332,5 @@ public class Settings extends SettingsActivity {
     // Spark Additions.
     public static class SparkSettingsSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }
