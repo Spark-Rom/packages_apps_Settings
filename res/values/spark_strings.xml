@@ -524,4 +524,7 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
 </resources>
