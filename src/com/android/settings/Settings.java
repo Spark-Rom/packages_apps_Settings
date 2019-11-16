@@ -236,6 +236,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class SparkSettingsActivity extends SettingsActivity {}
     public static class LockscreenDisplayActivity extends SettingsActivity { /* empty */ }
+    public static class GamingModeActivity extends SettingsActivity {}
 
     /**
      * Activity for MediaControlsSettings
