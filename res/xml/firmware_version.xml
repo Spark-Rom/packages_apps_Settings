@@ -21,11 +21,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Spark info -->e
+    <!-- Spark info -->
     <com.android.settingslib.widget.LayoutPreference
         android:key="spark_info"
-        android:layout="@layout/spark_info"
-        android:selectable="false" />
+        android:layout="@layout/spark_info"/>
 
     <!-- Android version -->
     <Preference
