@@ -112,4 +112,6 @@
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string>
     <string name="clock_style_summary">Customize lockscreen clock</string>
+
+    <string name="lockscreen_display_title">Lockscreen display</string>
 </resources>
