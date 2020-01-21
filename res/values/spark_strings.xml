@@ -259,4 +259,8 @@
     <string name="spark_updater_title">Spark Updater</string>
     <string name="spark_updater_summary">Check for the latest version of Spark</string>
     <string name="keywords_spark_updater">SparkOta, updater, OTA</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
 </resources>
