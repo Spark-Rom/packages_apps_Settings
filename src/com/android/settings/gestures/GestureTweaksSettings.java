@@ -263,7 +263,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EVO_SETTINGS;
+        return MetricsProto.MetricsEvent.SPARK_SETTINGS;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
