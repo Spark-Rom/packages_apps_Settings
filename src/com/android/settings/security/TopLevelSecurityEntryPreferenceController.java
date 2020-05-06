@@ -19,6 +19,10 @@ package com.android.settings.security;
 import android.content.Context;
 import android.text.TextUtils;
 
+import android.app.AppLockManager;
+import com.android.settings.R;
+import com.android.settings.Utils;
+
 import androidx.preference.Preference;
 
 import com.android.settings.core.BasePreferenceController;
@@ -38,6 +42,17 @@ public class TopLevelSecurityEntryPreferenceController extends BasePreferenceCon
     @Override
     public int getAvailabilityStatus() {
         return AVAILABLE;
+    }
+
+    @Override
+    public CharSequence getSummary() {
+        final AppLockManager appLockManager =
+                Utils.getAppLockManager(mContext);
+        if (appLockManager == null) {
+            return "Screen lock, fingerprint, face unlock";
+        } else {
+            return  "Screen lock, fingerprint, face unlock, " + mContext.getText(R.string.applock_title);
+        }
     }
 
     @Override
