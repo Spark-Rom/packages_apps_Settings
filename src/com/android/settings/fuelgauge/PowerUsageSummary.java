@@ -74,10 +74,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
 
-    private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full_design";
-    private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full";
+    private String mBatDesCap;
+    private String mBatCurCap;
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -266,10 +264,11 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } else {
             mNeedUpdateBatteryTip = true;
         }
+
+        mBatDesCap = getResources().getString(R.string.config_batDesCap);
+        mBatCurCap = getResources().getString(R.string.config_batCurCap);
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
 
         if (BatteryInfo.batteryTemp != 0f) {
             mBatteryTempPref.setSubTitle(BatteryInfo.batteryTemp + " \u2103");
