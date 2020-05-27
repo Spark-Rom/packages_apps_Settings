@@ -491,4 +491,8 @@
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
     <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
 </resources>
