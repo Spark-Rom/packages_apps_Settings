@@ -129,6 +129,14 @@
             android:summary="@string/ambient_wake_gestures_summary"
             settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
 
+        <com.spark.settings.preferences.SystemSettingListPreference
+            android:key="ambient_music_ticker"
+            android:title="@string/ambient_music_location"
+            android:summary="%s"
+            android:entries="@array/ambient_music_location_entries"
+            android:entryValues="@array/ambient_music_location_values"
+            android:defaultValue="1" />
+
         <Preference
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
