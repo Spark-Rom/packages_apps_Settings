@@ -37,6 +37,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+    <!-- Custom ROM version -->
+    <Preference
+        android:key="custom_firmware_version"
+        android:title="@string/custom_firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.CustomFirmwareVersionPreferenceController"/>
+
     <!-- Mainline module version -->
     <Preference
         android:key="module_version"
