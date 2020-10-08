@@ -111,6 +111,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     PowerManager mPowerManager;
     @VisibleForTesting
+    BatteryHeaderPreferenceController mBatteryHeaderPreferenceController;
+    @VisibleForTesting
     boolean mNeedUpdateBatteryTip;
     @VisibleForTesting
     BatteryTipPreferenceController mBatteryTipPreferenceController;
@@ -210,6 +212,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     public void onAttach(Context context) {
         super.onAttach(context);
         final SettingsActivity activity = (SettingsActivity) getActivity();
+
+        mBatteryHeaderPreferenceController = use(BatteryHeaderPreferenceController.class);
+        mBatteryHeaderPreferenceController.setActivity(activity);
+        mBatteryHeaderPreferenceController.setFragment(this);
+        mBatteryHeaderPreferenceController.setLifecycle(getSettingsLifecycle());
 
         mPowerManager = context.getSystemService(PowerManager.class);
 
