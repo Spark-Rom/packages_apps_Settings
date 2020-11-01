@@ -119,4 +119,9 @@
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
     <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Second(s)</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_dialog_timeout_summary">The time it takes for volume panel to fade</string>
 </resources>
