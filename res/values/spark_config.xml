@@ -35,4 +35,6 @@
     <string name="config_batChargeCycle"></string>
     <bool name="config_supportBatteryHealth">false</bool>
 
+    <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">false</bool>
 </resources>
