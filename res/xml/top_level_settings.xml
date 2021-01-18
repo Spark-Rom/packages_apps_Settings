@@ -31,6 +31,14 @@
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
     <Preference
+        android:key="top_level_fireworks"
+        android:title="@string/spark_dashboard_title"
+        android:summary="@string/spark_dashboard_summary"
+        android:icon="@drawable/ic_homepage_spark"
+        android:order="-105"
+        android:fragment="com.spark.settings.SparkSettings"/>
+
+    <Preference
         android:key="top_level_connected_devices"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/summary_placeholder"
