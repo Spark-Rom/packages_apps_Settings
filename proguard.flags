@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class com.spark.settings.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }

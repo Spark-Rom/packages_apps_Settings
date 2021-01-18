@@ -66,4 +66,8 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
+    <!-- Fireworks -->
+    <string name="spark_dashboard_title">Fireworks</string>
+    <string name="spark_dashboard_summary">All these sparks triggered something</string>
 </resources>
