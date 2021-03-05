@@ -20,6 +20,15 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.icu.text.NumberFormat;
+import android.os.BatteryManager;
+import android.os.PowerManager;
+import android.text.TextUtils;
+import android.text.method.LinkMovementMethod;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceFragmentCompat;
@@ -28,7 +37,9 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.utils.AnnotationSpan;
 import com.android.settings.widget.EntityHeaderController;
+import com.android.settingslib.HelpUtils;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
@@ -42,6 +53,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         implements PreferenceControllerMixin, LifecycleObserver, OnStart {
     @VisibleForTesting
     static final String KEY_BATTERY_HEADER = "battery_header";
+    private static final String ANNOTATION_URL = "url";
 
     private Activity mActivity;
     private PreferenceFragmentCompat mHost;
