@@ -170,5 +170,8 @@
     <color name="palette_list_dark_mode_color_blue">#8AB4F8</color> <!-- Material Blue 300 -->
     <color name="palette_list_dark_mode_color_purple">#c58af9</color> <!-- Material Purple 300 -->
 
+    <!-- ProgressCard -->
+    <color name="progress_card_progress_color">@color/fluid_card_stroke</color>
+    <color name="progress_card_background_color">@*android:color/primary_device_default_settings_light</color>
 </resources>
 
