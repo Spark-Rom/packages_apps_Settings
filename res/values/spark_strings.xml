@@ -408,6 +408,7 @@
     <string name="data_usage_monthly">Monthly</string>
 	
     <!-- Smart charging -->
+    <string name="smart_charging_category_title">Smart charging</string>
     <string name="smart_charging_title">Smart Charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
     <string name="smart_charging_switch_title">Use Smart charging</string>
@@ -420,4 +421,11 @@
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Battery saver is enabled</string>
 
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_category_title">Smart cutoff</string>
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Stop trigger level</string>
+    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
 </resources>
