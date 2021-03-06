@@ -84,12 +84,30 @@
         android:title="@string/battery_temp_title"
         android:selectable="false" />
 
+    <PreferenceCategory
+        android:key="smart_charging_category"
+        android:title="@string/smart_charging_category_title">
+
     <Preference
         android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
         android:key="smart_charging_key"
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary"
         settings:allowDividerAbove="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="smart_cutoff_category"
+        android:title="@string/smart_cutoff_category_title">
+
+     <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcutoff.SmartCutoffSettings"
+        android:key="smart_cutoff_key"
+        android:title="@string/smart_cutoff_title"
+        android:summary="@string/smart_cutoff_summary" />
+
+    </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
