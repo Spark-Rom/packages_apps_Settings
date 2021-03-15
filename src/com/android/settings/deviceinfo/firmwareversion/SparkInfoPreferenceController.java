@@ -30,9 +30,9 @@ public class SparkInfoPreferenceController extends AbstractPreferenceController 
 
     private static final String KEY_SPARK_INFO = "spark_info";
 
-    private static final String PROP_SPARK_VERSION = "ro.spark.version";
+    private static final String PROP_SPARK_VERSION = "ro.spark.status";
     private static final String PROP_SPARK_VERSION_CODE = "ro.spark.branding.version";
-    private static final String PROP_SPARK_RELEASETYPE = "ro.spark.status";
+    private static final String PROP_SPARK_RELEASETYPE = "ro.spark.build.type";
     private static final String PROP_SPARK_MAINTAINER = "ro.spark.maintainer";
 
     public SparkInfoPreferenceController(Context context) {
