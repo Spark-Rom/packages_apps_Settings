@@ -20,8 +20,11 @@
     android:title="@string/dark_ui_mode"
     settings:keywords="@string/keywords_dark_ui_mode">
 
-    <ListPreference
+    <com.android.settingslib.widget.LayoutPreference
        android:layout="@layout/dark_mode_preview"
+       android:title="@string/dark_ui_title"
+       android:key="dark_ui_activated"
+       settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"
        android:selectable="false" />
 
     <com.android.settingslib.widget.LayoutPreference
@@ -55,14 +58,6 @@
         android:key="android.theme.customization.custom_overlays"
         android:title="@string/theme_customization_dark_theme_title"
         settings:keywords="@string/keywords_dark_ui_mode"/>
-
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="dark_ui_activated"
-        android:title="@string/dark_ui_title"
-        android:selectable="false"
-        android:layout="@layout/dark_ui_activation_button"
-        settings:allowDividerBelow="true"
-        settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
     <com.android.settingslib.widget.FooterPreference
             android:key="dark_ui_footer"
