@@ -309,10 +309,6 @@
     <string name="clipboard_toast_info_show_important">Show only important alerts</string>
     <string name="clipboard_toast_info_show_all">Show all access alerts</string>
 
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-
     <!-- Navbar radius -->
     <string name="navbar_radius">Gesture bar Radius</string>
     <string name="small_label">1 dp</string>
