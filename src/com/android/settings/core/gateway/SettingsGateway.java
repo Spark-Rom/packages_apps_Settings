@@ -165,6 +165,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.spark.settings.SparkSettings;
 import com.spark.settings.fragments.GamingMode;
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import com.spark.settings.fragments.SleepMode;
 
 public class SettingsGateway {
 
@@ -318,7 +319,8 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             SparkSettings.class.getName(),
             GamingMode.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            SleepMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -360,5 +362,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.SparkSettingsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName(),
     };
 }
