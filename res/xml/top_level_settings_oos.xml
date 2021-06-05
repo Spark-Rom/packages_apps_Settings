@@ -46,7 +46,7 @@
         android:title="@string/spark_dashboard_title"
         android:summary="@string/spark_dashboard_summary"
         android:layout="@layout/op_home_preference_card_top"
-        android:icon="@drawable/ic_homepage_spark"
+        android:icon="@drawable/op_ic_homepage_fireworks"
         android:order="-100"
         android:fragment="com.spark.settings.SparkSettings"/>
 
