@@ -28,8 +28,8 @@
     <TextView 
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
         android:textAppearance="@style/homepage_spacer_title_style"
-        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="@string/settings_label" />
 
