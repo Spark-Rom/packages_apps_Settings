@@ -38,7 +38,6 @@ import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.utils.AnnotationSpan;
-import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.widget.EntityHeaderController;
 import com.android.settingslib.HelpUtils;
 import com.android.settingslib.Utils;
@@ -64,8 +63,6 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
 
     public BatteryHeaderPreferenceController(Context context, String key) {
         super(context, key);
-        mBatteryStatusFeatureProvider = FeatureFactory.getFactory(context)
-                .getBatteryStatusFeatureProvider(context);
     }
 
     public void setActivity(Activity activity) {
