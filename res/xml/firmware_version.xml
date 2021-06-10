@@ -24,6 +24,7 @@
     <!-- Spark info -->
     <com.android.settingslib.widget.LayoutPreference
         android:key="spark_info"
+        android:selectable="false"
         android:layout="@layout/spark_info"/>
 
     <!-- Android version -->
