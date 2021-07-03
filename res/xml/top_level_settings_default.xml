@@ -34,7 +34,7 @@
         android:key="top_level_fireworks"
         android:title="@string/spark_dashboard_title"
         android:summary="@string/spark_dashboard_summary"
-        android:icon="@drawable/ic_homepage_spark_stock"
+        android:icon="@drawable/ic_homepage_spark_default"
         android:order="-105"
         android:fragment="com.spark.settings.SparkSettings"/>
 
