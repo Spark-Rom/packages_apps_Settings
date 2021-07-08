@@ -209,6 +209,10 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
