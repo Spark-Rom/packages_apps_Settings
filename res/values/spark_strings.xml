@@ -87,9 +87,6 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
-    <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
 

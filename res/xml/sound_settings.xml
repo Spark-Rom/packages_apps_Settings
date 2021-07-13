@@ -96,14 +96,6 @@
         android:order="-138"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
-    <!-- Volume panel to left -->
-    <com.spark.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_panel_on_left"
-        android:title="@string/volume_panel_on_left_title"
-        android:defaultValue="false"
-        android:order="-137"
-        settings:controller="com.android.settings.sound.VolumePanelOnLeftPreferenceController"/>
-
     <!-- Increasing ring -->
     <com.spark.settings.preferences.SystemSettingSwitchPreference
         android:key="increasing_ring"
