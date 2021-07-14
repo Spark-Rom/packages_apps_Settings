@@ -430,4 +430,73 @@
     <string name="fingerprint_power_button_press_title">Нажмите для разблокировки</string>
     <string name="fingerprint_power_button_press_off_summary">Коснитесь кнопки питания, чтобы разблокировать с помощью отпечатка пальца, когда экран выключен</string>
     <string name="fingerprint_power_button_press_on_summary">Нажмите кнопку питания, чтобы разблокировать с помощью отпечатка пальца, когда экран выключен</string>
+	
+    <!-- Font Engine -->
+    <string name="font_picker_title">Шрифт</string>
+    <string name="disable_fonts_installed_title">Управление шрифтом недоступно, чтобы предотвратить конфликты с Substratum. Удалите его, если хотите и дальше использовать системное управление шрифтом.</string>
+    <string name="font_picker_progress">Применяем новый шрифт\u2026</string>
+
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Применяется только при включенном экране</string>
+    <string name="auto_brightness_one_shot_summary">Корректировка будет происходить один раз</string>
+
+    <!-- Custom actions -->
+    <string name="action_nothing">Не задано</string>
+    <string name="action_search">Ассистент</string>
+    <string name="action_voice_search">Голосовой поиск</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Фонарик</string>
+    <string name="action_volume_panel">Панель регулировки громкости</string>
+    <string name="action_screen_off">Экран выкл</string>
+    <string name="action_screenshot">Снимок экрана</string>
+    <string name="action_app_action">Приложение</string>
+    <string name="active_edge_ss_app_select_title">Выберать приложение по короткому сжатию</string>
+    <string name="active_edge_ls_app_select_title">Выберите приложение по долгому сжатию</string>
+    <string name="active_edge_app_select_summary">Выберите приложение, которое хотите запустить при сжатии</string>
+    <string name="action_qs_panel">Панель быстрых настроек</string>
+    <string name="action_notifications">Уведомления</string>
+    <string name="action_clear_notifications">Очистить уведомления</string>
+    <string name="action_ringer_modes">Режимы звонка</string>
+    <string name="kill_app">Закрыть активное приложение</string>
+    <string name="skip_song">Пропустить трек</string>
+    <string name="prev_song">Предыдущий трек</string>
+    <string name="show_powermenu">Показать меню питания</string>
+    <string name="partial_screenshot">Частичный снимок экрана</string>
+    <string name="hush_mute">Отключить звук уведомлений</string>
+
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Расширенная настройка жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
+    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
+    <string name="left_swipe_actions_title">Действие при длинном свайпе слева</string>
+    <string name="left_swipe_app_action_title">Выбрать приложение на длинный свайп влево</string>
+    <string name="right_swipe_actions_title">Действие при длинном свайпе справа</string>
+    <string name="right_swipe_app_action_title">Выбрать приложение на длинный свайп вправо</string>
+    <string name="left_vertical_swipe_actions_title">Действие на вертикальный свайп слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп слева</string>
+    <string name="right_vertical_swipe_actions_title">Действие на вертикальный свайп справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения нажмите и удерживайте палец на любом приложении в меню выбора приложений.\n\nНа рабочем столе выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Действие при длинном свайпе</string>
+    <string name="back_swipe_extended_summary">Запуск действия при длинном свайпе (более чем на половину экрана), или L-свайп (от края и вверх)</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка вейклоков</string>
+    <string name="wakelock_blocker_summary">Блокировка системных вейклоков</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные вейклоки</string>
+    <string name="wakelock_blocker_reload">Перезагрузить</string>
+    <string name="wakelock_blocker_warning_title">Действовать с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка вейклоков может вызвать нестабильность, сбои или потерю данных.</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Блокировщик будящих процессов</string>
+    <string name="alarm_blocker_title">Включить</string>
+    <string name="alarm_blocker_summary">Заблокировать будящие процессы при выключенном экране</string>
+    <string name="alarm_blocker_save">Сохранить</string>
+    <string name="alarm_list_header">Доступные процессы</string>
+    <string name="alarm_blocker_reload">Перезагрузить</string>
+    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="alarm_blocker_warning">Блокировка будящих процессов может вызвать нестабильность приложений, принудительные закрытия или потерю данных.</string>
 </resources>
