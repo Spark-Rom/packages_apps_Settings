@@ -31,7 +31,7 @@ android_library {
         "src/**/*.kt",
         "Fireworks/src/**/*.java"],
 
-    aaptflags: ["--extra-packages com.spark.settings"],
+    aaptflags: ["--extra-packages com.spark.settings", "--extra-packages com.factor.bouncy"],
 
     resource_dirs: ["res",
                     "Fireworks/res"
@@ -71,6 +71,7 @@ android_library {
         "glide",
         "faceunlock_framework",
         "androidx.dynamicanimation_dynamicanimation",
+        "bouncy",
     ],
 
     libs: [
@@ -115,4 +116,10 @@ android_library_import {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.9.0.aar"],
+}
+
+android_library_import {
+    name: "bouncy",
+    aars: ["libs/bouncy-release.aar"],
+    sdk_version: "current",
 }
