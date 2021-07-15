@@ -31,6 +31,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 import com.android.settings.R;
 import com.android.settings.accounts.AvatarViewMixin;
@@ -40,6 +42,7 @@ import com.android.settings.overlay.FeatureFactory;
 
 public class SettingsHomepageActivity extends FragmentActivity {
 
+    AppBarLayout appBarLayout;
     View homepageSpacer;
     View homepageMainLayout;
 
@@ -69,10 +72,23 @@ public class SettingsHomepageActivity extends FragmentActivity {
         homepageSpacer = findViewById(R.id.settings_homepage_spacer);
         homepageMainLayout = findViewById(R.id.main_content_scrollable_container);
 
-        if (!isHomepageSpacerEnabled() && homepageSpacer != null && homepageMainLayout != null) {
-            homepageSpacer.setVisibility(View.GONE);
+        if (homepageMainLayout != null) {
             setMargins(homepageMainLayout, 0,0,0,0);
         }
+
+	appBarLayout = findViewById(R.id.app_bar_layout);
+	appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                float offsetAlpha = (Float.valueOf(appBarLayout.getTotalScrollRange() + verticalOffset) / Float.valueOf(appBarLayout.getTotalScrollRange()));
+                toolbar.setAlpha(offsetAlpha);
+                if (Math.abs(verticalOffset)-appBarLayout.getTotalScrollRange() == 0){
+                    toolbar.setVisibility(View.GONE);
+                } else {
+                    toolbar.setVisibility(View.VISIBLE);
+                }
+            }
+        });
     }
 
     private void showFragment(Fragment fragment, int id) {

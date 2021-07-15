@@ -177,4 +177,33 @@
     <attr name="ic_menu_moreoverflow" format="reference" />
     <attr name="side_margin" format="reference|dimension" />
     <attr name="wifi_signal_color" format="reference" />
+    <attr name="collapsedAppbarHeight" format="dimension" />
+    <attr name="collapsedSubtitleTextAppearance" format="reference" />
+    <attr name="collapsedSubtitleTextColor" format="reference|color" />
+    <attr name="collapsedTitleGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="collapsedTitleTextAppearance" format="reference" />
+    <attr name="collapsedTitleTextColor" format="reference|color" />
+    <attr name="collapsingAppbarStyle" format="reference" />
+    <attr name="onePlusAppbarBgColor" format="reference|color" />
+    <attr name="onePlusActionBarTitleColor" format="reference|color" />
+    <attr name="onePlusActionbarBackgroundColor" format="color" />
+    <attr name="onePlusActionbarIconColor" format="color" />
+    <attr name="onePlusActionbarLineColor" format="color" />
+    <attr name="onePlusActionbarSubtitleColor" format="color" />
+    <attr name="onePlusActionbarTitleColor" format="color" />
+    <attr name="expandedSubtitleTextAppearance" format="reference" />
+    <attr name="expandedSubtitleTextColor" format="reference|color" />
+    <attr name="expandedTitleTextColor" format="reference|color" />
+    <attr name="colorActionBarControlNormal" format="reference|color" />
 </resources>

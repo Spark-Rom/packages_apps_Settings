@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018 The Android Open Source Project
-     Copyright (C) 2019 ExtendedUI
      Copyright (C) 2021 ShapeShiftOS
-
+     Copyright (C) 2020 ProjectFluid
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -14,53 +13,104 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/settings_homepage_container"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:background="@color/op_control_custom_background_color"
+        android:layout_height="180dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/settings_header_toolbar"
+            android:layout_width="match_parent"
+            android:background="@color/op_control_custom_background_color"
+            android:layout_height="match_parent"
+            app:title="@string/dashboard_title"
+            app:expandedTitleMarginStart="24dp"
+            app:expandedTitleMarginEnd="24dp"
+            app:expandedTitleMarginBottom="96dp"
+            app:expandedTitleTextAppearance="@style/SettingsHeaderStyle"
+            app:collapsedTitleTextAppearance="@style/SettingsHeaderStyle"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/homepage_header_container"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:titleMarginStart="24dp"
+                app:layout_collapseMode="pin" />
+
+             <Toolbar
+                android:id="@+id/search_action_bar"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="24dp"
+                android:navigationIcon="@drawable/ic_homepage_search"
+                android:background="@android:color/transparent"
+                app:layout_collapseMode="none"
+                app:layout_collapseParallaxMultiplier="1.32"
+                android:layout_gravity="end|center_horizontal"/>
+                
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <com.android.settings.edgeeffect.SpringNestScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:id="@+id/main_content_scrollable_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/op_control_custom_background_color"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-        <androidx.core.widget.NestedScrollView
-            android:id="@+id/main_content_scrollable_container"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
+        <LinearLayout
+            android:id="@+id/homepage_container"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-64dp"
+            android:background="@color/op_control_custom_background_color"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/homepage_container"
+            <FrameLayout
+                android:id="@+id/contextual_cards_content"
+                android:layout_width="match_parent"
+                android:background="@color/op_control_custom_background_color"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/contextual_card_side_margin"
+                android:layout_marginEnd="@dimen/contextual_card_side_margin"/>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/op_control_custom_background_color"
+                android:overScrollMode="never">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/op_control_custom_background_color"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <FrameLayout
+                android:id="@+id/main_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:animateLayoutChanges="true"
+                android:background="@color/op_control_custom_background_color"
+                android:layout_marginStart="@dimen/main_content_side_margin"
+                android:layout_marginEnd="@dimen/main_content_side_margin"/>
 
-                <com.google.android.material.appbar.AppBarLayout
-                    android:layout_width="match_parent"
-                    android:touchscreenBlocksFocus="false"
-                    android:keyboardNavigationCluster="false"
-                    android:layout_height="wrap_content">
-                    <include layout="@layout/homepage_spacer"/>
-                </com.google.android.material.appbar.AppBarLayout>
-
-                <FrameLayout
-                    android:id="@+id/contextual_cards_content"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/contextual_card_side_margin"
-                    android:layout_marginEnd="@dimen/contextual_card_side_margin" />
-
-                <FrameLayout
-                    android:id="@+id/main_content"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:animateLayoutChanges="true"
-                    android:background="?android:colorPrimary" />
-
-            </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
-
+        </LinearLayout>
     </com.android.settings.edgeeffect.SpringNestScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
