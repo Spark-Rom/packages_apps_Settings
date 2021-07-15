@@ -30,7 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_marginLeft="15dp"
         android:textAppearance="@style/homepage_spacer_title_style"
-        android:layout_marginTop="20dp"
         android:text="@string/settings_label" />
 
 
@@ -44,14 +43,6 @@
   android:layout_marginRight="15dp"
   android:layout_gravity="bottom|end"
   style="@style/SearchBarStyle">
-  <Toolbar
-   android:layout_gravity="bottom"
-   android:id="@+id/search_action_bar"
-   android:layout_width="42dp"
-   android:layout_height="42dp"
-   android:navigationIcon="@drawable/ic_homepage_search"
-   android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
-                    android:background="@android:color/transparent">
-  </Toolbar>
+
  </com.google.android.material.card.MaterialCardView>
 </com.google.android.material.card.MaterialCardView>

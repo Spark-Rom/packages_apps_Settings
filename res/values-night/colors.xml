@@ -52,5 +52,12 @@
     <color name="oneplus_accent_color">@color/settingsHeaderColor</color>
     <color name="settings_accent_color">@color/oneplus_accent_color</color>
 
+    <color name="op_control_bg_color_default">@color/op_control_bg_color_dark</color>
+    <color name="op_control_text_color_secondary">@color/op_control_text_color_secondary_dark</color>
+    <color name="op_control_text_color_secondary_default">@color/op_control_text_color_secondary_dark</color>
+    <color name="op_control_divider_color_default">@color/op_control_divider_color_dark</color>
+    <color name="op_control_custom_background_color">@color/op_control_bg_color_dark</color>
+    <color name="op_control_text_color_primary_default">@color/op_control_text_color_primary_dark</color>
+
 </resources>
 

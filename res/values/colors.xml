@@ -177,5 +177,20 @@ x
     <color name="black">#171717</color>
     <color name="off_black">#90171717</color>
 
+    <color name="op_control_bg_color_default">@color/op_control_bg_color_light</color>
+    <color name="op_control_bg_color_light">#fffafafa</color>
+    <color name="op_control_bg_color_dark">#ff000000</color>
+
+    <color name="op_control_text_color_secondary">@color/op_control_text_color_secondary_light</color>
+    <color name="op_control_text_color_secondary_dark">#89ffffff</color>
+    <color name="op_control_text_color_secondary_default">@color/op_control_text_color_secondary_light</color>
+    <color name="op_control_text_color_secondary_light">#8c000000</color>
+    <color name="op_control_divider_color_dark">#19ffffff</color>
+    <color name="op_control_divider_color_default">@color/op_control_divider_color_light</color>
+    <color name="op_control_divider_color_light">#14000000</color>
+    <color name="op_control_custom_background_color">@color/op_control_bg_color_light</color>
+    <color name="op_control_text_color_primary_dark">#ffffffff</color>
+    <color name="op_control_text_color_primary_default">@color/op_control_text_color_primary_light</color>
+    <color name="op_control_text_color_primary_light">#d8000000</color>
 </resources>
 

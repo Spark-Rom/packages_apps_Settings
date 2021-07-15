@@ -432,4 +432,34 @@
     <dimen name="card_view_end_margin">15dp</dimen>
     <dimen name="card_height_settings">75dp</dimen>
 
+    <dimen name="op_text_size_body1">13.0sp</dimen>
+    <dimen name="op_text_size_button">14.0sp</dimen>
+    <dimen name="op_text_size_descriptions">10.0sp</dimen>
+    <dimen name="op_text_size_h1">110.0px</dimen>
+    <dimen name="op_text_size_h2">96.0px</dimen>
+    <dimen name="op_text_size_h3">32.0sp</dimen>
+    <dimen name="op_text_size_h4">28.0sp</dimen>
+    <dimen name="op_text_size_h5">18.0sp</dimen>
+    <dimen name="op_text_size_h6">16.0sp</dimen>
+    <dimen name="op_text_size_subtitle">13.0sp</dimen>
+    <dimen name="op_text_style_dialog_body1_size">24.0px</dimen>
+    <dimen name="op_text_style_dialog_title_size">32.0px</dimen>
+    <dimen name="op_app_bar_collapsed_text_size">42.0px</dimen>
+    <dimen name="op_app_bar_collapsed_top_margin">16.0px</dimen>
+    <dimen name="op_app_bar_collapsed_top_subtitle_margin">12.0px</dimen>
+    <dimen name="op_app_bar_collapsing_height">245.0dip</dimen>
+    <dimen name="op_app_bar_collapsing_height_with_tab">225.0dip</dimen>
+    <dimen name="op_app_bar_collapsing_title_limit_one_menu_width">62.0dip</dimen>
+    <dimen name="op_app_bar_collapsing_title_limit_three_menu_width">146.0dip</dimen>
+    <dimen name="op_app_bar_collapsing_title_limit_two_menu_width">104.0dip</dimen>
+    <dimen name="op_app_bar_collapsing_title_limit_width">30.0dip</dimen>
+    <dimen name="op_app_bar_distance">171.0dip</dimen>
+    <dimen name="op_app_bar_expand_text_size">96.0px</dimen>
+    <dimen name="op_app_bar_height_with_tab">54.0dip</dimen>
+    <dimen name="op_app_bar_margin_top">8.0px</dimen>
+    <dimen name="op_app_bar_margin_top_without_tab">40.0px</dimen>
+    <dimen name="op_app_bar_subtitle_text_size">24.0px</dimen>
+    <dimen name="op_control_appbar_size_standard">74.0dip</dimen>
+    <dimen name="op_control_icon_size_list">21.0dip</dimen>
+    <dimen name="main_content_side_margin">8dp</dimen>
 </resources>

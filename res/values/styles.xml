@@ -789,4 +789,141 @@
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
     </style>
 
+    <style name="Widget.Design.CollapsingAppbarLayout" parent="">
+        <item name="android:background">?onePlusAppbarBgColor</item>
+        <item name="android:minHeight">@dimen/op_app_bar_collapsing_height_with_tab</item>
+        <item name="android:height">@dimen/op_app_bar_collapsing_height_with_tab</item>
+        <item name="collapsedAppbarHeight">@dimen/op_app_bar_height_with_tab</item>
+        <item name="collapsedSubtitleTextAppearance">@style/op_appbar_subtitle_style_body1</item>
+        <item name="collapsedSubtitleTextColor">@color/op_control_text_color_secondary_default</item>
+        <item name="collapsedTitleTextAppearance">@style/op_appbar_title_style_h5</item>
+        <item name="collapsedTitleTextColor">@color/op_control_text_color_primary_default</item>
+        <item name="expandedSubtitleTextAppearance">@style/op_appbar_subtitle_style_body1</item>
+        <item name="expandedSubtitleTextColor">@color/op_control_text_color_secondary_default</item>
+        <item name="expandedTitleGravity">top</item>
+        <item name="expandedTitleMarginEnd">@dimen/op_control_margin_screen_left3</item>
+        <item name="expandedTitleMarginStart">@dimen/op_control_margin_screen_left3</item>
+        <item name="expandedTitleMarginTop">@dimen/op_app_bar_margin_top</item>
+        <item name="expandedTitleTextAppearance">@style/op_appbar_title_style_h1</item>
+        <item name="expandedTitleTextColor">@color/op_control_text_color_primary_default</item>
+    </style>
+    <style name="Widget.Design.CollapsingAppbarLayout.WithoutTab" parent="@style/Widget.Design.CollapsingAppbarLayout">
+        <item name="android:minHeight">@dimen/op_app_bar_collapsing_height</item>
+        <item name="collapsedAppbarHeight">@dimen/op_control_appbar_size_standard</item>
+        <item name="expandedTitleMarginTop">@dimen/op_app_bar_margin_top_without_tab</item>
+    </style>
+    <style name="Widget.Design.CollapsingToolbar" parent="@android:style/Widget">
+        <item name="expandedTitleMargin">32.0dip</item>
+        <item name="statusBarScrim">?colorPrimaryDark</item>
+    </style>
+
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+    <style name="Base.V7.Widget.AppCompat.Toolbar" parent="@android:style/Widget">
+        <item name="android:paddingLeft">@dimen/abc_action_bar_default_padding_start_material</item>
+        <item name="android:paddingRight">@dimen/abc_action_bar_default_padding_end_material</item>
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="android:paddingStart">@dimen/abc_action_bar_default_padding_start_material</item>
+        <item name="android:paddingEnd">@dimen/abc_action_bar_default_padding_end_material</item>
+        <item name="buttonGravity">top</item>
+        <item name="collapseContentDescription">@string/abc_toolbar_collapse_description</item>
+        <item name="collapseIcon">?homeAsUpIndicator</item>
+        <item name="contentInsetStart">16.0dip</item>
+        <item name="contentInsetStartWithNavigation">@dimen/abc_action_bar_content_inset_with_nav</item>
+        <item name="maxButtonHeight">@dimen/abc_action_bar_default_height_material</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+        <item name="titleMargin">4.0dip</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+    </style>
+
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+
+
+    <style name="Widget.AppCompat.Toolbar" parent="@style/Base.Widget.AppCompat.Toolbar" />
+
+    <style name="op_control_text_style_base">
+        <item name="android:breakStrategy">simple</item>
+    </style>
+
+    <style name="op_appbar_title_style_h5" parent="@style/op_control_text_style_h1">
+        <item name="android:textSize">@dimen/op_text_size_h5</item>
+    </style>
+
+    <style name="op_appbar_title_style_h1" parent="@style/op_control_text_style_h2">
+        <item name="android:textSize">@dimen/op_app_bar_expand_text_size</item>
+    </style>
+
+    <style name="op_control_text_style_h2" parent="@style/op_control_text_style_base">
+        <item name="android:textSize">@dimen/op_text_size_h2</item>
+        <item name="android:lineSpacingMultiplier">@dimen/op_line_space_multiplier_h2</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+
+    <style name="op_control_text_style_h1" parent="@style/op_control_text_style_base">
+        <item name="android:textSize">@dimen/op_text_size_h1</item>
+        <item name="android:lineSpacingMultiplier">@dimen/op_line_space_multiplier_h2</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+
+    <style name="op_control_text_style_h5" parent="@style/op_control_text_style_base">
+        <item name="android:textSize">@dimen/op_text_size_h5</item>
+        <item name="android:fontFamily">@*android:string/config_lightFontFamily</item>
+    </style>
+
+    <style name="op_control_text_style_body1" parent="@style/op_control_text_style_base">
+        <item name="android:textSize">@dimen/op_text_size_body1</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+
+    <style name="OnePlus.TextAppearance.Toolbar.Subtitle" parent="@style/op_control_text_style_body1">
+        <item name="android:textColor">@color/op_control_text_color_secondary_default</item>
+    </style>
+    <style name="OnePlus.TextAppearance.Toolbar.Title" parent="@style/op_control_text_style_h5">
+        <item name="android:textColor">?onePlusActionBarTitleColor</item>
+    </style>
+
+    <style name="OnePlus.Widget.AppCompat.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@drawable/op_toolbar_background</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:paddingStart">5.0dip</item>
+        <item name="contentInsetStartWithNavigation">0.0dip</item>
+        <item name="maxButtonHeight">42.0dip</item>
+        <item name="navigationIcon">@drawable/ic_title_bar_back</item>
+        <item name="subtitleTextAppearance">@style/OnePlus.TextAppearance.Toolbar.Subtitle</item>
+        <item name="titleMargin">0.0dip</item>
+        <item name="titleTextAppearance">@style/OnePlus.TextAppearance.Toolbar.Title</item>
+    </style>
+
+    <style name="op_appbar_subtitle_style_body1" parent="@style/op_control_text_style_body1">
+        <item name="android:textSize">@dimen/op_text_size_body1</item>
+    </style>
+
+    <style name="OnePlus.Widget.AppCompat.Collapsing.Toolbar.WithTab" parent="@style/OnePlus.Widget.AppCompat.Toolbar">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/op_control_bg_color_default</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="navigationIcon">@null</item>
+    </style>
+    <style name="OnePlus.Widget.AppCompat.Collapsing.Toolbar.WithoutTab" parent="@style/OnePlus.Widget.AppCompat.Toolbar">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/op_control_bg_color_default</item>
+        <item name="navigationIcon">@null</item>
+    </style>
+
+    <style name="SettingsHeaderStyle">
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
 </resources>
