@@ -3211,7 +3211,7 @@
     <string name="account_dashboard_title" msgid="2735150283267749852">"Konton"</string>
     <string name="account_dashboard_default_summary" msgid="2025250151574540063">"Inga konton har lagts till"</string>
     <string name="app_default_dashboard_title" msgid="4071015747629103216">"Standardappar"</string>
-    <string name="system_dashboard_summary" msgid="7400745270362833832">"Språk, rörelser, tid, säkerhetskopiering"</string>
+    <string name="system_dashboard_summary" msgid="7400745270362833832">"Språk, tid, säkerhetskopiering"</string>
     <string name="search_results_title" msgid="3360639917793022533">"Inställningar"</string>
     <string name="keywords_wifi" msgid="8156528242318351490">"wifi, wi-fi, nätverksanslutning, internet, trådlös, data, wi fi"</string>
     <string name="keywords_wifi_notify_open_networks" msgid="6580896556389306636">"Wi‑Fi-avisering, wi-fi-avisering"</string>

@@ -3211,7 +3211,7 @@
     <string name="account_dashboard_title" msgid="2735150283267749852">"계정"</string>
     <string name="account_dashboard_default_summary" msgid="2025250151574540063">"추가된 계정 없음"</string>
     <string name="app_default_dashboard_title" msgid="4071015747629103216">"기본 앱"</string>
-    <string name="system_dashboard_summary" msgid="7400745270362833832">"언어, 동작, 시간, 백업"</string>
+    <string name="system_dashboard_summary" msgid="7400745270362833832">"언어, 시간, 백업"</string>
     <string name="search_results_title" msgid="3360639917793022533">"설정"</string>
     <string name="keywords_wifi" msgid="8156528242318351490">"wifi, Wi-Fi, 네트워크 연결, 인터넷, 무선, 데이터, WiFi"</string>
     <string name="keywords_wifi_notify_open_networks" msgid="6580896556389306636">"Wi‑Fi 알림, Wi‑Fi 알림"</string>

@@ -3211,7 +3211,7 @@
     <string name="account_dashboard_title" msgid="2735150283267749852">"ანგარიშები"</string>
     <string name="account_dashboard_default_summary" msgid="2025250151574540063">"ანგარიშები დამატებული არ არის"</string>
     <string name="app_default_dashboard_title" msgid="4071015747629103216">"ნაგულისხმევი აპები"</string>
-    <string name="system_dashboard_summary" msgid="7400745270362833832">"ენები, ჟესტები, დრო, სარეზერვო ასლი"</string>
+    <string name="system_dashboard_summary" msgid="7400745270362833832">"ენები, დრო, სარეზერვო ასლი"</string>
     <string name="search_results_title" msgid="3360639917793022533">"პარამეტრები"</string>
     <string name="keywords_wifi" msgid="8156528242318351490">"WiFi, Wi-Fi, ქსელის კავშირი, ინტერნეტი, უსადენო, მონაცემები, Wi Fi"</string>
     <string name="keywords_wifi_notify_open_networks" msgid="6580896556389306636">"Wi‑Fi შეტყობინება, wifi შეტყობინება"</string>

@@ -3211,7 +3211,7 @@
     <string name="account_dashboard_title" msgid="2735150283267749852">"Kontod"</string>
     <string name="account_dashboard_default_summary" msgid="2025250151574540063">"Kontosid pole lisatud"</string>
     <string name="app_default_dashboard_title" msgid="4071015747629103216">"Vaikerakendused"</string>
-    <string name="system_dashboard_summary" msgid="7400745270362833832">"Keeled, liigutused, kellaaeg, varundamine"</string>
+    <string name="system_dashboard_summary" msgid="7400745270362833832">"Keeled, kellaaeg, varundamine"</string>
     <string name="search_results_title" msgid="3360639917793022533">"Seaded"</string>
     <string name="keywords_wifi" msgid="8156528242318351490">"wifi, wi-fi, võrguühendus, internet, juhtmeta, andmed, wi fi"</string>
     <string name="keywords_wifi_notify_open_networks" msgid="6580896556389306636">"WiFi märguanne, wifi märguanne"</string>
