@@ -174,6 +174,7 @@ x
     <!-- ProgressCard -->
     <color name="progress_card_progress_color">@color/fluid_card_stroke</color>
     <color name="progress_card_background_color">@*android:color/primary_device_default_settings_light</color>
+    <color name="fluid_card_stroke">#14000000</color>
 
     <!-- Custom colors -->
     <color name="colorAccentSettings">@*android:color/accent_device_default_light</color>

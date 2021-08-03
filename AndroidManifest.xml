@@ -3542,15 +3542,6 @@
                 android:value="com.android.settings.security.LockscreenDashboardFragment" />
         </activity>
 
-        <receiver
-            android:name=".media.BluetoothPairingReceiver"
-            android:exported="true"
-            android:permission="android.permission.BLUETOOTH_ADMIN">
-            <intent-filter>
-                <action android:name="com.android.settings.action.LAUNCH_BLUETOOTH_PAIRING"/>
-            </intent-filter>/>
-        </receiver>
-
         <receiver android:name="com.spark.settings.fragments.GamingModeReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
