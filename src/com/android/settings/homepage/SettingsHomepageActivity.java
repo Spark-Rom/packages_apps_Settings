@@ -25,7 +25,9 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toolbar;
-
+import android.provider.Settings;
+import android.content.Context;
+import android.os.UserHandle;
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
@@ -50,7 +52,18 @@ public class SettingsHomepageActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.settings_homepage_container);
+        Context context = getApplicationContext();
+
+        final boolean collapsed_toolbar = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.COLLAPSED_TOOLBAR, 0, UserHandle.USER_CURRENT) != 0;
+
+        setContentView(collapsed_toolbar  ? R.layout.settings_homepage_container
+                                        : R.layout.settings_homepage_container_alt);
+        if (collapsed_toolbar) {
+        homepageSpacer = findViewById(R.id.settings_homepage_spacer);
+        } else { 
+        homepageSpacer = findViewById(R.id.settings_homepage_spacer_alt);
+        }
         final View root = findViewById(R.id.settings_homepage_container);
         root.setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
@@ -69,15 +82,19 @@ public class SettingsHomepageActivity extends FragmentActivity {
         ((FrameLayout) findViewById(R.id.main_content))
                 .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
 
-        homepageSpacer = findViewById(R.id.settings_homepage_spacer);
+
         homepageMainLayout = findViewById(R.id.main_content_scrollable_container);
 
-        if (homepageMainLayout != null) {
+        if (homepageMainLayout != null && collapsed_toolbar) {
             setMargins(homepageMainLayout, 0,0,0,0);
+        } else if (!isHomepageSpacerEnabled() && homepageSpacer != null && homepageMainLayout != null) {
+            homepageSpacer.setVisibility(View.GONE);
         }
 
+        if (collapsed_toolbar) {
 	appBarLayout = findViewById(R.id.app_bar_layout);
 	appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+
             @Override
             public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
                 float offsetAlpha = (Float.valueOf(appBarLayout.getTotalScrollRange() + verticalOffset) / Float.valueOf(appBarLayout.getTotalScrollRange()));
@@ -89,6 +106,7 @@ public class SettingsHomepageActivity extends FragmentActivity {
                 }
             }
         });
+      }
     }
 
     private void showFragment(Fragment fragment, int id) {
