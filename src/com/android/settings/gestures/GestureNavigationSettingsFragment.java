@@ -48,6 +48,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LEFT_HEIGHT_SEEKBAR_KEY = Settings.Secure.BACK_GESTURE_HEIGHT_LEFT;
     private static final String RIGHT_HEIGHT_SEEKBAR_KEY = Settings.Secure.BACK_GESTURE_HEIGHT_RIGHT;
+    private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -91,6 +92,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initSeekBarPreference(LEFT_HEIGHT_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_HEIGHT_SEEKBAR_KEY);
+
+        initGestureBarLengthPreference();
     }
 
     @Override
@@ -190,6 +193,17 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             Settings.Secure.putFloat(getContext().getContentResolver(), p.getKey(), scale);
             return true;
         });
+    }
+
+    private void initGestureBarLengthPreference() {
+        final LabeledSeekBarPreference pref = getPreferenceScreen().
+            findPreference(GESTURE_NAVBAR_LENGTH_KEY);
+        pref.setContinuousUpdates(true);
+        pref.setProgress(Settings.System.getInt(getContext().getContentResolver(),
+            Settings.System.GESTURE_NAVBAR_LENGTH, 0));
+        pref.setOnPreferenceChangeListener((p, v) ->
+            Settings.System.putInt(getContext().getContentResolver(),
+                Settings.System.GESTURE_NAVBAR_LENGTH, (Integer) v));
     }
 
     private static float[] getFloatArray(TypedArray array) {
