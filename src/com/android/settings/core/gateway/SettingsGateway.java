@@ -163,7 +163,6 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.spark.settings.SparkSettings;
-import com.spark.settings.fragments.GamingMode;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.spark.settings.fragments.SleepMode;
 
@@ -318,7 +317,6 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             SparkSettings.class.getName(),
-            GamingMode.class.getName(),
             LiveDisplaySettings.class.getName(),
             SleepMode.class.getName(),
     };
@@ -361,7 +359,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.SparkSettingsActivity.class.getName(),
-            Settings.GamingModeActivity.class.getName(),
             Settings.SleepModeActivity.class.getName(),
     };
 }
