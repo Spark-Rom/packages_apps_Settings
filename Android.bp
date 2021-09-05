@@ -72,6 +72,7 @@ android_library {
         "faceunlock_framework",
         "androidx.dynamicanimation_dynamicanimation",
         "bouncy",
+        "org.apache.pdfbox_fontbox",
     ],
 
     libs: [
