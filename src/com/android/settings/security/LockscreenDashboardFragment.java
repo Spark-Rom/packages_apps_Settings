@@ -19,14 +19,18 @@ package com.android.settings.security;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.UserHandle;
+import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
 import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
 import com.android.settings.display.AmbientDisplayCustomPreferenceController;
+import com.android.settings.display.AODSchedulePreferenceController;
 import com.android.settings.display.DozeOnChargePreferenceController;
 import com.android.settings.display.PulseOnNewTracksPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
@@ -47,9 +51,6 @@ import java.util.List;
 @SearchIndexable
 public class LockscreenDashboardFragment extends DashboardFragment
         implements OwnerInfoPreferenceController.OwnerInfoCallback {
-
-    public static final String KEY_AMBIENT_DISPLAY_ALWAYS_ON = "ambient_display_always_on";
-
     private static final String TAG = "LockscreenDashboardFragment";
 
     @VisibleForTesting
@@ -63,7 +64,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
     @VisibleForTesting
     static final String KEY_ADD_USER_FROM_LOCK_SCREEN =
             "security_lockscreen_add_users_when_locked";
-
 
     private AmbientDisplayConfiguration mConfig;
     private OwnerInfoPreferenceController mOwnerInfoPreferenceController;
@@ -98,6 +98,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         use(PulseOnNewTracksPreferenceController.class).setConfig(getConfig(context));
         addPreferenceController(new AmbientDisplayCustomPreferenceController(context));
+        use(AODSchedulePreferenceController.class).setConfig(getConfig(context));
     }
 
     @Override
