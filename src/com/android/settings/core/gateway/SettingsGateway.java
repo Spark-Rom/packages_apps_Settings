@@ -169,6 +169,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import com.spark.settings.SparkSettings;
 
 public class SettingsGateway {
 
@@ -326,7 +327,8 @@ public class SettingsGateway {
             NetworkSelectSettings.class.getName(),
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            SparkSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -367,5 +369,7 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
+            // Spark additions
+            Settings.SparkSettingsSettingsActivity.class.getName(),
     };
 }
