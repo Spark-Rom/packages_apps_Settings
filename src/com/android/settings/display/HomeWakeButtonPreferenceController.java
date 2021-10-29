@@ -22,7 +22,7 @@ import androidx.preference.Preference;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.spark.support.preferences.SystemSettingSwitchPreference;
 
 public class HomeWakeButtonPreferenceController extends AbstractPreferenceController implements
         Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
