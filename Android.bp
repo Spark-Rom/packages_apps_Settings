@@ -46,6 +46,8 @@ android_library {
 
     srcs: [
         "src/**/*.java",
+        "src/**/*.kt",
+        "Fireworks/src/**/*.kt",
         "Fireworks/src/**/*.java",
     ],
 
