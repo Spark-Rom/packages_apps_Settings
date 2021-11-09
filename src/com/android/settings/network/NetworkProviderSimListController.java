@@ -41,9 +41,9 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class NetworkProviderSimListController extends AbstractPreferenceController implements
         LifecycleObserver, SubscriptionsChangeListener.SubscriptionsChangeListenerClient {
@@ -168,15 +168,9 @@ public class NetworkProviderSimListController extends AbstractPreferenceControll
 
     @VisibleForTesting
     protected List<SubscriptionInfo> getAvailablePhysicalSubscription() {
-        List<SubscriptionInfo> subList = new ArrayList<>();
-        for (SubscriptionInfo info : SubscriptionUtil.getAvailableSubscriptions(mContext)) {
-            if (!info.isEmbedded()) {
-                subList.add(info);
-            } else {
-                continue;
-            }
-        }
-        return subList;
+        return SubscriptionUtil.getAvailableSubscriptions(mContext).stream()
+            .filter(info -> !info.isEmbedded())
+            .collect(Collectors.toList());
     }
 
     @Override
