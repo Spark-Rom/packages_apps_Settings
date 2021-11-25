@@ -18,11 +18,16 @@ package com.android.settings.gestures;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.om.IOverlayManager;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Point;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+import android.os.UserHandle;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.WindowManager;
 
 import com.android.settings.R;
@@ -51,6 +56,9 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
     private static final String GESTURE_NAVBAR_RADIUS_KEY = "gesture_navbar_radius_preference";
 
+    private static final String FULLSCREEN_GESTURE_PREF_KEY = "fullscreen_gestures";
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
+
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
 
@@ -64,6 +72,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private final Point mDisplaySize = new Point();
 
     private static final float[] mBackGestureHeights = {4.0f, 2.0f, 1.33f, 1.0f};
+    private IOverlayManager mOverlayManager;
 
     public GestureNavigationSettingsFragment() {
         super();
@@ -76,13 +85,15 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         mIndicatorView = new BackGestureIndicatorView(getActivity());
         mWindowManager = (WindowManager) getActivity().getSystemService(Context.WINDOW_SERVICE);
         mWindowManager.getDefaultDisplay().getRealSize(mDisplaySize);
+        mOverlayManager = IOverlayManager.Stub.asInterface(
+            ServiceManager.getService(Context.OVERLAY_SERVICE));
     }
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
 
-        final Resources res = getActivity().getResources();
+        final Resources res = getResources();
         mDefaultBackGestureInset = res.getDimensionPixelSize(
                 com.android.internal.R.dimen.config_backGestureInset);
         mBackGestureInsetScales = getFloatArray(res.obtainTypedArray(
@@ -96,6 +107,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initGestureBarLengthPreference();
         initGestureBarRadiusPreference();
+        initFullscreenGesturePreference();
     }
 
     @Override
@@ -135,7 +147,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     }
 
     private void initSeekBarPreference(final String key) {
-        final LabeledSeekBarPreference pref = getPreferenceScreen().findPreference(key);
+        final LabeledSeekBarPreference pref = findPreference(key);
         pref.setContinuousUpdates(true);
         pref.setHapticFeedbackMode(SeekBarPreference.HAPTIC_FEEDBACK_MODE_ON_TICKS);
 
@@ -217,6 +229,23 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         pref.setOnPreferenceChangeListener((p, v) ->
             Settings.System.putInt(getContext().getContentResolver(),
                 Settings.System.GESTURE_NAVBAR_RADIUS, (Integer) v));
+    }
+
+    private void initFullscreenGesturePreference() {
+        findPreference(FULLSCREEN_GESTURE_PREF_KEY)
+            .setOnPreferenceChangeListener((pref, newValue) -> {
+                final boolean isChecked = (boolean) newValue;
+                Settings.System.putIntForUser(getContext().getContentResolver(),
+                    Settings.System.FULLSCREEN_GESTURES, isChecked ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+                try {
+                    mOverlayManager.setEnabled(FULLSCREEN_GESTURE_OVERLAY_PKG,
+                        isChecked, UserHandle.USER_CURRENT);
+                } catch (RemoteException e) {
+                    Log.e(TAG, "RemoteException while setting fullscreen gesture overlay");
+                }
+                return true;
+            });
     }
 
     private static float[] getFloatArray(TypedArray array) {
