@@ -161,6 +161,11 @@
             android:title="@string/display_cutout_emulation"
             settings:keywords="@string/display_cutout_emulation_keywords" />
 
+        <SwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/proximity_wake_title"
+            android:summary="@string/proximity_wake_summary" />
+
         <com.spark.support.preferences.SystemSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wake_when_plugged_or_unplugged_title"
@@ -183,19 +188,4 @@
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
-        <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"/>
-        <ListPreference
-            android:key="android.theme.customization.icon_pack.android"
-            android:title="@string/theme_customization_icon_pack_android_title"/>
-    </PreferenceCategory>
 </PreferenceScreen>

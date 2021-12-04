@@ -136,6 +136,17 @@
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
 
+    <!-- Volume dialog timeout -->
+    <com.spark.support.preferences.CustomSeekBarPreference
+        android:key="volume_dialog_timeout"
+        android:title="@string/volume_dialog_timeout_title"
+        android:summary="@string/volume_dialog_timeout_summary"
+        android:order="-95"
+        android:max="7"
+        settings:min="1"
+        settings:defaultValue="3"
+        settings:units="@string/unit_seconds" />
+
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
@@ -144,6 +155,23 @@
         android:order="-90"
         settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
         settings:keywords="@string/keywords_vibrate_for_calls"/>
+
+    <!-- Ringtone vibration pattern -->
+    <ListPreference
+        android:key="vibration_pattern"
+        android:title="@string/vibration_pattern_title"
+        android:order="-85"
+        android:entries="@array/vibration_pattern_entries"
+        android:entryValues="@array/vibration_pattern_values"/>
+
+    <!-- Custom ringtone vibration pattern preference -->
+    <Preference
+        android:key="custom_vibration_pattern"
+        android:title="@string/custom_vibration_pattern_title"
+        android:summary="@string/custom_vibration_pattern_summary"
+        android:order="-83"
+        android:fragment="com.android.settings.sound.CustomVibrationPreferenceFragment"
+        android:visibility="gone"/>
 
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_sound"
