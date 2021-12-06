@@ -109,6 +109,7 @@
     <uses-permission android:name="android.permission.READ_DREAM_STATE" />
     <uses-permission android:name="android.permission.READ_DREAM_SUPPRESSION" />
     <uses-permission android:name="android.permission.MANAGE_APP_HIBERNATION" />
+    <uses-permission android:name="android.permission.UPDATE_FONTS" />
 
     <uses-permission android:name="com.google.android.settings.intelligence.BATTERY_DATA"/>
 
