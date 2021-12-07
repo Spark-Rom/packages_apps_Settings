@@ -443,7 +443,6 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
 
     @Override
     public void onEnrollmentProgressChange(int steps, int remaining) {
-        correctStageThresholds();
         updateProgress(true /* animate */);
         updateTitleAndDescription();
         clearError();
@@ -462,23 +461,6 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
                 e.setPackageName(getPackageName());
                 e.getText().add(cs);
                 mAccessibilityManager.sendAccessibilityEvent(e);
-            }
-        }
-    }
-
-    private void correctStageThresholds() {
-        if (mSidecar == null || !mSidecar.isEnrolling() || mSidecar.getEnrollmentSteps() <= 0) {
-            Log.d(TAG, "correctStageThresholds: Enrollment not started yet");
-            return;
-        }
-
-        // Allocate (or subtract) any extra steps for the first enroll stage.
-        final int extraSteps = mSidecar.getEnrollmentSteps()
-                - STAGE_THRESHOLDS[STAGE_THRESHOLDS.length - 1];
-        if (extraSteps != 0) {
-            for (int stageIndex = 0; stageIndex < STAGE_THRESHOLDS.length; stageIndex++) {
-                STAGE_THRESHOLDS[stageIndex] =
-                        Math.max(0, STAGE_THRESHOLDS[stageIndex] + extraSteps);
             }
         }
     }
