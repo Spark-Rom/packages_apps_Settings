@@ -25,8 +25,6 @@ import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.os.UserHandle;
-import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
@@ -41,12 +39,8 @@ import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  * Preference controller to allow users to choose an overlay from a list for a given category.
@@ -56,20 +50,15 @@ import org.json.JSONObject;
 public class OverlayCategoryPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String TAG = "OverlayCategoryPC";
-    private static final String FONT_KEY = "android.theme.customization.font";
-    private static final String ICON_PACK_KEY = "android.theme.customization.icon_pack";
-
     @VisibleForTesting
     static final String PACKAGE_DEVICE_DEFAULT = "package_device_default";
+    private static final String OVERLAY_TARGET_PACKAGE = "android";
     private static final Comparator<OverlayInfo> OVERLAY_INFO_COMPARATOR =
-            Comparator.comparing(OverlayInfo::getPackageName);
+            Comparator.comparingInt(a -> a.priority);
     private final IOverlayManager mOverlayManager;
     private final boolean mAvailable;
-    private final boolean mIsFonts;
-    private final boolean mIsIconPacks;
     private final String mCategory;
     private final PackageManager mPackageManager;
-    private final String mDeviceDefaultLabel;
 
     private ListPreference mPreference;
 
@@ -81,9 +70,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mPackageManager = packageManager;
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
-        mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
-        mIsFonts = FONT_KEY.equals(category);
-        mIsIconPacks = ICON_PACK_KEY.equals(category);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
@@ -117,80 +103,30 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         return setOverlay((String) newValue);
     }
 
-    private boolean setOverlay(String label) {
-        final List<OverlayInfo> infos = getOverlayInfos();
+    private boolean setOverlay(String packageName) {
+        final String currentPackageName = getOverlayInfos().stream()
+                .filter(info -> info.isEnabled())
+                .map(info -> info.packageName)
+                .findFirst()
+                .orElse(null);
 
-        ArrayList<String> currentPackageNames = new ArrayList<>();;
-        ArrayList<String> currentCategoryNames = new ArrayList<>();;
-        ArrayList<String> packageNames = new ArrayList<>();;
-        ArrayList<String> categoryNames = new ArrayList<>();;
-
-        for (OverlayInfo info : infos) {
-            if (info.isEnabled()) {
-                currentPackageNames.add(info.packageName);
-                currentCategoryNames.add(info.category);
-            }
-            if (label.equals(getPackageLabel(info.packageName))) {
-                packageNames.add(info.packageName);
-                categoryNames.add(info.category);
-            }
-        }
-
-        Log.w(TAG, "setOverlay currentPackageNames=" + currentPackageNames.toString());
-        Log.w(TAG, "setOverlay packageNames=" + packageNames.toString());
-        Log.w(TAG, "setOverlay label=" + label);
-
-        if (mIsFonts || mIsIconPacks) {
-            // For fonts we also need to set this setting
-            String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
-                    Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, UserHandle.USER_CURRENT);
-            JSONObject json;
-            if (value == null) {
-                json = new JSONObject();
-            } else {
-                try {
-                    json = new JSONObject(value);
-                } catch (JSONException e) {
-                    Log.e(TAG, "Error parsing current settings value:\n" + e.getMessage());
-                    return false;
-                }
-            }
-            // removing all currently enabled overlays from the json
-            for (String categoryName : currentCategoryNames) {
-                json.remove(categoryName);
-            }
-            // adding the new ones
-            for (int i = 0; i < categoryNames.size(); i++) {
-                try {
-                    json.put(categoryNames.get(i), packageNames.get(i));
-                } catch (JSONException e) {
-                    Log.e(TAG, "Error adding new settings value:\n" + e.getMessage());
-                    return false;
-                }
-            }
-            // updating the setting
-            Settings.Secure.putStringForUser(mContext.getContentResolver(),
-                    Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES,
-                    json.toString(), UserHandle.USER_CURRENT);
+        if (PACKAGE_DEVICE_DEFAULT.equals(packageName) && TextUtils.isEmpty(currentPackageName)
+                || TextUtils.equals(packageName, currentPackageName)) {
+            // Already set.
+            return true;
         }
 
         new AsyncTask<Void, Void, Boolean>() {
             @Override
             protected Boolean doInBackground(Void... params) {
                 try {
-                    if (label.equals(mDeviceDefaultLabel)) {
-                        for (String packageName : currentPackageNames) {
-                            Log.w(TAG, "setOverlay Disabing overlay" + packageName);
-                            mOverlayManager.setEnabled(packageName, false, USER_SYSTEM);
-                        }
+                    if (PACKAGE_DEVICE_DEFAULT.equals(packageName)) {
+                        return mOverlayManager.setEnabled(currentPackageName, false, USER_SYSTEM);
                     } else {
-                        for (String packageName : packageNames) {
-                            Log.w(TAG, "setOverlay Enabling overlay" + packageName);
-                            mOverlayManager.setEnabledExclusiveInCategory(packageName, USER_SYSTEM);
-                        }
+                        return mOverlayManager.setEnabledExclusiveInCategory(packageName,
+                                USER_SYSTEM);
                     }
-                    return true;
-                } catch (Exception e) {
+                } catch (SecurityException | IllegalStateException | RemoteException e) {
                     Log.w(TAG, "Error enabling overlay.", e);
                     return false;
                 }
@@ -212,58 +148,60 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
 
     @Override
     public void updateState(Preference preference) {
+        final List<String> pkgs = new ArrayList<>();
         final List<String> labels = new ArrayList<>();
 
-        String selectedLabel = mDeviceDefaultLabel;
+        String selectedPkg = PACKAGE_DEVICE_DEFAULT;
+        String selectedLabel = mContext.getString(R.string.overlay_option_device_default);
 
-        // Add the default label before all of the overlays
+        // Add the default package / label before all of the overlays
+        pkgs.add(selectedPkg);
         labels.add(selectedLabel);
 
         for (OverlayInfo overlayInfo : getOverlayInfos()) {
-            String label = getPackageLabel(overlayInfo.packageName);
-            if (!labels.contains(label)) {
-                labels.add(label);
+            pkgs.add(overlayInfo.packageName);
+            try {
+                labels.add(mPackageManager.getApplicationInfo(overlayInfo.packageName, 0)
+                        .loadLabel(mPackageManager).toString());
+            } catch (PackageManager.NameNotFoundException e) {
+                labels.add(overlayInfo.packageName);
             }
             if (overlayInfo.isEnabled()) {
-                Log.w(TAG, "updateState Selecting label"+label);
-                selectedLabel = label;
+                selectedPkg = pkgs.get(pkgs.size() - 1);
+                selectedLabel = labels.get(labels.size() - 1);
             }
         }
 
         mPreference.setEntries(labels.toArray(new String[labels.size()]));
-        mPreference.setEntryValues(labels.toArray(new String[labels.size()]));
-        mPreference.setValue(selectedLabel);
+        mPreference.setEntryValues(pkgs.toArray(new String[pkgs.size()]));
+        mPreference.setValue(selectedPkg);
         mPreference.setSummary(selectedLabel);
     }
 
     private List<OverlayInfo> getOverlayInfos() {
         final List<OverlayInfo> filteredInfos = new ArrayList<>();
         try {
-            Collection<List<OverlayInfo>> allOverlays = mOverlayManager
-                                              .getAllOverlays(USER_SYSTEM).values();
-            for (List<OverlayInfo> overlayInfos : allOverlays) {
-                for (OverlayInfo overlayInfo : overlayInfos) {
-                    if (overlayInfo.category != null) {
-                        if (overlayInfo.category.contains(mCategory)) {
-                            filteredInfos.add(overlayInfo);
-                        }
-                    }
+            List<OverlayInfo> overlayInfos = mOverlayManager
+                    .getOverlayInfosForTarget(OVERLAY_TARGET_PACKAGE, USER_SYSTEM);
+            for (OverlayInfo overlayInfo : overlayInfos) {
+                if (mCategory.equals(overlayInfo.category)) {
+                    filteredInfos.add(overlayInfo);
                 }
             }
         } catch (RemoteException re) {
             throw re.rethrowFromSystemServer();
         }
         filteredInfos.sort(OVERLAY_INFO_COMPARATOR);
-        Log.w(TAG, "getOverlays list=" + filteredInfos.toString());
         return filteredInfos;
     }
 
-    private String getPackageLabel(String packageName) {
-        try {
-            return mPackageManager.getApplicationInfo(packageName, 0)
-                                  .loadLabel(mPackageManager).toString();
-        } catch (PackageManager.NameNotFoundException e) {
-            return mDeviceDefaultLabel;
-        }
+    @Override
+    protected void onDeveloperOptionsSwitchDisabled() {
+        super.onDeveloperOptionsSwitchDisabled();
+        // TODO b/133222035: remove these developer settings when the
+        // Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES setting is used
+        setOverlay(PACKAGE_DEVICE_DEFAULT);
+        updateState(mPreference);
     }
+
 }
