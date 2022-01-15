@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Project-Spark
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Spark maintainer -->
+    <string name="maintainer">Twórca</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Przeciągnij, aby wykonać zrzut ekranu</string>
+    <string name="three_finger_gesture_summary">Przeciągnij w dół trzema palcami, aby zrobić zrzut ekranu</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Wyłączony</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Density category -->
+    <string name="density_category">Ustawienia gęstości</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Sklep Play</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Pokaż historię powiadomień</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
+    <string name="fireworks_title">Fajerwerki</string>
+    <string name="build_tweaks_summary_title">Dostosowywanie i wiele więcej!</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Wyczyść statystyki</string>
+    <string name="battery_stats_message">Statystyki użycia baterii zostaną wyczyszczone</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Pomieszaj układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszaj układ cyfr przy odblokowywaniu kodem PIN</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie podany prawidłowy PIN/hasło</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Procesy pracujące w tle</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania/odłączania źródła zasilania</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Wybudzanie przyciskiem Home</string>
+    <string name="home_wake_button_summary">Włącz wybudzanie przyciskiem Home</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Kolor LED</string>
+    <string name="custom_light_on_time_title">Czas świecenia LED podczas impulsu (ms)</string>
+    <string name="custom_light_off_time_title">Czas nieświecenia diody podczas impulsu (ms)</string>
+    <string name="value_equals_default">domyśln.</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Wybierz rozmiar wzoru</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Pokaż błędny wzór</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Pokaż punkty wzoru</string>
+    <string name="gesture_navbar_length_title">Długość paska gestów</string>
+    <string name="gesture_navbar_radius_title">Grubość paska gestów</string>
+    <string name="medium_label">Średni</string>
+    <string name="short_label">Krótki</string>
+    <string name="long_label">Długi</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
+    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
+    <string name="battery_saver_refresh_rate_title">Zmniejsz częstotliwość odświeżania</string>
+    <string name="battery_saver_refresh_rate_summary">Użyj częstotliwości 60 Hz, by zaoszczędzić energię, gdy oszczędzanie baterii jest włączone</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on display podczas ładowania</string>
+    <string name="doze_on_charge_summary">Pokazuj ekran uśpienia podczas ładowania przez cały czas</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Zapobiega przypadkowemu wybudzeniu</string>
+    <string name="proximity_wake_summary">Sprawdź czujnik zbliżeniowy przed wybudzeniem ekranu</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Wzór wibracji dzwonka</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Własne</string>
+    <string name="custom_vibration_pattern_title">Własny wzór</string>
+    <string name="custom_vibration_pattern_summary">Ustaw własny wzór wibracji</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Sekunda(y)</string>
+    <string name="volume_dialog_timeout_title">Czas wyświetlania panelu głośności</string>
+    <string name="volume_dialog_timeout_summary">Czas po którym panel głośności zniknie</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Wyciszony, brak dźwięku multimediów</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Włączone (wyciszony, brak dźwięku multimediów)</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Inne kontrole</string>
+    <string name="fullscreen_gestures_title">Gesty ekranu dotykowego</string>
+    <string name="fullscreen_gestures_summary">Ukryj belkę gestów i przestrzeń pod klawiaturą</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Brak akcji</string>
+    <string name="action_menu">Zakładki</string>
+    <string name="action_app_switch">Ostatnio używane</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_last_app">Ostatnia aplikacja</string>
+    <string name="action_splitscreen">Podzielony ekran</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_clear_notifications">Wyczyść powiadomienia</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Ekran wyłączony</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_power_menu">Menu zasilania</string>
+    <string name="action_screenshot">Zrzut ekranu</string>
+    <string name="action_qs_panel">Panel Szybkich Ustawień</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+    <string name="kill_app">Zamknij aktywną aplikację</string>
+    <string name="recent_app_toggle">Przełącz na ostatnią aplikację</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane opcje gestów</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Dostosuj gesty i ustaw własne akcje</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowane</string>
+    <string name="swipe_app_select_summary">Wybierz aplikację do uruchomienia przy pociągnięciu</string>
+    <string name="long_back_swipe_timeout_title">Limit czasu akcji długiego przesunięcia</string>
+    <string name="left_swipe_actions_title">Akcja długiego przesunięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację długiego przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja długiego przesunięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz aplikację długiego przeciągnięcia w prawo</string>
+    <string name="left_vertical_swipe_actions_title">Pionowe przesunięcie w lewo</string>
+    <string name="left_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w lewo w pionie</string>
+    <string name="right_vertical_swipe_actions_title">Przesunięcie w prawo w pionie</string>
+    <string name="right_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w prawo w pionie</string>
+    <string name="gesture_nav_tweaks_footer_info">Aby wybrać konkretną aktywność aplikacji dla akcji, przytrzymaj dłużej dowolną aplikację w menu aplikacji.\n\nJeśli wyświetlany jest launcher, wykonaj przesunięcie od dolnej części ekranu, aby uruchomić akcję.</string>
+    <string name="back_swipe_extended_title">Przeciągnięcie rozszerzone</string>
+    <string name="back_swipe_extended_summary">Rozpocznij akcję na przesunięciu szerszym (większym niż połowa ekranu), lub o kształcie litery L (pionowo wystarczająco dłuższym)</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_systemui_title">Kolor motywu</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Odtwarzanie adaptacyjne</string>
+    <string name="adaptive_playback_enabled">Użyj adaptacyjnego odtwarzania</string>
+    <string name="adaptive_playback_disabled_summary">Wyłączone</string>
+    <string name="adaptive_playback_timeout_title">Użyj limit czasu wynoszącego</string>
+    <string name="adaptive_playback_timeout_none">Brak limitu czasu</string>
+    <string name="adaptive_playback_timeout_none_summary">Włączone (bez limitu czasu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Włączone (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Włączone (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Włączone (2 minuty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+    <!-- Hotspot lineage extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Zezwól podłączonym urządzeniom na korzystanie z VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom podłączonym do udostępnionej sieci na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
+</resources>
