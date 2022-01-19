@@ -180,6 +180,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.spark.settings.SparkSettings;
+import com.spark.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -348,7 +349,8 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            SparkSettings.class.getName()
+            SparkSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -392,5 +394,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.SparkSettingsActivity.class.getName(),
+            Settings.HeadsUpSettingsActivity.class.getName(),
     };
 }

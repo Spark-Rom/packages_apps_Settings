@@ -441,4 +441,5 @@ public class Settings extends SettingsActivity {
      * Activity for The Fireworks
      */
     public static class SparkSettingsActivity extends SettingsActivity {}
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 }
