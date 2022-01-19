@@ -307,6 +307,9 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="application_icon">Application icon</string>
 
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
