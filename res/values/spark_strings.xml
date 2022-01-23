@@ -439,4 +439,20 @@
     <!-- Soft Ap -->
     <string name="wifi_tether_client_list_title">Client List</string>
     <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">Version</string>
+    <string name="spark_device_title">Device</string>
+    <string name="spark_release_type_title">Release type</string>
+    <string name="spark_maintainer_title">Maintainer</string>
+
+    <!-- About page -->
+    <string name="battery">Battery</string>
+    <string name="display">Display</string>
+    <string name="storage">Storage</string>
+    <string name="chipset">Chipset</string>
+
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="connectivity_category_title">connectivity</string>
 </resources>

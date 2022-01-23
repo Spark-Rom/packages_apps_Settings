@@ -46,13 +46,13 @@
         android:key="wifi_tether_maximize_compatibility"
         android:title="@string/wifi_hotspot_maximize_compatibility"/>
 
-    <PreferenceScreen
+    <Preference
         android:key="wifi_tether_client_list"
         android:title="@string/wifi_tether_client_list_title"
         android:summary="@string/wifi_tether_client_list_summary">
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="org.exthmui.softap"
                 android:targetClass="org.exthmui.softap.ClientListActivity" />
-    </PreferenceScreen>
+    </Preference>
 
 </PreferenceScreen>

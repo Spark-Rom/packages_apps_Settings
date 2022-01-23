@@ -18,82 +18,90 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/about_settings"
+    android:title="@string/about_device_info"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Spark info -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="spark_info"
+        android:layout="@layout/spark_info"
+        android:selectable="false" />
+        
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_android_version"
+        settings:layout="@layout/spark_card_about"
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- Battery -->
+    <Preference
+        android:key="battery"
+        settings:layout="@layout/spark_card_about"
+        android:title="@string/battery"
+        android:icon="@drawable/batteryab"
+        settings:enableCopying="true"
+        android:selectable="true"/>
+        
+    <!-- Chipset -->
+    <Preference
+        android:key="chipset"
+        settings:layout="@layout/spark_card_about"
+        android:title="@string/chipset"
+        android:icon="@drawable/chipsetab"
+        settings:enableCopying="true"
+        android:selectable="true"/>
+        
+    <!-- Display -->
+    <Preference
+        android:key="display"
+        settings:layout="@layout/spark_card_about"
+        android:title="@string/display"
+        android:icon="@drawable/displayab"
+        settings:enableCopying="true"
+        android:selectable="true"/>
+        
     <!-- Security patch -->
     <Preference
         android:key="security_key"
         android:title="@string/security_patch"
+        android:icon="@drawable/ic_device_status"
+        settings:layout="@layout/spark_card_about"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
-
-    <!-- Custom ROM version -->
-    <Preference
-        android:key="custom_firmware_version"
-        android:title="@string/custom_firmware_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CustomFirmwareVersionPreferenceController"/>
-
-    <!-- Spark Maintainer -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.spark.SparkMaintainerPreferenceController"/>
-
-    <!-- Mainline module version -->
-    <Preference
-        android:key="module_version"
-        android:title="@string/module_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
-
-    <!-- Baseband -->
-    <Preference
-        android:key="base_band"
-        android:title="@string/baseband_version"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_legal"
+        settings:layout="@layout/spark_card_about"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- SELinux -->
+        
+    <!-- Baseband -->
     <Preference
-        android:key="selinux_status"
-        android:title="@string/selinux_status"
+        android:key="base_band"
+        android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_model_hardware"
         android:selectable="false"
-        settings:enableCopying="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
-
-    <!-- Build -->
-    <Preference
-        android:key="os_build_number"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
+        settings:layout="@layout/spark_card_about"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+
+    <!-- Storage -->
+    <Preference
+        android:key="storage"
+        settings:layout="@layout/spark_card_about"
+        android:title="@string/storage"
+        android:icon="@drawable/storageab"
+        settings:enableCopying="true"
+        android:selectable="true"/>
 
 </PreferenceScreen>
