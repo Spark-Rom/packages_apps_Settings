@@ -75,4 +75,4 @@
 -keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarScrollableBehavior { *; }
 
 # Custom rules
--keep class com.google.android.settings.** { *; }
+-keep class com.google.** { *; }
