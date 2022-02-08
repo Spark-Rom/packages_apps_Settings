@@ -33,7 +33,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
     <string name="fireworks_title">Fajerwerki</string>
-    <string name="build_tweaks_summary_title">Dostosowywanie i wiele więcej!</string>
+    <string name="build_tweaks_summary_title">Customizacje i wiele więcej!</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Wyczyść statystyki</string>
     <string name="battery_stats_message">Statystyki użycia baterii zostaną wyczyszczone</string>
@@ -63,7 +63,7 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Pokaż punkty wzoru</string>
     <string name="gesture_navbar_length_title">Długość paska gestów</string>
-    <string name="gesture_navbar_radius_title">Grubość paska gestów</string>
+    <string name="gesture_navbar_radius_title">Promień paska gestów</string>
     <string name="medium_label">Średni</string>
     <string name="short_label">Krótki</string>
     <string name="long_label">Długi</string>

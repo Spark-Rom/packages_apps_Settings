@@ -64,7 +64,7 @@
     <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
     <string name="gesture_navbar_length_title">ジェスチャーバーの長さ</string>
     <string name="gesture_navbar_radius_title">ジェスチャーバーの丸みの半径</string>
-    <string name="medium_label">Short</string>
+    <string name="medium_label">中</string>
     <string name="short_label">短い</string>
     <string name="long_label">長い</string>
     <!-- Refresh rate -->
@@ -117,7 +117,7 @@
     <string name="action_qs_panel">クイック設定パネル</string>
     <string name="action_app_action">アプリ</string>
     <string name="action_ringer_modes">着信モード</string>
-    <string name="kill_app">フォアグラウンドアプリを終了</string>
+    <string name="kill_app">表示中のアプリを終了</string>
     <string name="recent_app_toggle">直前のアプリの切り替え</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>

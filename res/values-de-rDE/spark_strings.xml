@@ -15,39 +15,39 @@
     <!-- Spark maintainer -->
     <string name="maintainer">Maintainer</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture">Drei-Finger-Geste</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Moderat</string>
+    <string name="selinux_status_enforcing">Strikt</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">LCD-Dichte (Bildschirmauflösung)</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Bildschirmfoto-Auslöseton</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Google Play Store</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Benachrichtigungsverlauf anzeigen</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verknüpfen</string>
     <string name="fireworks_title">Fireworks</string>
-    <string name="build_tweaks_summary_title">Customizations and more !</string>
+    <string name="build_tweaks_summary_title">Anpassungen und vieles mehr !</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Statistiken zurücksetzen</string>
+    <string name="battery_stats_message">Akkuverbrauch-Statistiken werden zurückgesetzt</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Zufälliges PIN-Layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Bein Entsperren das PIN-Layout zufällig neu anordnen</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Schnelles entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn die korrekte PIN/Passwort eingegeben wird</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Beim Laden aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home button wake-up</string>
     <string name="home_wake_button_summary">Enable home button to waking up screen</string>
