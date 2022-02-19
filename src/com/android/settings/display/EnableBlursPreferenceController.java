@@ -14,44 +14,39 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.display;
 
 import static android.view.CrossWindowBlurListeners.CROSS_WINDOW_BLUR_SUPPORTED;
 
 import android.content.Context;
 import android.provider.Settings;
-
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
 
 /**
  * Controller that toggles window blurs on devices that support it.
  */
-public final class EnableBlursPreferenceController extends DeveloperOptionsPreferenceController
+public final class EnableBlursPreferenceController extends AbstractPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
 
     private static final String ENABLE_BLURS_ON_WINDOWS = "enable_blurs_on_windows";
     private final boolean mBlurSupported;
-
     public EnableBlursPreferenceController(Context context) {
         this(context, CROSS_WINDOW_BLUR_SUPPORTED);
     }
-
     @VisibleForTesting
     public EnableBlursPreferenceController(Context context, boolean blurSupported) {
         super(context);
         mBlurSupported = blurSupported;
     }
-
     @Override
     public String getPreferenceKey() {
         return ENABLE_BLURS_ON_WINDOWS;
     }
-
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         boolean enabled = (Boolean) newValue;
@@ -59,24 +54,14 @@ public final class EnableBlursPreferenceController extends DeveloperOptionsPrefe
                 Settings.Global.DISABLE_WINDOW_BLURS, enabled ? 0 : 1);
         return true;
     }
-
     @Override
     public boolean isAvailable() {
         return mBlurSupported;
     }
-
     @Override
     public void updateState(Preference preference) {
         boolean isEnabled = Settings.Global.getInt(mContext.getContentResolver(),
                     Settings.Global.DISABLE_WINDOW_BLURS, 0) == 0;
-        ((SwitchPreference) mPreference).setChecked(isEnabled);
-    }
-
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        Settings.Global.putInt(mContext.getContentResolver(),
-                Settings.Global.DISABLE_WINDOW_BLURS, 0);
-        updateState(null);
+        ((SwitchPreference) preference).setChecked(isEnabled);
     }
 }
