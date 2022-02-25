@@ -28,7 +28,8 @@ import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
-
+import android.os.UserHandle;
+import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.SubSettingLauncher;
@@ -43,6 +44,7 @@ public class TopLevelSettings extends DashboardFragment implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
     private static final String TAG = "TopLevelSettings";
+    private int mDashBoardStyle;
 
     public TopLevelSettings() {
         final Bundle args = new Bundle();
@@ -53,7 +55,14 @@ public class TopLevelSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.top_level_settings;
+        switch (mDashBoardStyle) {
+           case 0:
+               return R.xml.top_level_settings;
+           case 1:
+               return R.xml.top_level_settings_aosp;
+           default:
+               return R.xml.top_level_settings;
+        }
     }
 
     @Override
@@ -70,6 +79,7 @@ public class TopLevelSettings extends DashboardFragment implements
     public void onAttach(Context context) {
         super.onAttach(context);
         use(SupportPreferenceController.class).setActivity(getActivity());
+        setDashBoardStyle(context);
     }
 
     @Override
@@ -115,6 +125,14 @@ public class TopLevelSettings extends DashboardFragment implements
             if (icon != null) {
                 icon.setTint(tintColor);
             }
+    	    String key = preference.getKey().toString();
+         if (mDashBoardStyle == 0) {
+	    if (key.equals("top_level_google")){
+		preference.setLayoutResource(R.layout.spark_home_preference_card_bottom);
+	    } else if (key.equals("top_level_wellbeing")) {
+		preference.setLayoutResource(R.layout.spark_home_preference_card_top);
+	    }
+         }
         }
     }
 
@@ -133,4 +151,9 @@ public class TopLevelSettings extends DashboardFragment implements
                     return false;
                 }
             };
+
+    private void setDashBoardStyle(Context context) {
+        mDashBoardStyle = Settings.System.getIntForUser(context.getContentResolver(),
+                    Settings.System.SETTINGS_DASHBOARD_STYLE, 0, UserHandle.USER_CURRENT);
+    }
 }
