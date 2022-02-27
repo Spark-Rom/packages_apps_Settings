@@ -50,7 +50,7 @@
         android:key="top_level_fireworks"
         android:title="@string/fireworks_title"
         android:summary="@string/build_tweaks_summary_title"
-        android:icon="@drawable/ic_settings_fireworks"
+        android:icon="@drawable/ic_settings_fireworks_aosp"
         android:order="-130"
         android:fragment="com.spark.settings.SparkSettings"
         settings:controller="com.spark.settings.TopLevelFireworksEntryPreferenceController" />
