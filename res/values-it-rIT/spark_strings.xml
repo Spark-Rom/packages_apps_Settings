@@ -13,8 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Spark maintainer -->
-    <string name="maintainer">Manutentore</string>
-    <string name="spark_maintainer">Unofficial Maintainer</string>
+    <string name="maintainer">Maintainer</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
     <string name="three_finger_gesture_summary">Scorri in basso con tre dita per fare uno screenshot</string>
@@ -155,39 +154,39 @@
     <string name="adaptive_playback_timeout_5_min">5 minuti</string>
     <string name="adaptive_playback_timeout_5_min_summary">Acceso (5 minuti)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Acceso (10 minuti)</string>
     <!-- Hotspot lineage extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di utilizzare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">Volume app</string>
+    <string name="app_volume_title">Controllo volume per app</string>
+    <string name="app_volume_summary">Permette di impostare diversi livelli di volume per ogni app</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Auricolari salvati</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_summary_singular">1 application is protected</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
-    <string name="app_lock_authentication_dialog_title">Unlock to continue</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
+    <string name="app_lock_title">Blocco app</string>
+    <string name="app_lock_summary_singular">1 applicazione è protetta</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applicazioni sono protette</string>
+    <string name="app_lock_authentication_dialog_title">Sblocca per continuare</string>
+    <string name="app_lock_packages_title">App protette</string>
+    <string name="app_lock_packages_summary">Seleziona le app da proteggere con le credenziali biometriche o del dispositivo</string>
+    <string name="app_lock_timeout_title">Durata blocco automatico</string>
+    <string name="app_lock_timeout_summary">Durata dopo la quale un\'app sbloccata in background deve essere bloccata</string>
+    <string name="app_lock_notifications_title">Comprimi notifiche</string>
     <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
           Heads up notifications will be automatically disabled.
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_notifications_disabled_summary">Proteggi prima un\'applicazione</string>
+    <string name="app_lock_footer_text">Le bolle verranno automaticamente eliminate dopo il timeout</string>
+    <string name="enable_debugging">Attiva debug</string>
+    <string name="disable_debugging">Disattiva debug</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del viso esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione viso</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Vuoi rimuovere la scansione del viso esistente e crearne una nuova?</string>
+    <string name="face_unlock_method_title">Consenti sblocco con il viso sulla schermata di blocco</string>
+    <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
+    <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
 </resources>

@@ -14,7 +14,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Spark maintainer -->
     <string name="maintainer">Encargado</string>
-    <string name="spark_maintainer">Unofficial Maintainer</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslizar para captura de pantalla</string>
     <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para hacer una captura de pantalla</string>
@@ -175,8 +174,8 @@
     <string name="app_lock_timeout_title">Tiempo de bloqueo automático</string>
     <string name="app_lock_timeout_summary">Tiempo tras el cual una aplicación desbloqueada en segundo plano debe ser bloqueada</string>
     <string name="app_lock_notifications_title">Contraer notificaciones</string>
-    <string name="app_lock_notifications_summary">          El contenido de las notificaciones se ocultará y contraerá para las aplicaciones seleccionadas cuando estén bloqueadas.
-          Las notificaciones emergentes se desactivarán automáticamente.
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
      </string>
     <string name="app_lock_notifications_disabled_summary">Protege primero una aplicación</string>
     <string name="app_lock_footer_text">Las burbujas se descartarán automáticamente después del tiempo de espera</string>

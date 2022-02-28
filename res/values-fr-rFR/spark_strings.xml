@@ -14,7 +14,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Spark maintainer -->
     <string name="maintainer">L’administrateur·rice</string>
-    <string name="spark_maintainer">Unofficial Maintainer</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Glisser pour réaliser une capture d\'écran</string>
     <string name="three_finger_gesture_summary">Glisser vers le bas avec 3 doigts pour réaliser une capture d\'écran</string>

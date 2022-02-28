@@ -14,7 +14,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Spark maintainer -->
     <string name="maintainer">Συντηρητής</string>
-    <string name="spark_maintainer">Unofficial Maintainer</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Σύρετε για στιγμιότυπο οθόνης</string>
     <string name="three_finger_gesture_summary">Σύρετε προς τα κάτω με τρία δάχτυλα για να τραβήξετε ένα στιγμιότυπο οθόνης</string>

@@ -14,7 +14,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Spark maintainer -->
     <string name="maintainer">メンテナ</string>
-    <string name="spark_maintainer">Unofficial Maintainer</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">スワイプでスクリーンショット</string>
     <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
@@ -175,8 +174,8 @@
     <string name="app_lock_timeout_title">自動ロックの時間</string>
     <string name="app_lock_timeout_summary">バックグラウンドのアプリがロック解除されてからの時間の長さです</string>
     <string name="app_lock_notifications_title">通知を消去</string>
-    <string name="app_lock_notifications_summary">         選択されたアプリがロックされると、通知の内容は非表示になり破棄されます。
-          Heads Up 通知は自動的に無効化されます。
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
      </string>
     <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
     <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
