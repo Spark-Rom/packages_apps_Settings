@@ -39,6 +39,11 @@
             android:summary="@string/lockscreen_bypass_summary"
             settings:keywords="@string/keywords_lockscreen_bypass"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" />
+
+        <com.spark.settings.preferences.SecureSettingSwitchPreference
+            android:key="ignore_auth_confirmation"
+            android:title="@string/skip_biometric_auth_confirmation_title"
+            android:dependency="security_settings_face_app"/>
     </PreferenceCategory>
 
     <PreferenceCategory
