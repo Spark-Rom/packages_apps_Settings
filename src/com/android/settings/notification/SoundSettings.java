@@ -60,10 +60,6 @@ import java.util.List;
 public class SoundSettings extends DashboardFragment implements OnActivityResultListener {
     private static final String TAG = "SoundSettings";
 
-    private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
-
-    private SwitchPreference mVolumePanelLeft;
-
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
     private static final int REQUEST_CODE = 200;
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
