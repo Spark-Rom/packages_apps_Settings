@@ -184,6 +184,8 @@ import com.spark.settings.fragments.HeadsUpSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.spark.settings.fragments.SmartPixels;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -354,7 +356,8 @@ public class SettingsGateway {
             SparkSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
-            SmartPixels.class.getName()
+            SmartPixels.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
