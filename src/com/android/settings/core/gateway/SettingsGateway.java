@@ -181,6 +181,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.spark.settings.SparkSettings;
 
+import con.android.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -348,7 +350,8 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            SparkSettings.class.getName()
+            SparkSettings.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
