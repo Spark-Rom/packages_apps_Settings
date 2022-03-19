@@ -50,7 +50,7 @@
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_fireworks"
         android:title="@string/fireworks_title"
         android:summary="@string/build_tweaks_summary_title"
