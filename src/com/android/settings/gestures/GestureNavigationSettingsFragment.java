@@ -53,7 +53,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
-
+    private static final String GESTURE_NAVBAR_RADIUS = "gesture_navbar_radius_preference";
     private static final String FULLSCREEN_GESTURE_PREF_KEY = "fullscreen_gestures";
     private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.spark.overlay.systemui.navbar.gestural";
 
@@ -66,6 +66,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private IOverlayManager mOverlayManager;
 
     private LabeledSeekBarPreference mGestureNavbarLengthPreference;
+    private LabeledSeekBarPreference mGestureNavbarRadiusPreference;
 
     public GestureNavigationSettingsFragment() {
         super();
@@ -176,6 +177,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             .setOnPreferenceChangeListener((pref, newValue) -> {
                 final boolean isChecked = (boolean) newValue;
                 mGestureNavbarLengthPreference.setEnabled(!isChecked);
+                mGestureNavbarRadiusPreference.setEnabled(!isChecked);
                 try {
                     mOverlayManager.setEnabledExclusiveInCategory(
                         isChecked ? FULLSCREEN_GESTURE_OVERLAY_PKG : NAV_BAR_MODE_GESTURAL_OVERLAY,
@@ -199,6 +201,18 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             0, UserHandle.USER_CURRENT));
         mGestureNavbarLengthPreference.setOnPreferenceChangeListener((p, v) ->
             Settings.Secure.putIntForUser(resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
+                (Integer) v, UserHandle.USER_CURRENT));
+
+        mGestureNavbarRadiusPreference = getPreferenceScreen().findPreference(GESTURE_NAVBAR_RADIUS);
+        mGestureNavbarRadiusPreference.setEnabled(Settings.System.getIntForUser(
+            resolver, Settings.System.FULLSCREEN_GESTURES,
+            0, UserHandle.USER_CURRENT) == 0);
+        mGestureNavbarRadiusPreference.setContinuousUpdates(true);
+        mGestureNavbarRadiusPreference.setProgress(Settings.Secure.getIntForUser(
+            resolver, Settings.Secure.GESTURE_NAVBAR_RADIUS,
+            0, UserHandle.USER_CURRENT));
+        mGestureNavbarRadiusPreference.setOnPreferenceChangeListener((p, v) ->
+            Settings.Secure.putIntForUser(resolver, Settings.Secure.GESTURE_NAVBAR_RADIUS,
                 (Integer) v, UserHandle.USER_CURRENT));
     }
 

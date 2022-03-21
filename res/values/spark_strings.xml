@@ -241,6 +241,11 @@
 
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="small_label">Small</string>
+    <string name="large_label">Large</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 </resources>
