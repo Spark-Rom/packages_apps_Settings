@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Volume step options. -->
+    <string-array name="volume_steps_entries" translatable="false">
+        <item>60</item>
+        <item>45</item>
+        <item>30</item>
+        <item>15</item>
+        <item>7</item>
+        <item>5</item>
+    </string-array>
+
     <!-- App lock timeout -->
     <string-array name="app_lock_timeout_entries">
         <item>5 seconds</item>
