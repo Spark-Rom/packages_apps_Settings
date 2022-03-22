@@ -244,8 +244,8 @@
     <string name="small_label">Small</string>
     <string name="large_label">Large</string>
 
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Pill Radius</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 </resources>
