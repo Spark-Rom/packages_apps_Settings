@@ -104,6 +104,7 @@
 
         <Preference
             android:key="color_mode"
+            android:fragment="com.android.settings.display.ColorModePreferenceFragment"
             android:title="@string/color_mode_title"
             settings:controller="com.android.settings.display.ColorModePreferenceController"
             settings:keywords="@string/keywords_color_mode" />
