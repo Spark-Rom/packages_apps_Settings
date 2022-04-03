@@ -22,7 +22,7 @@
 
     <!-- Spark maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="spark_maintainer">Unofficial Maintainer</string>
+    <string name="spark_maintainer" translatable="false">Unofficial Maintainer</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
