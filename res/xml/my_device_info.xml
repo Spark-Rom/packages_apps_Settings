@@ -100,7 +100,17 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
-            
+
+        <Preference
+            android:key="spark_changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary">
+            android:order="19"
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.deviceinfo.firmwareversion.ChangelogActivity"/>
+        </Preference>            
+
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
