@@ -15,30 +15,30 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM Total</string>
     <!-- Spark maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">Mantenedor</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Mostrar historial de notificaciones</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Menos de 1 Minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Temperatura de la batería</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
+    <string name="live_display_mode">Visualización</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
@@ -55,7 +55,7 @@
     <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
     <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
     <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
     <string name="live_display_color_profile_cinema_title">Cinema</string>
     <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
@@ -119,13 +119,13 @@
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
@@ -199,7 +199,7 @@
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="small_label">Small</string>
+    <string name="small_label">Pequeño</string>
     <string name="large_label">Large</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Pill Radius</string>
@@ -239,7 +239,7 @@
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     <!-- Volume Cursor -->
     <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_off">Desactivado</string>
     <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
     <!-- Pocket judge -->
@@ -275,13 +275,13 @@
     <string name="action_launch_camera">Camera</string>
     <string name="action_last_app">Last app</string>
     <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
+    <string name="action_flashlight">Linterna</string>
     <string name="action_clear_notifications">Clear notifications</string>
     <string name="action_volume_panel">Volume panel</string>
     <string name="action_screen_off">Screen off</string>
     <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
+    <string name="action_power_menu">Menú Power </string>
+    <string name="action_screenshot">Pantallazo</string>
     <string name="action_qs_panel">QS panel</string>
     <string name="action_app_action">Application</string>
     <string name="action_ringer_modes">Ringer modes</string>
@@ -312,8 +312,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">Buscar</string>
+    <string name="search_apps">Buscar apps</string>
     <string name="application_icon">Application icon</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
@@ -333,14 +333,14 @@
     <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="wifi_timeout_summary2">Desactivado</string>
     <string name="wifi_timeout_summary_never">Nunca</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
     <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
     <string name="wifi_timeout_summary_30mins">30 minutes</string>
     <string name="wifi_timeout_summary_1hour">1 hour</string>
     <string name="wifi_timeout_summary_2hours">2 hours</string>
@@ -354,10 +354,10 @@
     <string name="bluetooth_timeout_summary_never">Nunca</string>
     <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
     <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
     <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
     <string name="bluetooth_timeout_summary_1hour">1 hour</string>
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
@@ -373,7 +373,7 @@
     <string name="spark_version_title">Version</string>
     <string name="spark_device_title">Device</string>
     <string name="spark_release_type_title">Release type</string>
-    <string name="spark_maintainer_title">Maintainer</string>
+    <string name="spark_maintainer_title">Mantenedor</string>
     <!-- About page -->
     <string name="battery">Battery</string>
     <string name="display">Display</string>
