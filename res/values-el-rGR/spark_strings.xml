@@ -112,7 +112,7 @@
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
     <string name="adaptive_playback_enabled">Use Smart Pause</string>
-    <string name="adaptive_playback_disabled_summary">Απενεργοποιημένο</string>
+    <string name="adaptive_playback_disabled_summary">Ανενεργή</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>

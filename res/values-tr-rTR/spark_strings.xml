@@ -298,14 +298,14 @@
     <string name="navbar_gesture_tweaks_cat_title">Gelişmiş</string>
     <string name="swipe_app_select_summary">Sıkma eylemiyle başlatmak için bir uygulama seçin</string>
     <string name="long_back_swipe_timeout_title">Uzun kaydırma hareketi zaman aşımı</string>
-    <string name="left_swipe_actions_title">Sola uzun kaydırma hareketi</string>
-    <string name="left_swipe_app_action_title">Sola uzun kaydırma uygulaması seçin</string>
-    <string name="right_swipe_actions_title">Sağa uzun kaydırma hareketi</string>
-    <string name="right_swipe_app_action_title">Sağa uzun kaydırma uygulaması seçin</string>
-    <string name="left_vertical_swipe_actions_title">Dikey-Sola kaydırma hareketi</string>
-    <string name="left_vertical_swipe_app_action_title">Dikey-Sola kaydırma uygulamasını seçin</string>
-    <string name="right_vertical_swipe_actions_title">Dikey-Sağa kaydırma hareketi</string>
-    <string name="right_vertical_swipe_app_action_title">Dikey-Sağ kaydırma uygulaması seçin</string>
+    <string name="left_swipe_actions_title">Soldan uzun kaydırma hareketi</string>
+    <string name="left_swipe_app_action_title">Soldan uzun kaydırma uygulaması seçin</string>
+    <string name="right_swipe_actions_title">Sağdan uzun kaydırma hareketi</string>
+    <string name="right_swipe_app_action_title">Sağdan uzun kaydırma uygulaması seçin</string>
+    <string name="left_vertical_swipe_actions_title">Soldan Dikey L kaydırma hareketi</string>
+    <string name="left_vertical_swipe_app_action_title">Soldan Dikey L kaydırma uygulamasını seçin</string>
+    <string name="right_vertical_swipe_actions_title">Sağdan Dikey L kaydırma hareketi</string>
+    <string name="right_vertical_swipe_app_action_title">Sağdan Dikey kaydırma uygulaması seçin</string>
     <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcıda gösteriliyorsa, eylemi tetiklemek için ekranın en alt kısmındaki kaydırmayı yapın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
     <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
@@ -364,48 +364,48 @@
     <string name="bluetooth_timeout_summary_4hours">4 saat</string>
     <string name="bluetooth_timeout_summary_8hours">8 saat</string>
     <!-- Volume panel -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
     <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında görüntüle</string>
     <!-- Soft Ap -->
-    <string name="wifi_tether_client_list_title">Client List</string>
-    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <string name="wifi_tether_client_list_title">İstemci Listesi</string>
+    <string name="wifi_tether_client_list_summary">Hotspot\'a bağlı istemcileri yönetin</string>
     <!-- SparkOS versioning -->
-    <string name="spark_version_title">Version</string>
-    <string name="spark_device_title">Device</string>
-    <string name="spark_release_type_title">Release type</string>
+    <string name="spark_version_title">Versiyon</string>
+    <string name="spark_device_title">Cihaz</string>
+    <string name="spark_release_type_title">Yayınlanma türü</string>
     <string name="spark_maintainer_title">Sorumlu</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
-    <string name="connectivity_category_title">connectivity</string>
+    <string name="battery">Batarya</string>
+    <string name="display">Ekran</string>
+    <string name="storage">Depolama</string>
+    <string name="chipset">Yonga seti</string>
+    <string name="wellbeing_title">Google Sağlık</string>
+    <string name="usercard_summary">Mevcut aktif kullanıcı, daha fazla bilgi için dokunun</string>
+    <string name="connectivity_category_title">bağlantı</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Clear usage data?</string>
-    <string name="battery_stats_message">Battery usage data will be lost\n(This has no effect on the 24 hrs usage stats)</string>
+    <string name="battery_stats_reset">Kullanıcı verileri temizlensin mi?</string>
+    <string name="battery_stats_message">Pil kullanım verileri silinecek\n(Bunun 24 saatlik kullanım istatislikleri üzerinden bir etkisi yoktur)</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">Akıllı şarj</string>
+    <string name="smart_charging_summary">Maximum şarj seviyesini ayarla</string>
+    <string name="smart_charging_switch_title">Akıllı şarj kullan</string>
+    <string name="smart_charging_level_title">Durma tetikleme seviyesi</string>
+    <string name="smart_charging_resume_level_title">Başlama tetikleme seviyesi</string>
+    <string name="smart_charging_reset_stats_title">Batarya istatistiklerini sıfırla</string>
+    <string name="smart_charging_reset_stats_summary">Kullanıcı tanımlı şarj seviyesine ulaştıktan sonra şarj istatistiklerini sıfırlayın</string>
+    <string name="smart_charging_footer">Akıllı Şarj , pil ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak tanır</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Mevcut batarya kapasitesi</string>
+    <string name="designed_battery_capacity">Tasarlanmış batarya kapasitesi</string>
+    <string name="battery_charge_cycles">Tamamlanan şarj döngüleri</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Mevcut değişiklik günlüğü</string>
+    <string name="changelog_summary">Yüklü ROM\'da ki değişiklikleri görüntüleyin</string>
+    <string name="changelog_error">Değişiklik günlüğü yüklenemiyor</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
 </resources>
