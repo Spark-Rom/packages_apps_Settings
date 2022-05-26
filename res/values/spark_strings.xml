@@ -436,10 +436,6 @@
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
     <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
 
-    <!-- Soft Ap -->
-    <string name="wifi_tether_client_list_title">Client List</string>
-    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
-
     <!-- SparkOS versioning -->
     <string name="spark_version_title">Version</string>
     <string name="spark_device_title">Device</string>
