@@ -49,6 +49,10 @@
             android:key="vibrate_icon"
             android:title="@string/vibrate_icon_title" />
 
+    <SwitchPreference
+            android:key="alarm_icon"
+            android:title="@string/alarm_icon_title" />
+
     <!-- Vibrate on touch -->
     <SwitchPreference
             android:key="vibrate_on_touch"

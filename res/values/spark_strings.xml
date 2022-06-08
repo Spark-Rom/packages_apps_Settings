@@ -503,4 +503,7 @@
 
     <!-- AdGuard DNS Option -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <!-- Sound: Other sounds: Title for the option enabling the vibrate icon. [CHAR LIMIT=50] -->
+    <string name="alarm_icon_title">Always show icon when there are pending alarms</string>
 </resources>

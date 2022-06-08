@@ -231,6 +231,13 @@
         android:title="@string/vibrate_icon_title"
         android:order="-27"/>
 
+    <!-- Show Alarm icon in status bar -->
+    <SwitchPreference
+        android:key="alarm_icon"
+        android:title="@string/alarm_icon_title"
+        android:order="-26"/>
+
+
     <!-- Vibrate on touch -->
     <SwitchPreference
         android:key="vibrate_on_touch"
