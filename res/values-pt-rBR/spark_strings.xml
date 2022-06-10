@@ -107,8 +107,8 @@
     <string name="custom_light_off_time_title">Tempo de luz desligada durante o pulso de LED (ms)</string>
     <string name="value_equals_default">padrão</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Deslize para capturar a tela</string>
-    <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos para capturar tela</string>
+    <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para tirar uma captura de tela</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
@@ -366,9 +366,6 @@
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
     <string name="volume_panel_on_left_summary">Exibir painel de volume no lado esquerdo da tela</string>
-    <!-- Soft Ap -->
-    <string name="wifi_tether_client_list_title">Lista de clientes</string>
-    <string name="wifi_tether_client_list_summary">Gerenciar clientes conectados ao ponto de acesso</string>
     <!-- SparkOS versioning -->
     <string name="spark_version_title">Versão</string>
     <string name="spark_device_title">Dispositivo</string>
@@ -379,7 +376,7 @@
     <string name="display">Tela</string>
     <string name="storage">Armazenamento</string>
     <string name="chipset">Chipset</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="wellbeing_title">Bem-estar digital</string>
     <string name="usercard_summary">Usuário ativo atual, toque para obter mais informações</string>
     <string name="connectivity_category_title">conectividade</string>
     <!-- Battery stats reset -->
@@ -402,6 +399,20 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que dispositivos conectados usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os dispositivos conectados uzem a conexão deste dispositivo\u2019s para se conectar a VPN</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes Wi-Fi disponíveis.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar o ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar os dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos Conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e o adicionará à lista de bloqueio</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível. Dispositivos conectados e bloqueados aparecerão quando disponíveis.</string>
     <!-- Changelog -->
     <string name="changelog_title">Registro de alterações</string>
     <string name="changelog_summary">Mostrar informações da ROM instalada</string>

@@ -107,8 +107,8 @@
     <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
     <string name="value_equals_default">既定</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
-    <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>
@@ -366,9 +366,6 @@
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">音量パネルの左側表示</string>
     <string name="volume_panel_on_left_summary">画面の左側に音量パネルを表示する</string>
-    <!-- Soft Ap -->
-    <string name="wifi_tether_client_list_title">クライアントリスト</string>
-    <string name="wifi_tether_client_list_summary">ホットスポットに接続されているクライアントを管理する</string>
     <!-- SparkOS versioning -->
     <string name="spark_version_title">バージョン</string>
     <string name="spark_device_title">端末</string>
@@ -380,7 +377,7 @@
     <string name="storage">ストレージ</string>
     <string name="chipset">チップセット</string>
     <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
     <string name="connectivity_category_title">接続</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計データを消去しますか?</string>
@@ -402,6 +399,20 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
     <!-- Changelog -->
     <string name="changelog_title">最近の更新履歴</string>
     <string name="changelog_summary">インストールされている ROM の更新内容を確認します</string>

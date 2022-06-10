@@ -15,69 +15,69 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">المنصة</string>
+    <string name="total_ram">إجمالي الذاكرة</string>
     <!-- Spark maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">المشرف</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">‏حالة SELinux</string>
     <string name="selinux_status_disabled">معطل</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">متساهل</string>
+    <string name="selinux_status_enforcing">فرض</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">إظهار سجل الإشعارات</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">متجر جوجل</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">أقل من دقيقة واحدة</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">%1$s اليوم</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">درجة حرارة البطارية</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">سماعات الأذن المحفوظة</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="live_display_summary">تحسين الشاشة بحسب الوقت من اليوم والإضاءة المحيطة لتسهيل القراءة وتقليل إجهاد العين</string>
+    <string name="live_display_mode">وضع العرض</string>
+    <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_day">نهار</string>
+    <string name="live_display_night">ليل</string>
+    <string name="live_display_outdoor_mode_title">الوضع التلقائي في الخارج</string>
+    <string name="live_display_outdoor_mode_summary">زيادة الإضاءة والإشباع تلقائيًا تحت أشعة الشمس</string>
+    <string name="live_display_low_power_title">تقليل استهلاك الطاقة</string>
+    <string name="live_display_low_power_summary">ضبط الشاشة لاستهلاك أقل للطاقة دون تشويش ما يُعرض</string>
+    <string name="live_display_enhance_color_title">تحسين الألوان</string>
+    <string name="live_display_enhance_color_summary">تحسين حيوية درجات ألوان البشرة والمشاهد الطبيعية وغيرها من الصور</string>
+    <string name="live_display_color_profile_title">ملف الألوان</string>
+    <string name="live_display_color_profile_standard_title">قياسي</string>
+    <string name="live_display_color_profile_standard_summary">ألوان دقيقة وبياض ساطع</string>
+    <string name="live_display_color_profile_natural_title">طبيعي</string>
+    <string name="live_display_color_profile_natural_summary">ألوان ودرجات لون بشرة واقعية</string>
+    <string name="live_display_color_profile_dynamic_title">ديناميكي</string>
+    <string name="live_display_color_profile_dynamic_summary">ألوان محسنة وبياض ساطع</string>
+    <string name="live_display_color_profile_cinema_title">سينما</string>
     <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
+    <string name="live_display_color_profile_astronomy_title">فلكِي</string>
     <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_photography_title">التصوير</string>
+    <string name="live_display_color_profile_photography_summary">إنتاج اللون المتطابق للصور</string>
+    <string name="live_display_color_profile_basic_title">أساسي</string>
     <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
+    <string name="live_display_color_profile_adaptive_title">توافقية</string>
     <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_reading_title">قراءة</string>
+    <string name="live_display_color_profile_reading_summary">ألوان أكثر دفئًا لإجهاد أقل للعين</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_title">وضع القراءة</string>
     <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
+    <string name="color_calibration_title">معايرة الألوان</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
+    <string name="color_red_title">أحمر</string>
     <string name="color_green_title">Green</string>
     <string name="color_blue_title">Blue</string>
     <!-- LiveDisplay : Picture Adjustment -->
@@ -87,7 +87,7 @@
     <string name="adj_saturation_title">Saturation</string>
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Contrast</string>
-    <string name="fireworks_title">Fireworks</string>
+    <string name="fireworks_title">مفرقعات</string>
     <string name="build_tweaks_summary_title">Customizations and more !</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
@@ -107,8 +107,8 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_enabled">Use adaptive playback</string>
@@ -152,7 +152,7 @@
     <string name="app_lock_authentication_dialog_title">Unlock to continue</string>
     <string name="enable_debugging">Enable debugging</string>
     <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_title">التطبيقات المحمية</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
     <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
@@ -228,7 +228,7 @@
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
+    <string name="back_height_high_label">الأسفل</string>
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
     <!-- Idle Manager -->
@@ -312,8 +312,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">بحث</string>
+    <string name="search_apps">البحث عن التطبيقات</string>
     <string name="application_icon">Application icon</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
@@ -334,7 +334,7 @@
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">معطل</string>
-    <string name="wifi_timeout_summary_never">Never</string>
+    <string name="wifi_timeout_summary_never">أبدًا</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
     <string name="wifi_timeout_summary_30secs">30 seconds</string>
     <string name="wifi_timeout_summary_1min">دقيقة</string>
@@ -351,7 +351,7 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
+    <string name="bluetooth_timeout_summary_never">أبدًا</string>
     <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
     <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
     <string name="bluetooth_timeout_summary_1min">دقيقة</string>
@@ -366,14 +366,11 @@
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
     <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
-    <!-- Soft Ap -->
-    <string name="wifi_tether_client_list_title">Client List</string>
-    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
     <!-- SparkOS versioning -->
     <string name="spark_version_title">Version</string>
     <string name="spark_device_title">Device</string>
     <string name="spark_release_type_title">Release type</string>
-    <string name="spark_maintainer_title">Maintainer</string>
+    <string name="spark_maintainer_title">المشرف</string>
     <!-- About page -->
     <string name="battery">Battery</string>
     <string name="display">Display</string>
@@ -402,6 +399,20 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
     <!-- Changelog -->
     <string name="changelog_title">Current changelog</string>
     <string name="changelog_summary">View changes in the ROM installed</string>
