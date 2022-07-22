@@ -18,12 +18,12 @@
     <string name="platform_revision">Plataforma</string>
     <string name="total_ram">RAM Total</string>
     <!-- Spark maintainer -->
-    <string name="maintainer">Encargado</string>
+    <string name="maintainer">Mantenedor</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Desactivado</string>
-    <string name="selinux_status_permissive">Permisivo (Permissive)</string>
-    <string name="selinux_status_enforcing">Forzado (Enforcing)</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar historial de notificaciones</string>
     <!-- App details: open play store link if app is user installed -->
@@ -334,35 +334,24 @@
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">El Wi-Fi se apagará después de <xliff:g id="timeout_description">%1$s</xliff:g> si no hay una red conectada</string>
     <string name="wifi_timeout_summary2">Desactivado</string>
-    <string name="wifi_timeout_summary_never">Nunca</string>
-    <string name="wifi_timeout_summary_15secs">15 segundos</string>
-    <string name="wifi_timeout_summary_30secs">30 segundos</string>
-    <string name="wifi_timeout_summary_1min">1 minuto</string>
-    <string name="wifi_timeout_summary_2mins">2 minutos</string>
-    <string name="wifi_timeout_summary_5mins">5 minutos</string>
-    <string name="wifi_timeout_summary_10mins">10 minutos</string>
-    <string name="wifi_timeout_summary_30mins">30 minutos</string>
-    <string name="wifi_timeout_summary_1hour">1 hora</string>
-    <string name="wifi_timeout_summary_2hours">2 horas</string>
-    <string name="wifi_timeout_summary_4hours">4 horas</string>
-    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_20mins">20 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">El Bluetooth se apagará después de <xliff:g id="timeout_description">%1$s</xliff:g> si no hay dispositivos conectados</string>
     <string name="bluetooth_timeout_summary2">No apagar automáticamente el Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Nunca</string>
-    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
-    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
-    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
-    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
-    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
-    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Mostrar panel de volumen en el lado izquierdo</string>
     <string name="volume_panel_on_left_summary">Mostrar panel de volumen en el lado izquierdo de la pantalla</string>
@@ -370,7 +359,7 @@
     <string name="spark_version_title">Versión</string>
     <string name="spark_device_title">Dispositivo</string>
     <string name="spark_release_type_title">Tipo de versión</string>
-    <string name="spark_maintainer_title">Encargado</string>
+    <string name="spark_maintainer_title">Mantenedor</string>
     <!-- About page -->
     <string name="battery">Batería</string>
     <string name="display">Pantalla</string>
@@ -419,4 +408,23 @@
     <string name="changelog_error">No se pudo cargar el registro de cambios</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
+    <!-- Sound: Other sounds: Title for the option enabling the vibrate icon. [CHAR LIMIT=50] -->
+    <string name="alarm_icon_title">Mostrar siempre el icono si hay alarmas pendientes</string>
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Bloqueador de Wakelocks</string>
+    <string name="wakelock_blocker_summary">Bloquear wakelocks de sistema</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Recargar</string>
+    <string name="wakelock_blocker_warning_title">Procede con precaución</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks pueden causar inestabilidad, cierres inesperados o pérdida de datos</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Bloqueador de alarmas</string>
+    <string name="alarm_blocker_title">Activar</string>
+    <string name="alarm_blocker_summary">Bloquear alarmas mientras la pantalla esté apagada</string>
+    <string name="alarm_blocker_save">Guardar</string>
+    <string name="alarm_list_header">Alarmas disponibles</string>
+    <string name="alarm_blocker_reload">Recargar</string>
+    <string name="alarm_blocker_warning_title">Procede con precaución</string>
+    <string name="alarm_blocker_warning">Bloquear alarmas puede causar inestabilidad, cierres forzados o pérdida de datos.</string>
 </resources>

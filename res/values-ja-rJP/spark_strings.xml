@@ -107,8 +107,8 @@
     <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
     <string name="value_equals_default">既定</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
+    <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_enabled">アダプティブ再生を使用</string>
@@ -334,35 +334,24 @@
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
-    <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">15秒</string>
-    <string name="wifi_timeout_summary_30secs">30秒</string>
-    <string name="wifi_timeout_summary_1min">1分</string>
-    <string name="wifi_timeout_summary_2mins">2分</string>
-    <string name="wifi_timeout_summary_5mins">5分</string>
-    <string name="wifi_timeout_summary_10mins">10分</string>
-    <string name="wifi_timeout_summary_30mins">30分</string>
-    <string name="wifi_timeout_summary_1hour">1時間</string>
-    <string name="wifi_timeout_summary_2hours">2時間</string>
-    <string name="wifi_timeout_summary_4hours">4時間</string>
-    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <string name="custom_timeout_summary_never">なし</string>
+    <string name="custom_timeout_summary_15secs">15秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分</string>
+    <string name="custom_timeout_summary_2mins">2分</string>
+    <string name="custom_timeout_summary_5mins">5分</string>
+    <string name="custom_timeout_summary_10mins">10分</string>
+    <string name="custom_timeout_summary_20mins">20分</string>
+    <string name="custom_timeout_summary_30mins">30分</string>
+    <string name="custom_timeout_summary_1hour">1時間</string>
+    <string name="custom_timeout_summary_2hours">2時間</string>
+    <string name="custom_timeout_summary_4hours">4時間</string>
+    <string name="custom_timeout_summary_8hours">8時間</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth の制限時間</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth はオフになります</string>
     <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
-    <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">15秒</string>
-    <string name="bluetooth_timeout_summary_30secs">30秒</string>
-    <string name="bluetooth_timeout_summary_1min">1分</string>
-    <string name="bluetooth_timeout_summary_2mins">2分</string>
-    <string name="bluetooth_timeout_summary_5mins">5分</string>
-    <string name="bluetooth_timeout_summary_10mins">10分</string>
-    <string name="bluetooth_timeout_summary_30mins">30分</string>
-    <string name="bluetooth_timeout_summary_1hour">1時間</string>
-    <string name="bluetooth_timeout_summary_2hours">2時間</string>
-    <string name="bluetooth_timeout_summary_4hours">4時間</string>
-    <string name="bluetooth_timeout_summary_8hours">8時間</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">音量パネルの左側表示</string>
     <string name="volume_panel_on_left_summary">画面の左側に音量パネルを表示する</string>
@@ -399,24 +388,43 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">ホットスポットを維持</string>
+    <string name="wifi_hotspot_client_manager_title">接続済みのデバイス</string>
+    <string name="wifi_hotspot_client_manager_summary">ホットスポットへ接続済みの端末のリストと管理、クライアント数の上限を設定します。</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続された端末一覧</string>
+    <string name="wifi_hotspot_client_limit_title">接続する端末の上限数</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みの端末</string>
+    <string name="wifi_hotspot_connected_clients_list_title">接続された端末</string>
+    <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
+    <string name="wifi_hotspot_block_client_dialog_text">この操作によりこの端末から \"<xliff:g id="device_name">%1$s</xliff:g>\" を切断しブロックリストに追加します</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
+    <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
     <!-- Changelog -->
     <string name="changelog_title">最近の更新履歴</string>
     <string name="changelog_summary">インストールされている ROM の更新内容を確認します</string>
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
+    <!-- Sound: Other sounds: Title for the option enabling the vibrate icon. [CHAR LIMIT=50] -->
+    <string name="alarm_icon_title">保留中のアラームがある場合は常にアイコンを表示する</string>
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">WakeLock ブロッカー</string>
+    <string name="wakelock_blocker_summary">システムの WakeLock をブロックする</string>
+    <string name="wakelock_blocker_save">保存</string>
+    <string name="wakelock_list_header">利用可能な WakeLock</string>
+    <string name="wakelock_blocker_reload">再読込</string>
+    <string name="wakelock_blocker_warning_title">注意して進めて下さい</string>
+    <string name="wakelock_blocker_warning">WakeLock のブロックは端末が不安定になったりクラッシュやデータ損失などが発生する可能性があります</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm ブロッカー</string>
+    <string name="alarm_blocker_title">有効化</string>
+    <string name="alarm_blocker_summary">画面消灯中は Alarm をブロックする</string>
+    <string name="alarm_blocker_save">保存</string>
+    <string name="alarm_list_header">利用可能な Alarm</string>
+    <string name="alarm_blocker_reload">再読込</string>
+    <string name="alarm_blocker_warning_title">注意して進めて下さい</string>
+    <string name="alarm_blocker_warning">Alarm のブロックは端末を不安定にしたりクラッシュやデータの損失などを起こす可能性があります</string>
 </resources>
