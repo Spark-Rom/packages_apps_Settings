@@ -335,35 +335,24 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
     <string name="wifi_timeout_summary2">Dinonaktifkan</string>
-    <string name="wifi_timeout_summary_never">Jangan pernah</string>
-    <string name="wifi_timeout_summary_15secs">15 detik</string>
-    <string name="wifi_timeout_summary_30secs">30 detik</string>
-    <string name="wifi_timeout_summary_1min">1 menit</string>
-    <string name="wifi_timeout_summary_2mins">2 menit</string>
-    <string name="wifi_timeout_summary_5mins">5 menit</string>
-    <string name="wifi_timeout_summary_10mins">10 menit</string>
-    <string name="wifi_timeout_summary_30mins">30 menit</string>
-    <string name="wifi_timeout_summary_1hour">1 jam</string>
-    <string name="wifi_timeout_summary_2hours">2 jam</string>
-    <string name="wifi_timeout_summary_4hours">4 jam</string>
-    <string name="wifi_timeout_summary_8hours">8 jam</string>
+    <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_20mins">20 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
     <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
-    <string name="bluetooth_timeout_summary_never">Jangan pernah</string>
-    <string name="bluetooth_timeout_summary_15secs">15 detik</string>
-    <string name="bluetooth_timeout_summary_30secs">30 detik</string>
-    <string name="bluetooth_timeout_summary_1min">1 menit</string>
-    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
-    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
-    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
-    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
-    <string name="bluetooth_timeout_summary_1hour">1 jam</string>
-    <string name="bluetooth_timeout_summary_2hours">2 jam</string>
-    <string name="bluetooth_timeout_summary_4hours">4 jam</string>
-    <string name="bluetooth_timeout_summary_8hours">8 jam</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Tampilkan panel volume di kiri</string>
     <string name="volume_panel_on_left_summary">Tampilkan panel volume di sisi kiri layar</string>
@@ -420,4 +409,23 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="changelog_error">Tidak dapat memuat daftar perubahan</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
+    <!-- Sound: Other sounds: Title for the option enabling the vibrate icon. [CHAR LIMIT=50] -->
+    <string name="alarm_icon_title">Selalu tampilkan ikon saat ada alarm yang tertunda</string>
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Pemblokir Wakelock</string>
+    <string name="wakelock_blocker_summary">Memblokir sistem wakelock</string>
+    <string name="wakelock_blocker_save">Simpan</string>
+    <string name="wakelock_list_header">Wakelock tersedia</string>
+    <string name="wakelock_blocker_reload">Muat ulang</string>
+    <string name="wakelock_blocker_warning_title">Lanjutkan dengan hati-hati</string>
+    <string name="wakelock_blocker_warning">Memblokir wakelocks berpotensi menyebabkan ketidakstabilan, kerusakan atau kehilangan data</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Pemblokir alarm</string>
+    <string name="alarm_blocker_title">Aktifkan</string>
+    <string name="alarm_blocker_summary">Memblokir alarm saat layar mati</string>
+    <string name="alarm_blocker_save">Simpan</string>
+    <string name="alarm_list_header">Alarm tersedia</string>
+    <string name="alarm_blocker_reload">Muat ulang</string>
+    <string name="alarm_blocker_warning_title">Lanjutkan dengan hati-hati</string>
+    <string name="alarm_blocker_warning">Memblokir alarm berpotensi menyebabkan ketidakstabilan, kerusakan atau kehilangan data.</string>
 </resources>
