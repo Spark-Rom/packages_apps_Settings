@@ -326,6 +326,8 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Feedback aptico</string>
     <string name="back_gesture_haptic_summary">Attiva il feedback aptico sul gesto indietro</string>
+    <string name="back_gesture_arrow_message">Animazione gesture indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto Indietro</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Luminosità automatica singola</string>
     <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà solo nel momento in cui lo schermo è acceso</string>
@@ -427,4 +429,6 @@
     <string name="alarm_blocker_reload">Ricarica</string>
     <string name="alarm_blocker_warning_title">Procedere con cautela</string>
     <string name="alarm_blocker_warning">Il blocco degli allarmi può causare instabilità, arresti anomali o perdita di dati.</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Impostazioni</string>
 </resources>

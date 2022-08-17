@@ -40,7 +40,7 @@
     <string name="live_display_summary">تحسين الشاشة بحسب الوقت من اليوم والإضاءة المحيطة لتسهيل القراءة وتقليل إجهاد العين</string>
     <string name="live_display_mode">وضع العرض</string>
     <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_summary">اليوم: <xliff:g id="day_temperature">%1$d</xliff:g>K الليل: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">نهار</string>
     <string name="live_display_night">ليل</string>
@@ -58,13 +58,13 @@
     <string name="live_display_color_profile_dynamic_title">ديناميكي</string>
     <string name="live_display_color_profile_dynamic_summary">ألوان محسنة وبياض ساطع</string>
     <string name="live_display_color_profile_cinema_title">سينما</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
+    <string name="live_display_color_profile_cinema_summary">إعادة إنتاج لون متطابق للفيديو</string>
     <string name="live_display_color_profile_astronomy_title">فلكِي</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_astronomy_summary">أحمر عميق للحفاظ على الرؤية الليلية</string>
     <string name="live_display_color_profile_photography_title">التصوير</string>
     <string name="live_display_color_profile_photography_summary">إنتاج اللون المتطابق للصور</string>
     <string name="live_display_color_profile_basic_title">أساسي</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
+    <string name="live_display_color_profile_basic_summary">استخدام العرض غير المعاير</string>
     <string name="live_display_color_profile_adaptive_title">توافقية</string>
     <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
     <string name="live_display_color_profile_reading_title">قراءة</string>
@@ -199,7 +199,7 @@
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Gesture navbar length</string>
-    <string name="small_label">Small</string>
+    <string name="small_label">صغير</string>
     <string name="large_label">Large</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Gesture navbar Radius</string>
@@ -227,9 +227,9 @@
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
+    <string name="back_height_low_label">ممتلئة</string>
     <string name="back_height_high_label">الأسفل</string>
-    <string name="back_options_dialog_title">Options</string>
+    <string name="back_options_dialog_title">الخيارات</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
     <!-- Idle Manager -->
     <string name="idle_manager_title">Idle Manager</string>
@@ -277,7 +277,7 @@
     <string name="action_splitscreen">Split screen</string>
     <string name="action_flashlight">تسجيل الخروج</string>
     <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_volume_panel">لوحة التحكم بالصوت</string>
     <string name="action_screen_off">Screen off</string>
     <string name="action_notifications">Notifications</string>
     <string name="action_power_menu">قائمة التشغيل</string>
@@ -295,7 +295,7 @@
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
     <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="navbar_gesture_tweaks_cat_title">إعدادات متقدمة</string>
     <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
     <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
     <string name="left_swipe_actions_title">Long left swipe action</string>
@@ -326,6 +326,8 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
@@ -427,4 +429,6 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Settings</string>
 </resources>

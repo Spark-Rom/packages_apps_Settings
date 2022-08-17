@@ -326,6 +326,8 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Dokunumsal geri bildirim</string>
     <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
+    <string name="back_gesture_arrow_message">Geri hareketi animasyonu</string>
+    <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
     <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
@@ -427,4 +429,6 @@
     <string name="alarm_blocker_reload">Yeniden yükle</string>
     <string name="alarm_blocker_warning_title">Dikkatli ilerleyin</string>
     <string name="alarm_blocker_warning">Alarmları engellemek, kararsız çökmelere veya veri kaybına neden olabilir.</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Ayarlar</string>
 </resources>

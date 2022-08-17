@@ -327,6 +327,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Umpan balik haptik</string>
     <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
+    <string name="back_gesture_arrow_message">Animasi gestur kembali</string>
+    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
     <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
@@ -428,4 +430,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="alarm_blocker_reload">Muat ulang</string>
     <string name="alarm_blocker_warning_title">Lanjutkan dengan hati-hati</string>
     <string name="alarm_blocker_warning">Memblokir alarm berpotensi menyebabkan ketidakstabilan, kerusakan atau kehilangan data.</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Setelan</string>
 </resources>
