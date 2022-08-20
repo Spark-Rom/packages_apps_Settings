@@ -78,6 +78,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "glide",
         "lottie",
+        "VendorSupport-preference",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "SettingsLibMainSwitchPreference",
