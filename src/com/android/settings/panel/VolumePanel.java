@@ -49,8 +49,7 @@ import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.LocalBluetoothManager;
 import com.android.settingslib.bluetooth.LocalBluetoothProfileManager;
 import com.android.settingslib.media.MediaOutputConstants;
-import com.android.settings.Utils;
-
+import com.android.internal.util.spark.SparkUtils;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
@@ -141,7 +140,7 @@ public class VolumePanel implements PanelContent, LifecycleObserver {
         uris.add(MEDIA_OUTPUT_INDICATOR_SLICE_URI);
         uris.add(VOLUME_CALL_URI);
         uris.add(VOLUME_RINGER_URI);
-        if (Utils.isVoiceCapable(mContext) && Settings.Secure.getInt(
+        if (SparkUtils.isVoiceCapable(mContext) && Settings.Secure.getInt(
                 mContext.getContentResolver(), Settings.Secure.VOLUME_LINK_NOTIFICATION, 1) == 0) {
             uris.add(VOLUME_NOTIFICATION_URI);
         }
