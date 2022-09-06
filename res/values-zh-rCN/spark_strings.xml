@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">内存总计</string>
     <!-- Spark maintainer -->
     <string name="maintainer">维护者</string>
     <!-- SELinux Status -->
@@ -29,21 +29,21 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">不到 1 分钟</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">电池温度</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="live_display_mode">显示模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">夜晚</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
