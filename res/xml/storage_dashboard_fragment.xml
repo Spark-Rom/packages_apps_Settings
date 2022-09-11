@@ -25,7 +25,7 @@
         android:order="1"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.storage.StorageSelectionPreferenceController"/>
-    <com.android.settingslib.widget.UsageProgressBarPreference
+    <com.android.settingslib.widget.StorageUsageProgressBarPreference
         android:key="storage_summary"
         android:order="2"
         android:selectable="false"
