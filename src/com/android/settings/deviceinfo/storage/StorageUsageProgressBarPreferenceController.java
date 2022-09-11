@@ -28,7 +28,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.utils.ThreadUtils;
-import com.android.settingslib.widget.UsageProgressBarPreference;
+import com.android.settingslib.widget.StorageUsageProgressBarPreference;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class StorageUsageProgressBarPreferenceController extends BasePreferenceC
     long mUsedBytes;
     @VisibleForTesting
     long mTotalBytes;
-    private UsageProgressBarPreference mUsageProgressBarPreference;
+    private StorageUsageProgressBarPreference mStorageUsageProgressBarPreference;
     private StorageEntry mStorageEntry;
     boolean mIsUpdateStateFromSelectedStorageEntry;
     private StorageCacheHelper mStorageCacheHelper;
@@ -70,7 +70,7 @@ public class StorageUsageProgressBarPreferenceController extends BasePreferenceC
 
     @Override
     public void displayPreference(PreferenceScreen screen) {
-        mUsageProgressBarPreference = screen.findPreference(getPreferenceKey());
+        mStorageUsageProgressBarPreference = screen.findPreference(getPreferenceKey());
     }
 
     private void getStorageStatsAndUpdateUi() {
@@ -80,7 +80,7 @@ public class StorageUsageProgressBarPreferenceController extends BasePreferenceC
             mTotalBytes = cachedData.totalSize;
             mUsedBytes = cachedData.totalUsedSize;
             mIsUpdateStateFromSelectedStorageEntry = true;
-            updateState(mUsageProgressBarPreference);
+            updateState(mStorageUsageProgressBarPreference);
         }
         // Get the latest data from StorageStatsManager.
         ThreadUtils.postOnBackgroundThread(() -> {
@@ -109,11 +109,11 @@ public class StorageUsageProgressBarPreferenceController extends BasePreferenceC
                 mUsedBytes = 0;
             }
 
-            if (mUsageProgressBarPreference == null) {
+            if (mStorageUsageProgressBarPreference == null) {
                 return;
             }
             mIsUpdateStateFromSelectedStorageEntry = true;
-            ThreadUtils.postOnMainThread(() -> updateState(mUsageProgressBarPreference));
+            ThreadUtils.postOnMainThread(() -> updateState(mStorageUsageProgressBarPreference));
         });
     }
 
@@ -124,10 +124,10 @@ public class StorageUsageProgressBarPreferenceController extends BasePreferenceC
             return;
         }
         mIsUpdateStateFromSelectedStorageEntry = false;
-        mUsageProgressBarPreference.setUsageSummary(StorageUtils.getStorageSummary(
+        mStorageUsageProgressBarPreference.setUsageSummary(StorageUtils.getStorageSummary(
                 mContext, R.string.storage_usage_summary, mUsedBytes));
-        mUsageProgressBarPreference.setTotalSummary(StorageUtils.getStorageSummary(
+        mStorageUsageProgressBarPreference.setTotalSummary(StorageUtils.getStorageSummary(
                 mContext, R.string.storage_total_summary, mTotalBytes));
-        mUsageProgressBarPreference.setPercent(mUsedBytes, mTotalBytes);
+        mStorageUsageProgressBarPreference.setPercent(mUsedBytes, mTotalBytes);
     }
 }
