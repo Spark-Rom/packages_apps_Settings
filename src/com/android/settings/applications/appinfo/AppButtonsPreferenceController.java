@@ -48,6 +48,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceScreen;
 
+import com.android.internal.gmscompat.GmsCompatApp;
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.Utils;
@@ -587,7 +588,8 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
         // by not allowing disabling of apps signed with the
         // system cert and any launcher app in the system.
         if (mHomePackages.contains(mAppEntry.info.packageName)
-                || mAppEntry.info.packageName.equals("app.grapheneos.gmscompat")
+                || mAppEntry.info.packageName.equals(GmsCompatApp.PKG_NAME)
+                || mAppEntry.info.packageName.equals(GmsCompatApp.PKG_NAME + ".config")
                 || isSystemPackage(mActivity.getResources(), mPm, mPackageInfo)) {
             // Disable button for core system applications.
             mButtonsPref.setButton2Text(R.string.disable_text)
