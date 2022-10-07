@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Notification log -->
-    <string name="notification_log_summary">Benachrichtigungsverlauf anzeigen</string>
+    <string name="notification_log_summary">Show notifications history log</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play Store</string>
+    <string name="app_play_store">Google Play</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -37,25 +37,25 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- Fireworks -->
-    <string name="fireworks_title">Feuerwerk</string>
-    <string name="build_tweaks_summary_title">Anpassungen und vieles mehr !</string>
+    <string name="fireworks_title">Fireworks</string>
+    <string name="build_tweaks_summary_title">Customizations and more !</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_enabled">Use adaptive playback</string>
-    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Use Smart Pause</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
@@ -64,15 +64,15 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verknüpfen</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Suppress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Wiedergabe von Ton und Vibration für Benachrichtigungen bei eingeschaltetem Bildschirm</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
-    <string name="incall_vibrate_connect_title">Vibriert bei Verbindung</string>
-    <string name="incall_vibrate_call_wait_title">Beim Anklopfen vibrieren</string>
-    <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
@@ -91,34 +91,34 @@
     <string name="screen_off_udfps_title">Screen off UDFPS</string>
     <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Zufälliges PIN-Layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Bein Entsperren das PIN-Layout zufällig neu anordnen</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Schnelles entsperren</string>
-    <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn die korrekte PIN/Passwort eingegeben wird</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_fragment_title">Lautstärkestufen</string>
-    <string name="volume_steps_summary">Lautstärkestufen anpassen</string>
-    <string name="volume_steps_alarm_title">Lautstärkestufen: Wecker</string>
-    <string name="volume_steps_dtmf_title">Lautstärkestufen: DTMF</string>
-    <string name="volume_steps_music_title">Lautstärkestufen: Medien</string>
-    <string name="volume_steps_notification_title">Lautstärkestufen: Benachrichtigungen</string>
-    <string name="volume_steps_ring_title">Lautstärkestufen: Klingelton</string>
-    <string name="volume_steps_system_title">Lautstärkestufen: System</string>
-    <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
-    <string name="volume_steps_reset">Zurücksetzen</string>
+    <string name="volume_steps_fragment_title">Volume steps</string>
+    <string name="volume_steps_summary">Customize volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Media</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
     <!-- Per-app volume control -->
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Bildschirmfoto-Auslöseton</string>
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Other controls</string>
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Gesture navbar length</string>
+    <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
     <!-- 3-Button navigation settings -->
@@ -144,37 +144,37 @@
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     <!-- Volume Cursor -->
-    <string name="volume_key_cursor_control_title">Tastatur-Cursor-Steuerung</string>
-    <string name="volume_key_cursor_control_off">Deaktiviert</string>
-    <string name="volume_key_cursor_control_on">Lautstärke Hoch/Runter - Cursor Links/Rechts</string>
-    <string name="volume_key_cursor_control_on_reverse">Lautstärke Hoch/Runter - Cursor Rechts/Links</string>
+    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Beim Laden aufwecken</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home button wake-up</string>
     <string name="home_wake_button_summary">Enable home button to waking up screen</string>
     <!-- Custom actions -->
-    <string name="action_nothing">Keine Aktion</string>
+    <string name="action_nothing">No action</string>
     <string name="action_menu">Menu</string>
     <string name="action_app_switch">Recents</string>
-    <string name="action_voice_search">Sprachsuche</string>
+    <string name="action_voice_search">Voice search</string>
     <string name="action_launch_camera">Camera</string>
     <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Geteilter Bildschirm</string>
-    <string name="action_flashlight">Taschenlampe</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
     <string name="action_clear_notifications">Clear notifications</string>
     <string name="action_volume_panel">Volume panel</string>
     <string name="action_screen_off">Screen off</string>
     <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power-Menü</string>
+    <string name="action_power_menu">Power menu</string>
     <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">QS panel</string>
     <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Klingelton-Modus</string>
+    <string name="action_ringer_modes">Ringer modes</string>
     <string name="kill_app">Kill foreground app</string>
     <string name="recent_app_toggle">Switch recent app</string>
     <string name="skip_song">Skip song</string>
@@ -210,7 +210,7 @@
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Bildschirmmodus</string>
+    <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
@@ -229,7 +229,7 @@
     <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
     <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamisch</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
     <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
     <string name="live_display_color_profile_cinema_title">Cinema</string>
     <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
@@ -264,8 +264,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Suche</string>
-    <string name="search_apps">Apps suchen</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
     <string name="application_icon">Application icon</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
@@ -279,14 +279,14 @@
     <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Deaktiviert</string>
-    <string name="custom_timeout_summary_never">Nie</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="custom_timeout_summary_never">Never</string>
     <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 Sekunden</string>
-    <string name="custom_timeout_summary_1min">1 Minute</string>
-    <string name="custom_timeout_summary_2mins">2 Minuten</string>
-    <string name="custom_timeout_summary_5mins">5 Minuten</string>
-    <string name="custom_timeout_summary_10mins">10 Minuten</string>
+    <string name="custom_timeout_summary_30secs">30 seconds</string>
+    <string name="custom_timeout_summary_1min">1 minute</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
     <string name="custom_timeout_summary_20mins">20 minutes</string>
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
@@ -304,7 +304,7 @@
     <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Lautstärkeregler auf der linken Seite des Bildschirms anzeigen</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
     <!-- SparkOS versioning -->
     <string name="spark_version_title">Version</string>
     <string name="spark_device_title">Device</string>
@@ -316,7 +316,7 @@
     <string name="storage">Storage</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Einstellungen</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Current active user, tap for more information</string>
     <string name="connectivity_category_title">connectivity</string>
@@ -347,17 +347,19 @@
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Zeitplan für das \"Always On\"-Display</string>
-    <string name="always_on_display_schedule_sunset">Sonnenuntergang</string>
-    <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
-    <string name="always_on_display_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer bestimmten Zeit ein</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Schaltet sich ab einer bestimmten Uhrzeit bis zum Sonnenaufgang ein</string>
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
         <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
         <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+        <item quantity="few">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="many">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
     </plurals>
     <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
     <string name="wifi_hotspot_client_manager_title">Connected devices</string>
@@ -367,6 +369,8 @@
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
         <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="few">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="many">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
     </plurals>
     <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
     <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
