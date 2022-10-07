@@ -84,12 +84,12 @@
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yanında bulunan parmak izi sensörünü bulun.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun önündeki sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tarafındaki sensöre dokunun.</string>
     <!-- Screen off UDFPS -->
-    <string name="screen_off_udfps_title">Screen off UDFPS</string>
-    <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">Ekran kapalı UDFPS</string>
+    <string name="screen_off_udfps_summary">Ekran kapalıyken UDFPS\'yi etkin tutun</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
@@ -125,9 +125,9 @@
     <string name="navigation_bar_inverse_title">Ters düzen</string>
     <string name="navigation_bar_inverse_summary">Geri ve Son uygulamalar tuşlarının yerini değiştir</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Hap yarıçapı</string>
+    <string name="thin_label">İnce</string>
+    <string name="thick_label">Kalın</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
     <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
@@ -200,14 +200,14 @@
     <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
     <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">Yüksek dokunmatik hassasiyeti</string>
+    <string name="high_touch_sensitivity_summary">Dokunmatik ekran hassasiyetini arttırarak eldiven ile kullanıma olanak verir</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">Temassız gezinme</string>
+    <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Yüksek dokunmatik yoklama oranı</string>
+    <string name="high_touch_polling_rate_summary">Dokunmatik ekran yoklama oranını artırın</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
     <string name="live_display_mode">Görüntüleme modu</string>
@@ -219,7 +219,7 @@
     <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
     <string name="live_display_outdoor_mode_summary">Parlak güneş ışığı altında otomatik parlaklığı ve doygunluğu arttırır</string>
     <string name="live_display_anti_flicker_title">Titreşim önleyici</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_summary">Düşük ışık koşullarında aşırı titremeyi önleyin ve göz yorgunluğunu azaltın. Bu ayar renk doğruluğunu düşürebilir ve bazı öğelerin görüntülenme şeklini etkileyebilir.</string>
     <string name="live_display_low_power_title">Güç tüketimini azalt</string>
     <string name="live_display_low_power_summary">Ekranda bozulma olmadan en düşük güç tüketimi için ayarlar</string>
     <string name="live_display_enhance_color_title">Geliştirilmiş renkler</string>
@@ -299,9 +299,9 @@
     <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
     <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <string name="wallpaper_zoom_effect_title">Duvar kağıdı yakınlaştırma efekti</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <string name="wallpaper_zoom_effect_summary">Uzaklaştırma derinlik efektini göstermek için duvar kağıdını yakınlaştır. Duvar kağıdı kalitesi düşebilir</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
     <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında görüntüle</string>
@@ -337,8 +337,8 @@
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Hızlı şarj</string>
     <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
@@ -356,8 +356,8 @@
     <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Mobil erişim noktanızın adı, kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
-        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+        <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g> dakika boyunca hiçbir cihaz bağlı olmadığında kapatın</item>
+        <item quantity="one"><xliff:g id="DURATION">%1$d</xliff:g> dakika boyunca hiçbir cihaz bağlı olmadığında kapatın</item>
     </plurals>
     <string name="wifi_hotspot_auto_off_timeout_never">Hotspot\'u asla kapatma</string>
     <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
@@ -365,8 +365,8 @@
     <string name="wifi_hotspot_client_manager_list_only_summary">Hotspot\'a bağlı cihazları listeleyin</string>
     <string name="wifi_hotspot_client_limit_title">Bağlı cihaz sınırı</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="other">Bu cihazlar <xliff:g id="device_num">%1$d</xliff:g> hotspot\'a bağlanabilecek</item>
+        <item quantity="one">Bu cihaz <xliff:g id="device_num">%1$d</xliff:g> hotspot\'a bağlanabilecek</item>
     </plurals>
     <string name="wifi_hotspot_blocked_clients_list_title">Engellenen cihazlar</string>
     <string name="wifi_hotspot_connected_clients_list_title">Bağlı cihazlar</string>
@@ -375,4 +375,16 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz engelini kaldır</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot\'a bağlanabilecek</string>
     <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
+    <!-- GmsCompat -->
+    <string name="sandboxed_google_play">Sandboxed Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
+    <string name="privileged_euicc_management_title">Enable privileged eSIM management</string>
+    <string name="privileged_euicc_management_summary">Requires Sandboxed Google Play installation</string>
+    <!-- Storage scopes -->
+    <string name="storage_scopes">Storage Scopes</string>
+    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
 </resources>

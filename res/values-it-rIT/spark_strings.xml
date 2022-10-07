@@ -84,12 +84,12 @@
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Individua il sensore d\'impronte digitali sul lato del tuo dispositivo.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Individua il sensore d\'impronte digitali sul lato del tuo telefono.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Tocca il sensore sulla parte anteriore del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Tocca il sensore sul retro del tuo telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Tocca il sensore sul lato del tuo telefono.</string>
     <!-- Screen off UDFPS -->
-    <string name="screen_off_udfps_title">Screen off UDFPS</string>
-    <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">UDFPS a schermo spento</string>
+    <string name="screen_off_udfps_summary">Mantieni attivo il riconoscimento delle impronte digitali quando lo schermo è spento</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Layout casuale</string>
     <string name="unlock_scramble_pin_layout_summary">Cambia la disposizione dei numeri del PIN per sbloccare il dispositivo</string>
@@ -125,9 +125,9 @@
     <string name="navigation_bar_inverse_title">Layout inverso</string>
     <string name="navigation_bar_inverse_summary">Scambia le posizioni di indietro e recenti</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Raggio della barra</string>
+    <string name="thin_label">Sottile</string>
+    <string name="thick_label">Spessa</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppio tocco</string>
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
@@ -200,14 +200,14 @@
     <string name="back_swipe_extended_title">Azione di scorrimento estesa</string>
     <string name="back_swipe_extended_summary">Innesca l\'azione ad uno swipe più lungo (più della metà delle dimensioni dello schermo), o ad uno swipe ad L (abbastanza lungo verticalmente)</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">Touch ad alta sensibilità</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilità dello schermo touch così che sia utilizzabile indossando i guanti</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">Touch a puntamento</string>
+    <string name="touchscreen_hovering_summary">Consente di utilizzare il tocco come un mouse nei browser, nei desktop remoti, ecc</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Elevato tasso di campionamento del tocco</string>
+    <string name="high_touch_polling_rate_summary">Aumenta la frequenza del campionamento del tocco</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Ottimizza lo schermo in base all\'ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
     <string name="live_display_mode">Modalità display</string>
@@ -219,7 +219,7 @@
     <string name="live_display_outdoor_mode_title">Modalità all\'aperto automatica</string>
     <string name="live_display_outdoor_mode_summary">Aumenta automaticamente la luminosità e la saturazione sotto la luce diretta del sole</string>
     <string name="live_display_anti_flicker_title">Anti-sfarfallio</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_summary">Previene sfarfallio estensivo e riduce tensione oculare in condizioni di luce scarsa. Potrebbe degradare l\'accuratezza del colore e influenzare come sono mostrati alcuni oggetti.</string>
     <string name="live_display_low_power_title">Riduci il consumo energetico</string>
     <string name="live_display_low_power_summary">Regola il display per il minor consumo energetico senza degradare la qualità dell\'immagine</string>
     <string name="live_display_enhance_color_title">Migliora i colori</string>
@@ -299,9 +299,9 @@
     <string name="bluetooth_timeout_summary">Il Bluetooth si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessun dispositivo è connesso</string>
     <string name="bluetooth_timeout_summary2">Non disattivare automaticamente il Bluetooth</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <string name="wallpaper_zoom_effect_title">Effetto zoom dello sfondo</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <string name="wallpaper_zoom_effect_summary">Ingrandisci lo sfondo per mostrare l\'animazione della profondità. Gli sfondi potrebbero subire una diminuzione della qualità</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Mostra il pannello del volume a sinistra</string>
     <string name="volume_panel_on_left_summary">Visualizza il pannello volume sul lato sinistro dello schermo</string>
@@ -337,8 +337,8 @@
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di utilizzare le VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="longpress_to_clipboard">Premi a lungo per copiare</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Ricarica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per estendere la vita della batteria</string>
@@ -356,8 +356,8 @@
     <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo hotspot mobile non apparirà nella lista delle reti WLAN disponibili.</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
-        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+        <item quantity="other">Disattiva quando non ci sono dispositivi connessi per <xliff:g id="DURATION">%1$d</xliff:g> minuti</item>
+        <item quantity="one">Disattiva quando non ci sono dispositivi connessi per <xliff:g id="DURATION">%1$d</xliff:g> minuto</item>
     </plurals>
     <string name="wifi_hotspot_auto_off_timeout_never">Non spegnere mai hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
@@ -365,8 +365,8 @@
     <string name="wifi_hotspot_client_manager_list_only_summary">Elenca i dispositivi connessi all\'hotspot</string>
     <string name="wifi_hotspot_client_limit_title">Limite di dispositivi collegati</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="other">Fino a <xliff:g id="device_num">%1$d</xliff:g> dispositivi possono connettersi a questo hotspot</item>
+        <item quantity="one">Fino a <xliff:g id="device_num">%1$d</xliff:g> dispositivo può connettersi a questo hotspot</item>
     </plurals>
     <string name="wifi_hotspot_blocked_clients_list_title">Dispositivi bloccati</string>
     <string name="wifi_hotspot_connected_clients_list_title">Dispositivi connessi</string>
@@ -375,4 +375,16 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Sblocca dispositivo</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Questo dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" potrà connettersi a questo hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nessun client è attualmente disponibile. Dispositivi connessi saranno elencati qui quando disponibile.</string>
+    <!-- GmsCompat -->
+    <string name="sandboxed_google_play">Sandboxed Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
+    <string name="privileged_euicc_management_title">Enable privileged eSIM management</string>
+    <string name="privileged_euicc_management_summary">Requires Sandboxed Google Play installation</string>
+    <!-- Storage scopes -->
+    <string name="storage_scopes">Storage Scopes</string>
+    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
 </resources>
