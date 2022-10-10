@@ -380,15 +380,15 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны.</string>
     <!-- GmsCompat -->
-    <string name="sandboxed_google_play">Sandboxed Google Play</string>
-    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
-    <string name="privileged_euicc_management_title">Enable privileged eSIM management</string>
-    <string name="privileged_euicc_management_summary">Requires Sandboxed Google Play installation</string>
+    <string name="sandboxed_google_play">Песочница Google Play</string>
+    <string name="sandboxed_google_play_work_profile">В песочнице Google Play (рабочий профиль)</string>
+    <string name="privileged_euicc_management_title">Включить управление привилегиями eSIM</string>
+    <string name="privileged_euicc_management_summary">Требуется установка в песочнице Google Play</string>
     <!-- Storage scopes -->
-    <string name="storage_scopes">Storage Scopes</string>
-    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
-    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+    <string name="storage_scopes">Область хранения</string>
+    <string name="allow_access_to_obb_directory_title">Разрешить доступ к папке Android/obb</string>
+    <string name="allow_access_to_obb_directory_summary">Требуется для установки некоторых больших приложений (главным образом игр), использующих файлы расширения OBB</string>
     <!-- Parallel space -->
-    <string name="laboratory_parallel_space_title">Parallel space</string>
-    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="laboratory_parallel_space_title">Параллельные места</string>
+    <string name="laboratory_parallel_space_summary">Разрешить выполнение нескольких экземпляров одного приложения параллельно.</string>
 </resources>
