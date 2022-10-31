@@ -403,5 +403,6 @@ public class SettingsGateway {
             Settings.SparkSettingsActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
+            Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),
     };
 }
