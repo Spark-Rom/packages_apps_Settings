@@ -519,4 +519,8 @@
     <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
     <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
     <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
 </resources>
