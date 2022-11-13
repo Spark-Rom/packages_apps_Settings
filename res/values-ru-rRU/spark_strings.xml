@@ -92,7 +92,7 @@
     <string name="screen_off_udfps_summary">Использовать сканер отпечатков пальцев при выключенном экране</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
-    <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки ввода PIN-кода при разблокировке устройства</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки ввода ПИН-кода при разблокировке устройства</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматически разблокировать, когда введён верный ПИН-код или пароль</string>
@@ -123,7 +123,7 @@
     <string name="long_label">Длинная</string>
     <!-- 3-Button navigation settings -->
     <string name="navigation_bar_inverse_title">Обратная компоновка</string>
-    <string name="navigation_bar_inverse_summary">Проведите по позициям между назад и недавними</string>
+    <string name="navigation_bar_inverse_summary">Поменять местами кнопки Назад и Недавние</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Радиус жеста навигации</string>
     <string name="thin_label">Тонкий</string>
@@ -183,7 +183,7 @@
     <string name="partial_screenshot">Скриншот выбранной области экрана</string>
     <string name="hush_mute">Отключить звук уведомлений</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Расширенное меню перезагрузки</string>
+    <string name="navbar_gesture_tweaks_pref_title">Дополнительные настройки</string>
     <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и пользовательских действий</string>
     <string name="navbar_gesture_tweaks_cat_title">Ещё</string>
     <string name="swipe_app_select_summary">Выберите приложение, которое хотите запустить при сжатии</string>
@@ -252,7 +252,7 @@
     <string name="color_calibration_title">Калибровка цвета</string>
     <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
     <string name="color_red_title">Красный</string>
-    <string name="color_green_title">Зеленый</string>
+    <string name="color_green_title">Зелёный</string>
     <string name="color_blue_title">Синий</string>
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Настройка изображения</string>
@@ -356,7 +356,7 @@
     <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Имя точки доступа мобильного телефона не будет отображаться в списке доступных WLAN сетей.</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="other">Выключить, если устройство не подключилось в течение <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
         <item quantity="one">Выключается при отсутствии подключенного устройства в течение <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
         <item quantity="few">Выключить, если устройство не подключилось в течение <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
         <item quantity="many">Выключить, если устройство не подключилось в течение <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
@@ -367,10 +367,10 @@
     <string name="wifi_hotspot_client_manager_list_only_summary">Список устройств, подключенных к точке доступа</string>
     <string name="wifi_hotspot_client_limit_title">Лимит подключенных устройств</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">К этой точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
-        <item quantity="few">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="many">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="other">Всего <xliff:g id="device_num">%1$d</xliff:g> устройств сможет подключиться к этой точке доступа</item>
+        <item quantity="one">Устройство <xliff:g id="device_num">%1$d</xliff:g> сможет подключиться к этой точке доступа</item>
+        <item quantity="few">К этой точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+        <item quantity="many">К этой точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
     </plurals>
     <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
     <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
