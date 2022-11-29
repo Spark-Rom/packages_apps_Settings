@@ -96,4 +96,17 @@
 
     </PreferenceCategory>
 
+    <!-- Misc vibration options -->
+    <PreferenceCategory
+        android:key="accessibility_misc_vibration_category"
+        android:title="@string/misc_vibration_category" >
+
+    <!-- Volume panel feedback -->
+        <com.blaster.support.preference.SystemSettingSwitchPreference
+            android:key="volume_panel_haptic_feedback"
+            android:title="@string/volume_panel_haptic_feedback_title"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
