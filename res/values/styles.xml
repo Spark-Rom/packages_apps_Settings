@@ -1003,4 +1003,20 @@
     <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">48sp</item>
     </style>
+
+    <style name="CardPreferencePrimaryButton" parent="@style/ActionPrimaryButton">
+        <item name="android:fontFamily">google-sans-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingHorizontal">24dp</item>
+    </style>
+
+    <style name="CardPreferenceBorderlessButton"
+        parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:fontFamily">google-sans-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:singleLine">true</item>
+    </style>
 </resources>

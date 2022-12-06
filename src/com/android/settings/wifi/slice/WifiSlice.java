@@ -34,7 +34,9 @@ import android.net.Uri;
 import android.net.wifi.WifiManager;
 import android.os.Binder;
 import android.os.Bundle;
+import android.os.UserManager;
 import android.text.TextUtils;
+import android.util.EventLog;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
@@ -96,6 +98,15 @@ public class WifiSlice implements CustomSliceable {
 
     @Override
     public Slice getSlice() {
+        final boolean isWifiEnabled = isWifiEnabled();
+        // If user is a guest just return a slice without a toggle.
+        if (isGuestUser(mContext)) {
+            Log.e(TAG, "Guest user is not allowed to configure Wi-Fi!");
+            EventLog.writeEvent(0x534e4554, "232798363", -1 /* UID */, "User is a guest");
+            return getListBuilder(isWifiEnabled, null /* wifiSliceItem */,
+                    false /* isWiFiPermissionGranted */).build();
+        }
+
         // If external calling package doesn't have Wi-Fi permission.
         final boolean isPermissionGranted =
                 isCallerExemptUid(mContext) || isPermissionGranted(mContext);
@@ -137,6 +148,13 @@ public class WifiSlice implements CustomSliceable {
             }
         }
         return listBuilder.build();
+    }
+
+    protected static boolean isGuestUser(Context context) {
+        if (context == null) return false;
+        final UserManager userManager = context.getSystemService(UserManager.class);
+        if (userManager == null) return false;
+        return userManager.isGuestUser();
     }
 
     private boolean isCallerExemptUid(Context context) {

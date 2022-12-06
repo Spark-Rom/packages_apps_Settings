@@ -101,8 +101,8 @@
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
         android:icon="@drawable/op_ic_homepage_battery_settings"
+        android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
         android:key="top_level_battery"
         android:order="-86"
         android:title="@string/power_usage_summary_title"
