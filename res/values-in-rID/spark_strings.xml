@@ -376,14 +376,14 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
     <!-- GmsCompat -->
     <string name="sandboxed_google_play">Sandboxed Google Play</string>
-    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
-    <string name="privileged_euicc_management_title">Enable privileged eSIM management</string>
-    <string name="privileged_euicc_management_summary">Requires Sandboxed Google Play installation</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (profil kerja)</string>
+    <string name="privileged_euicc_management_title">Aktifkan pengelolaan eSIM istimewa</string>
+    <string name="privileged_euicc_management_summary">Membutuhkan instalasi Google Play Sandbox</string>
     <!-- Storage scopes -->
-    <string name="storage_scopes">Storage Scopes</string>
-    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
-    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+    <string name="storage_scopes">Lingkup Penyimpanan</string>
+    <string name="allow_access_to_obb_directory_title">Izinkan akses ke folder Android/obb</string>
+    <string name="allow_access_to_obb_directory_summary">Diperlukan untuk menginstal beberapa aplikasi besar (kebanyakan game) yang menggunakan file ekspansi OBB</string>
     <!-- Parallel space -->
-    <string name="laboratory_parallel_space_title">Parallel space</string>
-    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="laboratory_parallel_space_title">Ruang paralel</string>
+    <string name="laboratory_parallel_space_summary">Izinkan menjalankan beberapa instance dari aplikasi yang sama secara paralel.</string>
 </resources>
