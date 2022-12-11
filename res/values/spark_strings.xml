@@ -512,10 +512,6 @@
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
 
-    <!-- Daily battery usage charge -->
-    <string name="daily_battery_usage_chart">Daily battery usage chart</string>
-    <string name="daily_battery_usage_chart_summary">View usage for past 24 hours</string>
-
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
     <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>

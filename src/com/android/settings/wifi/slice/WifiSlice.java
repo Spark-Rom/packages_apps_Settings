@@ -110,7 +110,6 @@ public class WifiSlice implements CustomSliceable {
         // If external calling package doesn't have Wi-Fi permission.
         final boolean isPermissionGranted =
                 isCallerExemptUid(mContext) || isPermissionGranted(mContext);
-        final boolean isWifiEnabled = isWifiEnabled();
         ListBuilder listBuilder = getListBuilder(isWifiEnabled, null /* wifiSliceItem */,
                 isPermissionGranted);
         // If the caller doesn't have the permission granted, just return a slice without a toggle.
