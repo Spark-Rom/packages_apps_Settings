@@ -128,7 +128,7 @@ public class DashboardFragmentRegistry {
         PARENT_TO_CATEGORY_KEY_MAP.put(SmartBatterySettings.class.getName(),
                 CategoryKey.CATEGORY_SMART_BATTERY_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(SparkSettings.class.getName(),
-                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
+                CategoryKey.CATEGORY_FIREWORKS);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
