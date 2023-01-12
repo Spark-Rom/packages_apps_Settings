@@ -445,4 +445,8 @@
     <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocca per mostrare le info</string>
+    <!-- Volume panel haptic feedback-->
+    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
+    <!-- Misc vibration -->
+    <string name="misc_vibration_category">Varie</string>
 </resources>
