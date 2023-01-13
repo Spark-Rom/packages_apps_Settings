@@ -444,4 +444,8 @@
     <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Bilgileri göstermek için dokunun</string>
+    <!-- Volume panel haptic feedback-->
+    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
+    <!-- Misc vibration -->
+    <string name="misc_vibration_category">Çeşitli</string>
 </resources>
