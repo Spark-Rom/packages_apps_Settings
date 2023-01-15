@@ -523,10 +523,4 @@
     
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
-
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">Miscellaneous</string>
 </resources>
