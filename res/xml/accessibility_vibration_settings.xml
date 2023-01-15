@@ -102,7 +102,7 @@
         android:title="@string/misc_vibration_category" >
 
     <!-- Volume panel feedback -->
-        <com.blaster.support.preference.SystemSettingSwitchPreference
+        <com.spark.support.preferences.SystemSettingSwitchPreference
             android:key="volume_panel_haptic_feedback"
             android:title="@string/volume_panel_haptic_feedback_title"
             android:defaultValue="false" />
