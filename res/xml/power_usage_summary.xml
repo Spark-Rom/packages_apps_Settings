@@ -94,12 +94,6 @@
         android:summary="@string/fast_charging_summary"
         settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
 
-    <com.spark.support.preferences.SystemSettingSwitchPreference
-        android:key="spark_idle_manager"
-        android:title="@string/idle_manager_title"
-        android:summary="@string/idle_manager_summary"
-        android:defaultValue="false" />
-
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
         android:key="designed_battery_capacity"
         android:title="@string/designed_battery_capacity"
