@@ -4581,6 +4581,17 @@
                        android:value="true" />
         </activity>
 
+        <activity android:name="Settings$SparkManagerSettingsActivity"
+            android:label="@string/spark_system_manager_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.spark.settings.fragments.SparkManagerSettings" />
+        </activity>
+
         <activity android:name="Settings$HeadsUpSettingsActivity"
                   android:exported="true"
                   android:label="@string/heads_up_notifications">
