@@ -137,9 +137,6 @@
     <string name="back_height_high_label">In basso</string>
     <string name="back_options_dialog_title">Opzioni</string>
     <string name="back_height_message">Altezza di schermo utilizzabile per il gesto indietro.</string>
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">Gestore inattività</string>
-    <string name="idle_manager_summary">Ferma tutti i processi in background non essenziali quando il dispositivo è inattivo</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD durante la ricarica</string>
     <string name="doze_on_charge_summary">Mostra sempre lo schermo AOD durante la ricarica</string>
@@ -167,7 +164,7 @@
     <string name="action_splitscreen">Dividi lo schermo</string>
     <string name="action_flashlight">Torcia</string>
     <string name="action_clear_notifications">Cancella le notifiche</string>
-    <string name="action_volume_panel">Pannelo del volume</string>
+    <string name="action_volume_panel">Pannello del volume</string>
     <string name="action_screen_off">Spegnimento schermo</string>
     <string name="action_notifications">Notifiche</string>
     <string name="action_power_menu">Menù di accensione</string>
@@ -445,8 +442,10 @@
     <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocca per mostrare le info</string>
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">Varie</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Livello di fine ricarica</string>
+    <string name="smart_cutoff_resume_level_title">Livello di inizio carica</string>
 </resources>

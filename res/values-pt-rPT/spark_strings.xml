@@ -137,9 +137,6 @@
     <string name="back_height_high_label">Em baixo</string>
     <string name="back_options_dialog_title">Opções</string>
     <string name="back_height_message">Altura do ecrã utilizada como região sensível para o gesto Voltar.</string>
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">Gestor do modo ocioso</string>
-    <string name="idle_manager_summary">Parar todos os processos não essenciais em segundo plano quando o dispositivo estiver ocioso</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Ecrã ambiente ao carregar</string>
     <string name="doze_on_charge_summary">Mostrar ecrã ambiente durante o carregamento</string>
@@ -445,8 +442,10 @@
     <string name="navigation_bar_ime_space_summary">Ocultar o espaço do botão IME abaixo do teclado</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informação</string>
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">Diversos</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Nível para parar carregamento</string>
+    <string name="smart_cutoff_resume_level_title">Nível para iniciar carregamento</string>
 </resources>

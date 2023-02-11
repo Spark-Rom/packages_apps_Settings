@@ -88,8 +88,8 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear">Dotknij czytnika znajdującego się z tyłu telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Dotknij czujnika linii papilarnych na boku telefonu.</string>
     <!-- Screen off UDFPS -->
-    <string name="screen_off_udfps_title">Screen off UDFPS</string>
-    <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">Czytnik odcisku palca pod wyświetlaczem aktywny przy wyłączonym ekranie</string>
+    <string name="screen_off_udfps_summary">Czytnik palca pod ekranem pozostanie włączony po wyłączeniu ekranu</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Pomieszaj układ</string>
     <string name="unlock_scramble_pin_layout_summary">Pomieszaj układ cyfr przy odblokowywaniu kodem PIN</string>
@@ -123,7 +123,7 @@
     <string name="long_label">Długi</string>
     <!-- 3-Button navigation settings -->
     <string name="navigation_bar_inverse_title">Odwróć układ</string>
-    <string name="navigation_bar_inverse_summary">Swipe positions between back and recents</string>
+    <string name="navigation_bar_inverse_summary">Zamienia pozycjami przyciski wstecz i menu ostatnich aplikacji</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Grubość paska nawigacji</string>
     <string name="thin_label">Cienki</string>
@@ -137,15 +137,12 @@
     <string name="back_height_high_label">Dół</string>
     <string name="back_options_dialog_title">Opcje</string>
     <string name="back_height_message">Wysokość obszaru ekranu, który jest przeznaczony dla gestu cofania.</string>
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">Menedżer bezczynności</string>
-    <string name="idle_manager_summary">Zatrzymaj wszystkie inne niż istotne procesy w tle, gdy urządzenie jest bezczynne</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on display podczas ładowania</string>
     <string name="doze_on_charge_summary">Pokazuj ekran uśpienia podczas ładowania przez cały czas</string>
     <!-- Volume Cursor -->
     <string name="volume_key_cursor_control_title">Poruszanie kursorem za pomocą klawiatury</string>
-    <string name="volume_key_cursor_control_off">Wyłączone</string>
+    <string name="volume_key_cursor_control_off">Wyłączono</string>
     <string name="volume_key_cursor_control_on">Klawisz głośności w górę/w dół przesuwa kursor w lewo/prawo</string>
     <string name="volume_key_cursor_control_on_reverse">Klawisz głośności w górę/w dół przesuwa kursor w prawo/lewo</string>
     <!-- Pocket judge -->
@@ -206,8 +203,8 @@
     <string name="touchscreen_hovering_title">Przesuwanie ekranu dotykowego</string>
     <string name="touchscreen_hovering_summary">Pozwala na przesuwanie na ekranie tak jak myszką w przeglądarce internetowej, pulpicie zdalnym itp.</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Wysoka częstotliwość próbkowania dotykowego</string>
+    <string name="high_touch_polling_rate_summary">Zwiększ szybkości próbkowania ekranu dotykowego</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Zoptymalizuj ekran w zależności od pory dnia i warunków otoczenia, aby poprawić czytelność i zmniejszyć zmęczenie oczu</string>
     <string name="live_display_mode">Tryb wyświetlania</string>
@@ -270,17 +267,17 @@ Photography</string>
     <string name="application_icon">Ikona aplikacji</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Wibracje haptyczne</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_summary">Włącz efekt dotykowy przy gestie wstecz</string>
     <string name="back_gesture_arrow_message">Animacja gestu wstecz</string>
     <string name="back_gesture_arrow_summary">Pokaż animowaną strzałkę dla gestu wstecz</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Jednorazowa jasność automatyczna</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_summary">Regulacja jasności pojawi się dopiero w momencie włączenia ekranu</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wyłącz Wi-Fi automatycznie</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g> jeśli sieć nie jest podłączona</string>
-    <string name="wifi_timeout_summary2">Wyłączone</string>
+    <string name="wifi_timeout_summary2">Wyłączono</string>
     <string name="custom_timeout_summary_never">Nigdy</string>
     <string name="custom_timeout_summary_15secs">15 sekund</string>
     <string name="custom_timeout_summary_30secs">30 sekund</string>
@@ -302,7 +299,7 @@ Photography</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_title">Efekt powiększenia tapety</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <string name="wallpaper_zoom_effect_summary">Powiększ tapetę aby pokazać animację głębokości powiększenia. Jakość tapety może być obniżona</string>
     <!-- Volume panel -->
     <string name="volume_panel_on_left_title">Pokaż panel głośności po lewej</string>
     <string name="volume_panel_on_left_summary">Pokaż panel głośności po lewej stronie ekranu</string>
@@ -325,8 +322,8 @@ Photography</string>
     <string name="smart_charging_title">Inteligentne ładowanie</string>
     <string name="smart_charging_summary">Ustaw maksymalny poziom ładowania</string>
     <string name="smart_charging_switch_title">Użyj inteligentnego ładowania</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_level_title">Zatrzymaj poziom wyzwalacza</string>
+    <string name="smart_charging_resume_level_title">Początek poziomu wyzwalacza</string>
     <string name="smart_charging_reset_stats_title">Resetuj statystyki baterii</string>
     <string name="smart_charging_reset_stats_summary">Zresetuj statystyki baterii po osiągnięciu określonego przez użytkownika poziomu ładowania</string>
     <string name="smart_charging_footer">Inteligentne ładowanie pozwala na ustawienie maksymalnego poziomu ładowania, aby wydłużyć żywotność baterii</string>
@@ -449,8 +446,10 @@ Photography</string>
     <string name="navigation_bar_ime_space_summary">Ukryj przestrzeń przycisków IME poniżej klawiatury</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">Dodatki</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Ustawianie maksymalnej temperatury</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Zatrzymaj poziom wyzwalacza</string>
+    <string name="smart_cutoff_resume_level_title">Początek poziomu wyzwalacza</string>
 </resources>

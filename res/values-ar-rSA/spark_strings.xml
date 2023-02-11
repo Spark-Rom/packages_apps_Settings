@@ -137,9 +137,6 @@
     <string name="back_height_high_label">الأسفل</string>
     <string name="back_options_dialog_title">الخيارات</string>
     <string name="back_height_message">مقدار ارتفاع الشاشة المستخدم كمنطقة ملموسة لإيماءة الرجوع.</string>
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">إدارة الخمول</string>
-    <string name="idle_manager_summary">إيقاف جميع العمليات غير الأساسية في الخلفية عندما يكون الجهاز خاملا</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
     <string name="doze_on_charge_summary">إظهار شاشة الاسبات طوال الوقت عند الشحن</string>
@@ -453,8 +450,10 @@
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">متفرقات</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">مستوى الإيقاف</string>
+    <string name="smart_cutoff_resume_level_title">مستوى بدء الشحن</string>
 </resources>
