@@ -137,9 +137,6 @@
     <string name="back_height_high_label">Jos</string>
     <string name="back_options_dialog_title">Opțiuni</string>
     <string name="back_height_message">Valoarea înălțimii ecranului utilizată ca regiune pentru gestul de înapoi.</string>
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">Administrator activitate</string>
-    <string name="idle_manager_summary">Se opresc toate procesele neesențiale de fundal atunci când dispozitivul este inactiv</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Mereu activ când se încarcă</string>
     <string name="doze_on_charge_summary">Se afișează ecranul ambiental tot timpul când se încarcă</string>
@@ -390,65 +387,67 @@
     <string name="laboratory_parallel_space_title">Spațiu paralel</string>
     <string name="laboratory_parallel_space_summary">Permite rularea în paralel a mai multor instanțe ale aceleiași aplicații.</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_title">Blocare aplicații</string>
+    <string name="app_lock_authentication_dialog_title">Deblocare</string>
+    <string name="enable_debugging">Activare depanare</string>
+    <string name="disable_debugging">Dezactivare depanare</string>
+    <string name="app_lock_packages_title">Aplicații protejate</string>
+    <string name="app_lock_packages_summary">Selectați aplicațiile pentru a le proteja cu datele biometrice sau datele de autentificare ale dispozitivului</string>
+    <string name="app_lock_timeout_title">Timp de expirare pentru blocare automată</string>
+    <string name="app_lock_timeout_summary">Durata de timp după care o aplicație deblocată în fundal ar trebui să fie blocată</string>
+    <string name="app_lock_notifications_title">Notificări</string>
+    <string name="app_lock_notifications_summary">Conținutul notificărilor va fi ascuns și restrâns pentru aplicațiile selectate atunci când acestea sunt blocate.
+          Notificările plutitoare vor fi dezactivate automat.
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    <string name="app_lock_notifications_disabled_summary">Protejați mai întâi o aplicație</string>
+    <string name="app_lock_biometrics_allowed_title">Activați datele biometrice pentru deblocare</string>
+    <string name="app_lock_footer_text">Bulele vor fi eliminate automat după expirarea timpului</string>
+    <string name="enable_protection">Activare protecție</string>
+    <string name="hide_from_launcher_title">Ascundere din lansator</string>
+    <string name="hide_from_launcher_summary">Împiedică afișarea acestei aplicații în lansator. Necesită o repornire a lansatorului pentru ca modificările să aibă efect.
     </string>
     <!-- Custom toggle preference controller -->
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">Model vibrație ton de sonerie</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Personalizat</string>
+    <string name="custom_vibration_pattern_title">Model personalizat</string>
+    <string name="custom_vibration_pattern_summary">Setează un model personalizat de vibrații</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Permite accesul la rețea</string>
+    <string name="data_usage_app_restrict_all_summary">Activează utilizarea rețelei</string>
+    <string name="data_usage_app_restrict_mobile">Date mobile</string>
+    <string name="data_usage_app_restrict_mobile_summary">Activează utilizarea datelor mobile</string>
+    <string name="data_usage_app_restrict_vpn">Date VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activează utilizarea datelor VPN</string>
+    <string name="data_usage_app_restrict_wifi">Date Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activează utilizarea datelor Wi\u2011Fi</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Șterge scanarea feței existente și creează o nouă scanare</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refă scanarea feței</string>
+    <string name="face_redo_confirm_btn">Refă</string>
+    <string name="face_redo_warning_msg">Dorești să elimini scanarea feței existente și să creezi una nouă?</string>
+    <string name="face_unlock_method_title">Permite deblocarea feței pe ecranul de blocare</string>
+    <string name="face_unlock_method_default">Când ecranul este pornit</string>
+    <string name="face_unlock_method_swipe">Când glisezi pe ecranul de blocare</string>
+    <string name="skip_biometric_auth_confirmation_title">Omite confirmarea manuală</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <string name="fingerprint_wake_unlock_title">Atinge amprenta pentru deblocare</string>
+    <string name="fingerprint_wake_unlock_touch">Ascultă evenimentele cât timp ecranul este închis</string>
+    <string name="fingerprint_wake_unlock_press">Ascultă doar evenimentele după ce ecranul este pornit</string>
     <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
-    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <string name="navigation_bar_ime_space_title">Ascunde spațiul butonului IME</string>
+    <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">Diverse</string>
+    <string name="device_info_protected_single_press">Atinge pentru a afișa informații</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Nivel oprire</string>
+    <string name="smart_cutoff_resume_level_title">Nivel pornire</string>
 </resources>

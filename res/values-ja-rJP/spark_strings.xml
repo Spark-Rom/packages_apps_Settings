@@ -137,9 +137,6 @@
     <string name="back_height_high_label">下部</string>
     <string name="back_options_dialog_title">オプション</string>
     <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さです</string>
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">アイドルマネージャー</string>
-    <string name="idle_manager_summary">端末が休止状態の時は不可欠でないバックグラウンドプロセスを全て停止させる</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充電時の Always On Display</string>
     <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
@@ -386,65 +383,67 @@
     <string name="laboratory_parallel_space_title">パラレルスペース</string>
     <string name="laboratory_parallel_space_summary">同じアプリが並列して複数のインスタンスを動作させることを許可する</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_title">アプリロック</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除して続行</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">アプリの保護</string>
+    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
+    <string name="app_lock_timeout_title">アプリを自動ロックするまでの時間</string>
+    <string name="app_lock_timeout_summary">ロック解除されたアプリがバックグラウンドで再ロックされるまでの時間</string>
+    <string name="app_lock_notifications_title">ロックされたアプリの通知の消去</string>
+    <string name="app_lock_notifications_summary">         選択されたアプリがロックされると、通知の内容は非表示になり消去されます。
+         ポップアップ通知は自動的に無効化されます。
      </string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    <string name="enable_protection">保護を有効化</string>
+    <string name="hide_from_launcher_title">アプリアイコンの非表示</string>
+    <string name="hide_from_launcher_summary">        ランチャーでこのアプリが表示されないようにします。変更を適用するにはランチャーアプリの再起動が必要です。
     </string>
     <!-- Custom toggle preference controller -->
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">着信音の振動パターン</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">振動パターンをカスタマイズします</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効にする</string>
+    <string name="data_usage_app_restrict_mobile">モバイルデータ通信</string>
+    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効にする</string>
+    <string name="data_usage_app_restrict_vpn">VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPNでのデータ使用量を有効にする</string>
+    <string name="data_usage_app_restrict_wifi">Wi‑Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi の使用量を有効にする</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">登録されている顔認識データを削除して新しく作成します</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔認識を再実行する</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">登録されている顔認証データを削除して新しく作成しますか？</string>
+    <string name="face_unlock_method_title">顔認証によるロック画面の解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯している時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
     <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_title">指紋認証でロック解除</string>
     <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
     <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
     <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
-    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペースを非表示</string>
+    <string name="navigation_bar_ime_space_summary">キーボード下部の IME ボタンのスペースを非表示にする</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
-    <!-- Volume panel haptic feedback-->
-    <string name="volume_panel_haptic_feedback_title">Vibrate on changing volume</string>
-    <!-- Misc vibration -->
-    <string name="misc_vibration_category">その他</string>
+    <string name="device_info_protected_single_press">タップして情報を表示</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">充電停止レベル</string>
+    <string name="smart_cutoff_resume_level_title">充電開始レベル</string>
 </resources>
