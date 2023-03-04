@@ -29,13 +29,13 @@ import androidx.preference.Preference
 import androidx.preference.forEach
 
 import com.android.internal.logging.nano.MetricsProto
-import com.android.internal.util.crdroid.Utils
+import com.android.internal.util.spark.SparkUtils
 
 import com.android.settings.R
 import com.android.settings.core.SubSettingLauncher
 import com.android.settings.dashboard.DashboardFragment
 import com.android.settingslib.PrimarySwitchPreference
-import com.android.settingslib.widget.TwoTargetPreference.ICON_SIZE_SMALL
+import com.android.settingslib.widget.TwoTargetPreference.ICON_SIZE_MEDIUM
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -55,7 +55,7 @@ class AppLockPackageListFragment : DashboardFragment() {
         super.onAttach(context)
         appLockManager = context.getSystemService(AppLockManager::class.java)
         pm = context.packageManager
-        launchablePackages = Utils.launchablePackages(context)
+        launchablePackages = SparkUtils.launchablePackages(context)
         whiteListedPackages = resources.getStringArray(
             com.android.internal.R.array.config_appLockAllowedSystemApps)
     }
@@ -99,7 +99,11 @@ class AppLockPackageListFragment : DashboardFragment() {
 
     private suspend fun getSelectedPackages(): Set<String> {
         return withContext(Dispatchers.IO) {
-            appLockManager.packageData.map { it.packageName }.toSet()
+            appLockManager.packageData.filter {
+                it.shouldProtectApp == true
+            }.map {
+                it.packageName
+            }.toSet()
         }
     }
 
@@ -112,15 +116,11 @@ class AppLockPackageListFragment : DashboardFragment() {
             key = packageInfo.packageName
             title = label
             icon = packageInfo.applicationInfo.loadIcon(pm)
-            setIconSize(ICON_SIZE_SMALL)
+            setIconSize(ICON_SIZE_MEDIUM)
             isChecked = isProtected
             setOnPreferenceChangeListener { _, newValue ->
                 lifecycleScope.launch(Dispatchers.IO) {
-                    if (newValue as Boolean) {
-                        appLockManager.addPackage(packageInfo.packageName)
-                    } else {
-                        appLockManager.removePackage(packageInfo.packageName)
-                    }
+                    appLockManager.setShouldProtectApp(packageInfo.packageName, newValue as Boolean)
                 }
                 return@setOnPreferenceChangeListener true
             }
