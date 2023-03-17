@@ -168,7 +168,7 @@
     <string name="action_screen_off">Screen off</string>
     <string name="action_notifications">Notifications</string>
     <string name="action_power_menu">Μενού Ενεργοποίησης</string>
-    <string name="action_screenshot">Στιγμιότυπο οθόνης</string>
+    <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">QS panel</string>
     <string name="action_app_action">Application</string>
     <string name="action_ringer_modes">Λειτουργίες κουδουνίσματος</string>
@@ -313,7 +313,7 @@
     <string name="storage">Storage</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Ρυθμίσεις</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Current active user, tap for more information</string>
     <string name="connectivity_category_title">connectivity</string>

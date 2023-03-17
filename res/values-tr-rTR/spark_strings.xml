@@ -168,7 +168,7 @@
     <string name="action_screen_off">Ekranı kapat</string>
     <string name="action_notifications">Bildirimler</string>
     <string name="action_power_menu">Güç menüsü</string>
-    <string name="action_screenshot">Ekran görüntüsü</string>
+    <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">Hızlı ayarlar paneli</string>
     <string name="action_app_action">Uygulama</string>
     <string name="action_ringer_modes">Zil modları</string>
@@ -313,7 +313,7 @@
     <string name="storage">Depolama</string>
     <string name="chipset">Yonga seti</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Ayarlar</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Google sağlık</string>
     <string name="usercard_summary">Mevcut aktif kullanıcı, daha fazla bilgi için dokunun</string>
     <string name="connectivity_category_title">bağlantı</string>
@@ -442,9 +442,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Bilgileri göstermek için dokunun</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Akıllı kesme</string>
+    <string name="smart_cutoff_summary">Maksimum sıcaklığı ayarlayın</string>
+    <string name="smart_cutoff_switch_title">Akıllı kesimi kullan</string>
     <string name="smart_cutoff_level_title">Durdurma seviyesi</string>
     <string name="smart_cutoff_resume_level_title">Başlatma seviyesi</string>
 </resources>

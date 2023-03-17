@@ -76,17 +76,17 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">タブレット前面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">端末前面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">タブレット背面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">端末背面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">スマートフォン背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">端末背面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">タブレット側面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">端末側面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">スマートフォン左側にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">端末左側にある指紋認証センサーを探します</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">スマートフォン前面にある指紋認証センサーをタッチして下さい</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">スマートフォン背面にある指紋認証センサーをタッチして下さい</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">スマートフォン側面にある指紋認証センサーをタッチして下さい</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">端末前面にある指紋認証センサーをタッチして下さい</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">端末背面にある指紋認証センサーをタッチして下さい</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">端末側面にある指紋認証センサーをタッチして下さい</string>
     <!-- Screen off UDFPS -->
     <string name="screen_off_udfps_title">画面消灯時の画面内指紋認証</string>
     <string name="screen_off_udfps_summary">画面消灯時でも画面内指紋認証を維持する</string>
@@ -130,8 +130,8 @@
     <string name="thick_label">太い</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">ダブルタップ</string>
-    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
-    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <string name="doze_double_tap_title">ダブルタップして通知を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップして通知を表示させる</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">全画面</string>
     <string name="back_height_high_label">下部</string>
@@ -305,7 +305,7 @@
     <!-- SparkOS versioning -->
     <string name="spark_version_title">バージョン</string>
     <string name="spark_device_title">端末</string>
-    <string name="spark_release_type_title">リリースの種類</string>
+    <string name="spark_release_type_title">リリースタイプ</string>
     <string name="spark_maintainer_title">メンテナ</string>
     <!-- About page -->
     <string name="battery">バッテリー</string>
@@ -313,7 +313,7 @@
     <string name="storage">ストレージ</string>
     <string name="chipset">チップセット</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">設定</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
     <string name="connectivity_category_title">接続</string>
@@ -430,7 +430,7 @@
     <string name="face_unlock_method_title">顔認証によるロック画面の解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯している時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <string name="skip_biometric_auth_confirmation_title">手順の確認をスキップ</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">指紋認証でロック解除</string>
     <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
@@ -441,9 +441,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">タップして情報を表示</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
-    <string name="smart_cutoff_level_title">充電停止レベル</string>
-    <string name="smart_cutoff_resume_level_title">充電開始レベル</string>
+    <string name="smart_cutoff_title">スマートカットオフ</string>
+    <string name="smart_cutoff_summary">電流を遮断する温度を設定します</string>
+    <string name="smart_cutoff_switch_title">スマートカットオフを使用する</string>
+    <string name="smart_cutoff_level_title">充電停止温度</string>
+    <string name="smart_cutoff_resume_level_title">充電開始温度</string>
 </resources>
