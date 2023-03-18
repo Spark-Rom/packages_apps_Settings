@@ -314,7 +314,7 @@ Photography</string>
     <string name="storage">Pamięć</string>
     <string name="chipset">Procesor</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Ustawienia</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Bieżący aktywny użytkownik, dotknij, aby uzyskać więcej informacji</string>
     <string name="connectivity_category_title">łączność</string>
@@ -447,9 +447,9 @@ Photography</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_title">Inteligentne wcięcie</string>
     <string name="smart_cutoff_summary">Ustawianie maksymalnej temperatury</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_switch_title">Użyj inteligentnego wcięcia</string>
     <string name="smart_cutoff_level_title">Zatrzymaj poziom wyzwalacza</string>
     <string name="smart_cutoff_resume_level_title">Początek poziomu wyzwalacza</string>
 </resources>

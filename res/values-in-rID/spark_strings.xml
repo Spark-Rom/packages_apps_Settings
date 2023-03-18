@@ -314,7 +314,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="storage">Penyimpanan</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Setelan</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Kesehatan Digital Google</string>
     <string name="usercard_summary">Pengguna aktif saat ini, ketuk untuk informasi lebih lanjut</string>
     <string name="connectivity_category_title">Konektivitas</string>
@@ -442,9 +442,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Ketuk untuk menampilkan info</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Pemotong Cerdas</string>
+    <string name="smart_cutoff_summary">Atur suhu maksimum</string>
+    <string name="smart_cutoff_switch_title">Gunakan Pemotong Cerdas</string>
     <string name="smart_cutoff_level_title">Akhir level pemicu</string>
     <string name="smart_cutoff_resume_level_title">Mulai level pemicu</string>
 </resources>

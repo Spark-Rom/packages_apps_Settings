@@ -42,21 +42,21 @@
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
     <string name="adaptive_playback_enabled">Usa riproduzione adattiva</string>
-    <string name="adaptive_playback_disabled_summary">Spegni</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_intro_text">Interrompe automaticamente la riproduzione quando il volume è silenziato e riprende automaticamente quando il volume è ripristinato entro il periodo di tempo stabilito.</string>
     <string name="adaptive_playback_timeout_title">Utilizza un timeout di</string>
     <string name="adaptive_playback_timeout_none">Nessun timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">Acceso (nessun timeout)</string>
+    <string name="adaptive_playback_timeout_none_summary">Attiva (nessun timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">Acceso (30 secondi)</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Attiva (30 secondi)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuto</string>
-    <string name="adaptive_playback_timeout_1_min_summary">Attivo (1 minuto)</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Attiva (1 minuto)</string>
     <string name="adaptive_playback_timeout_2_min">2 minuti</string>
-    <string name="adaptive_playback_timeout_2_min_summary">Acceso (2 minuti)</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Attiva (2 minuti)</string>
     <string name="adaptive_playback_timeout_5_min">5 minuti</string>
-    <string name="adaptive_playback_timeout_5_min_summary">Acceso (5 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Attiva (5 minuti)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
-    <string name="adaptive_playback_timeout_10_min_summary">Acceso (10 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Attiva (10 minuti)</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Scorri tra le modalità</string>
     <string name="prevent_ringing_option_cycle_summary">Attivo (Scorri tra le modalità)</string>
@@ -313,7 +313,7 @@
     <string name="storage">Memoria</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Impostazioni</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Utente attivo attuale, tocca per ulteriori informazioni</string>
     <string name="connectivity_category_title">connettività</string>
@@ -443,9 +443,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocca per mostrare le info</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Interruzione intelligente</string>
+    <string name="smart_cutoff_summary">Imposta temperatura massima</string>
+    <string name="smart_cutoff_switch_title">Usa l\'interruzione intelligente</string>
     <string name="smart_cutoff_level_title">Livello di fine ricarica</string>
     <string name="smart_cutoff_resume_level_title">Livello di inizio carica</string>
 </resources>

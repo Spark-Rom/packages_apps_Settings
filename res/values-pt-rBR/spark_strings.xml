@@ -313,7 +313,7 @@
     <string name="storage">Armazenamento</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Configurações</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Bem-estar digital</string>
     <string name="usercard_summary">Usuário ativo atual, toque para obter mais informações</string>
     <string name="connectivity_category_title">conectividade</string>

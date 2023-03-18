@@ -445,9 +445,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Atinge pentru a afișa informații</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Suspendare inteligentă</string>
+    <string name="smart_cutoff_summary">Setează temperatura maximă</string>
+    <string name="smart_cutoff_switch_title">Folosește întreruperea inteligentă</string>
     <string name="smart_cutoff_level_title">Nivel oprire</string>
     <string name="smart_cutoff_resume_level_title">Nivel pornire</string>
 </resources>

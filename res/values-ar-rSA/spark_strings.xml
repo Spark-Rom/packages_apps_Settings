@@ -168,7 +168,7 @@
     <string name="action_screen_off">قفل الشاشة</string>
     <string name="action_notifications">الإشعارات</string>
     <string name="action_power_menu">قائمة التشغيل</string>
-    <string name="action_screenshot">لقطة الشاشة</string>
+    <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">لوحة الإعدادات السريعة</string>
     <string name="action_app_action">التطبيق</string>
     <string name="action_ringer_modes">اوضاع الرنين</string>

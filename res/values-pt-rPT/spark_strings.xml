@@ -168,7 +168,7 @@
     <string name="action_screen_off">Desligar ecrã</string>
     <string name="action_notifications">Notificações</string>
     <string name="action_power_menu">Menu de energia</string>
-    <string name="action_screenshot">Capturar ecrã</string>
+    <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">Painel de definições rápidas</string>
     <string name="action_app_action">App</string>
     <string name="action_ringer_modes">Modos de toque</string>
@@ -313,7 +313,7 @@
     <string name="storage">Armazenamento</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Definições</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="wellbeing_title">Bem-estar digital</string>
     <string name="usercard_summary">Utilizador ativo atual, toque para mais informações</string>
     <string name="connectivity_category_title">Conectividade</string>
@@ -443,9 +443,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informação</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Corte inteligente</string>
+    <string name="smart_cutoff_summary">Definir temperatura máxima</string>
+    <string name="smart_cutoff_switch_title">Usar corte inteligente</string>
     <string name="smart_cutoff_level_title">Nível para parar carregamento</string>
     <string name="smart_cutoff_resume_level_title">Nível para iniciar carregamento</string>
 </resources>
