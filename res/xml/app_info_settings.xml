@@ -58,6 +58,11 @@
         android:summary="@string/summary_placeholder"
         settings:summaryLineCount="1"
         settings:controller="com.android.settings.applications.appinfo.AppPermissionPreferenceController" />
+  
+  <Preference
+        android:key="storage_scopes"
+        android:title="@string/storage_scopes"
+        settings:controller="com.android.settings.applications.appinfo.AppStorageScopesPreferenceController" />
 
     <Preference
         android:key="storage_settings"
