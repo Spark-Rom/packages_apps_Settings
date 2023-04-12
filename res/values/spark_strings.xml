@@ -19,4 +19,9 @@
     <!-- Fireworks -->
     <string name="fireworks_title">Fireworks</string>
     <string name="build_tweaks_summary_title">Customizations and more !</string>
+
+    <!-- Volume panel -->
+    <string name="volume_panel_category">Volume panel</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_panel_on_left_title">Volume panel on left</string>
 </resources>
