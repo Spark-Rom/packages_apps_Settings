@@ -247,6 +247,17 @@
         android:summary="%s"
         android:order="-10"/>
 
+    <!-- Volume panel -->
+    <PreferenceCategory
+        android:key="volume_panel"
+        android:title="@string/volume_panel_category" >
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="volume_panel_on_left"
+            android:title="@string/volume_panel_on_left_title" />
+
+    </PreferenceCategory>
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"

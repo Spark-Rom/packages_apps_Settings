@@ -28,12 +28,15 @@ import android.os.Message;
 import android.os.UserHandle;
 import android.preference.SeekBarVolumizer;
 import android.text.TextUtils;
-
+import lineageos.providers.LineageSettings;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
-
+import androidx.preference.SwitchPreference;
+import android.content.ContentResolver;
+import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
+import android.content.pm.PackageManager;
 import com.android.settings.RingtonePreference;
 import com.android.settings.core.OnActivityResultListener;
 import com.android.settings.dashboard.DashboardFragment;
@@ -53,6 +56,10 @@ import java.util.List;
 @SearchIndexable
 public class SoundSettings extends DashboardFragment implements OnActivityResultListener {
     private static final String TAG = "SoundSettings";
+
+    private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
+
+    private SwitchPreference mVolumePanelLeft;
 
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
     private static final int REQUEST_CODE = 200;
@@ -105,11 +112,33 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         replaceEnterpriseStringTitle("sound_work_settings",
                 WORK_PROFILE_SOUND_SETTINGS_SECTION_HEADER,
                 R.string.sound_work_settings);
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        boolean isAudioPanelOnLeft = LineageSettings.Secure.getIntForUser(resolver,
+                LineageSettings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(getActivity()) ? 1 : 0,
+                UserHandle.USER_CURRENT) != 0;
+
+        mVolumePanelLeft = (SwitchPreference) prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
+        mVolumePanelLeft.setChecked(isAudioPanelOnLeft);
     }
 
     @Override
     public int getHelpResource() {
         return R.string.help_url_sound;
+    }
+
+    private static boolean isAudioPanelOnLeftSide(Context context) {
+        try {
+            Context con = context.createPackageContext("org.lineageos.lineagesettings", 0);
+            int id = con.getResources().getIdentifier("def_volume_panel_on_left",
+                    "bool", "org.lineageos.lineagesettings");
+            return con.getResources().getBoolean(id);
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
     }
 
     @Override
