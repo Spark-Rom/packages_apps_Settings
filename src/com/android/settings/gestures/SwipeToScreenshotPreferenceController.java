@@ -16,7 +16,7 @@
 
 package com.android.settings.gestures;
 
-import static android.provider.Settings.System.SWIPE_TO_SCREENSHOT;
+import static android.provider.Settings.System.THREE_FINGER_GESTURE;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -41,7 +41,7 @@ public class SwipeToScreenshotPreferenceController extends GesturePreferenceCont
 
     @Override
     public boolean isSliceable() {
-        return TextUtils.equals(getPreferenceKey(), "swipe_to_screenshot");
+        return TextUtils.equals(getPreferenceKey(), "three_finger_gesture");
     }
 
     @Override
@@ -51,12 +51,12 @@ public class SwipeToScreenshotPreferenceController extends GesturePreferenceCont
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.System.putInt(mContext.getContentResolver(), SWIPE_TO_SCREENSHOT,
+        return Settings.System.putInt(mContext.getContentResolver(), THREE_FINGER_GESTURE,
                 isChecked ? ON : OFF);
     }
 
     @Override
     public boolean isChecked() {
-        return Settings.System.getInt(mContext.getContentResolver(), SWIPE_TO_SCREENSHOT, 0) != 0;
+        return Settings.System.getInt(mContext.getContentResolver(), THREE_FINGER_GESTURE, 0) != 0;
     }
 }

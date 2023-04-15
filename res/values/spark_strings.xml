@@ -92,5 +92,5 @@
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take 
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take a screenshot</string> 
 </resources>
