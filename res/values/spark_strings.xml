@@ -93,4 +93,29 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take a screenshot</string> 
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="thin_label">Thin</string>
+    <string name="thick_label">Thick</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_height_title">Back gesture height</string>
+    <string name="back_height_summary">Screen height valid for back gesture</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Back gesture haptic</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+
 </resources>
