@@ -270,6 +270,12 @@
         android:summary="%s"
         android:order="-10"/>
 
+    <com.spark.settings.preferences.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+
     <!-- Volume panel -->
     <PreferenceCategory
         android:key="volume_panel"
