@@ -144,4 +144,7 @@
     <string name="custom_timeout_summary_2hours">2 hours</string>
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
+
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
 </resources>
