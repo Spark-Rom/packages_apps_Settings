@@ -125,28 +125,11 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
         ContentResolver resolver = getActivity().getContentResolver();
 
-        boolean isAudioPanelOnLeft = LineageSettings.Secure.getIntForUser(resolver,
-                LineageSettings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(getActivity()) ? 1 : 0,
-                UserHandle.USER_CURRENT) != 0;
-
-        mVolumePanelLeft = (SwitchPreference) prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
-        mVolumePanelLeft.setChecked(isAudioPanelOnLeft);
     }
 
     @Override
     public int getHelpResource() {
         return R.string.help_url_sound;
-    }
-
-    private static boolean isAudioPanelOnLeftSide(Context context) {
-        try {
-            Context con = context.createPackageContext("org.lineageos.lineagesettings", 0);
-            int id = con.getResources().getIdentifier("def_volume_panel_on_left",
-                    "bool", "org.lineageos.lineagesettings");
-            return con.getResources().getBoolean(id);
-        } catch (PackageManager.NameNotFoundException e) {
-            return false;
-        }
     }
 
     @Override
