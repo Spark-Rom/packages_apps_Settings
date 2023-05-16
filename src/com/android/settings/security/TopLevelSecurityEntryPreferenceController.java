@@ -23,45 +23,22 @@ import androidx.preference.Preference;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.SubSettingLauncher;
-import com.android.settings.overlay.FeatureFactory;
-import com.android.settings.safetycenter.SafetyCenterManagerWrapper;
 
 public class TopLevelSecurityEntryPreferenceController extends BasePreferenceController {
 
-    private final SecuritySettingsFeatureProvider mSecuritySettingsFeatureProvider;
-
     public TopLevelSecurityEntryPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
-        mSecuritySettingsFeatureProvider = FeatureFactory.getFactory(mContext)
-                .getSecuritySettingsFeatureProvider();
     }
 
     @Override
     public int getAvailabilityStatus() {
-        if (!SafetyCenterManagerWrapper.get().isEnabled(mContext)) {
-            return AVAILABLE;
-        }
-        return CONDITIONALLY_UNAVAILABLE;
+       return AVAILABLE;
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return super.handlePreferenceTreeClick(preference);
-        }
-
-        if (mSecuritySettingsFeatureProvider.hasAlternativeSecuritySettingsFragment()) {
-            String alternativeFragmentClassname =
-                    mSecuritySettingsFeatureProvider
-                            .getAlternativeSecuritySettingsFragmentClassname();
-            if (alternativeFragmentClassname != null) {
-                new SubSettingLauncher(mContext)
-                        .setDestination(alternativeFragmentClassname)
-                        .setSourceMetricsCategory(getMetricsCategory())
-                        .setIsSecondLayerPage(true)
-                        .launch();
-                return true;
-            }
         }
 
         return super.handlePreferenceTreeClick(preference);
