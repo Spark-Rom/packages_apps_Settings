@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fireworks -->
-    <string name="fireworks_title">വെടിക്കെട്ട്</string>
-    <string name="build_tweaks_summary_title">ഇഷ്‌ടാനുസൃതമാക്കലുകളും മറ്റും!</string>
+    <string name="fireworks_title">Feuerwerk</string>
+    <string name="build_tweaks_summary_title">Customizations and more !</string>
     <!-- SparkOS versioning -->
-    <string name="spark_version_title">Version</string>
+    <string name="spark_version_title">SparkOS Version</string>
     <string name="about_device_info">Spark Device</string>
     <string name="spark_device_title">Device</string>
     <string name="spark_build_version_title">Build Version</string>
@@ -39,12 +39,12 @@
     <string name="battery_illustration_description">Monitor battery health, usage and improve battery usage.</string>
     <string name="connectivity_category_title">connectivity</string>
     <string name="navbar_gesture_custom">Navigation Gestures Customizations</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="usercard_summary">Device owner</string>
     <!-- About page -->
     <string name="battery">Battery</string>
     <string name="display">Display</string>
     <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
+    <string name="chipset">Processor</string>
     <!-- About phone cards -->
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <string name="about_device_version_type_gapps">Pixel</string>
@@ -105,21 +105,21 @@
     <string name="build_is_official_summary_oopsie">but, who made this build?</string>
     <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add required build flags!</string>
-    <string name="top_level_settings_title">ക്രമീകരണങ്ങള്‍</string>
+    <string name="top_level_settings_title">Settings</string>
     <string name="my_device_settings">My device</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">ഗൂഗിൾ പ്ലേ</string>
+    <string name="app_play_store">Google Play</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">അറിയിപ്പ് ചരിത്ര ലോഗ് കാണുക</string>
+    <string name="notification_log_summary">Show notifications history log</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">1 മിനിറ്റിലും കുറവ്</string>
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">ഇന്ന് %1$s</string>
+    <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
     <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
     <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
@@ -127,8 +127,8 @@
     <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
     <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
@@ -149,7 +149,7 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">കസ്റ്റം</string>
+    <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
     <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <!-- Per-channel vibration pattern -->
@@ -163,8 +163,8 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">സ്ക്രീൻഷോട്ട് എടുക്കാൻ സ്വൈപ്പ് ചെയ്യുക</string>
-    <string name="swipe_to_screenshot_gesture_summary">സ്ക്രീൻഷോട്ട് എടുക്കാൻ മൂന്ന് വിരലുകൾ സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take a screenshot</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
@@ -175,34 +175,34 @@
     <string name="thick_label">Thick</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">താഴെ</string>
+    <string name="back_height_high_label">Unten</string>
     <string name="back_height_title">Back gesture height</string>
     <string name="back_height_summary">Screen height valid for back gesture</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Back gesture haptic</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout">WiFi timeout</string>
+    <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
     <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="bluetooth_timeout">Bluetooth timeout</string>
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="custom_timeout_summary_never">വേണ്ട</string>
+    <string name="custom_timeout_summary_never">Never</string>
     <string name="custom_timeout_summary_5secs">5 seconds</string>
     <string name="custom_timeout_summary_10secs">10 seconds</string>
     <string name="custom_timeout_summary_15secs">15 seconds</string>
     <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 മിനിറ്റ്</string>
-    <string name="custom_timeout_summary_2mins">2 മിനിറ്റ്</string>
-    <string name="custom_timeout_summary_5mins">5 മിനിറ്റ്</string>
-    <string name="custom_timeout_summary_10mins">10 മിനിറ്റ്</string>
+    <string name="custom_timeout_summary_1min">1 minute</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
     <string name="custom_timeout_summary_20mins">20 minutes</string>
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
@@ -212,28 +212,28 @@
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Notifications while screen on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">സ്മാർട്ട് പോസ്</string>
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
     <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
-    <string name="adaptive_playback_disabled_summary">ഓഫ്</string>
-    <string name="adaptive_playback_intro_text">വോളിയം നിശബ്ദമാക്കുമ്പോൾ മീഡിയ യാന്ത്രികമായി താൽക്കാലികമായി നിർത്തുന്നു, നിശ്ചിത സമയത്തിനുള്ളിൽ വോളിയം പുനഃസ്ഥാപിക്കുമ്പോൾ സ്വയമേവ പുനരാരംഭിക്കും.</string>
-    <string name="adaptive_playback_timeout_title">സമയപരിധി ഉപയോഗിക്കുക</string>
-    <string name="adaptive_playback_timeout_none">സമയപരിധി ഇല്ല</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 മിനിറ്റ്</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 മിനിറ്റ്</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 മിനിറ്റ്</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 മിനിറ്റ്</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
@@ -249,7 +249,7 @@
     <!-- Per-app volume -->
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
     <!-- App lock -->
@@ -266,16 +266,13 @@
     <string name="app_lock_timeout_title">Auto lock timeout</string>
     <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
     <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
-     </string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <string name="enable_protection">Enable protection</string>
     <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
-    </string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
