@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Notification log -->
+    <string name="notification_log_summary">إظهار سجل الإشعارات</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">متجر جوجل</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">أقل من دقيقة واحدة</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s اليوم</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">درجة حرارة البطارية</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">تمرير لالتقاط صورة الشاشة</string>
+    <string name="swipe_to_screenshot_gesture_summary">تمرير ثلاثة أصابع لإلتقاط صورة الشاشة</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">منع الاستيقاظ العرضي</string>
+    <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل تشغيل الشاشة</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">لـون الضوء</string>
+    <string name="custom_light_on_time_title">مدة تشغيل الضوء النابض (مللي ثانية)</string>
+    <string name="custom_light_off_time_title">مدة ايقاف الضوء أثناء النبض (ملي ثانية)</string>
+    <string name="value_equals_default">افتراضي</string>
+    <!-- Fireworks -->
+    <string name="fireworks_title">مفرقعات</string>
+    <string name="build_tweaks_summary_title">التخصيص والمزيد!</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_enabled">Use adaptive playback</string>
+    <string name="adaptive_playback_disabled_summary">متوقف</string>
+    <string name="adaptive_playback_intro_text">إيقاف الوسائط تلقائياً عند كتم الصوت وسيتم استئنافها تلقائيًا عند استعادة الصوت خلال الوقت المحدد.</string>
+    <string name="adaptive_playback_timeout_title">استخدام مهلة من</string>
+    <string name="adaptive_playback_timeout_none">لا توجد مهلة</string>
+    <string name="adaptive_playback_timeout_none_summary">مشغل (بدون مهلة)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">تشغيل (30 ثانية)</string>
+    <string name="adaptive_playback_timeout_1_min">دقيقة</string>
+    <string name="adaptive_playback_timeout_1_min_summary">مشغل (دقيقة)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">تشغيل (2 دقيقه)</string>
+    <string name="adaptive_playback_timeout_5_min">٥ دقائق</string>
+    <string name="adaptive_playback_timeout_5_min_summary">تشغيل (5 دقيقه)</string>
+    <string name="adaptive_playback_timeout_10_min">٥ دقائق</string>
+    <string name="adaptive_playback_timeout_10_min_summary">تشغيل (10 دقيقه)</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">المبادلة بين الأوضاع</string>
+    <string name="prevent_ringing_option_cycle_summary">قيد التشغيل (دورة من خلال الضوابط)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">التحكم في التشغيل</string>
+    <string name="volume_button_music_control_summary">عند إيقاف تشغيل الشاشة، الضغط المطول على ازرار الصوت سيغير مسار الموسيقى</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ربط مستوى الرنين &amp; مع الاشعارات</string>
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">صوت الإشعار إذا كانت الشاشة قيد التشغيل</string>
+    <string name="notification_sound_vib_screen_on_summary">تشغيل الصوت والاهتزاز للإشعارات عند تشغيل الشاشة</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">حدد موقع مستشعر البصمة في مقدمة جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">حدد موقع مستشعر بصمة الإصبع في مقدمة جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">حدد موقع مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">حدد موقع مستشعر بصمة الإصبع على ظهر جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">حدد موقع مستشعر بصمة الإصبع على الجزء الخلفي من جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">حدد موقع مستشعر بصمة الإصبع على ظهر هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">حدد موقع مستشعر بصمة الإصبع على جانب جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">حدد موقع مستشعر بصمة الإصبع على جانب جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">حدد موقع مستشعر بصمة الإصبع على جانب هاتفك.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">المس مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">المس مستشعر البصمة على الجزء الخلفي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">المس مستشعر البصمة على الجزء الجانبي من هاتفك.</string>
+    <!-- Screen off UDFPS -->
+    <string name="screen_off_udfps_title">إيقاف الشاشة UDFPS</string>
+    <string name="screen_off_udfps_summary">ابقاء UDFPS مفعل عندما تكون الشاشة مغلقة</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">تخطيط التشرذم</string>
+    <string name="unlock_scramble_pin_layout_summary">ترتيب أزرار الأرقام لرمز PIN بصورة عشوائية عند فك قفل الجهاز</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">فتح سريع</string>
+    <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">درجات الصوت</string>
+    <string name="volume_steps_summary">Customize volume steps</string>
+    <string name="volume_steps_alarm_title">درجات الصوت: المنبـه</string>
+    <string name="volume_steps_dtmf_title">درجات صوت: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Media</string>
+    <string name="volume_steps_notification_title">درجات الصوت: الاشعارات</string>
+    <string name="volume_steps_ring_title">درجات صوت: الرنين</string>
+    <string name="volume_steps_system_title">درجات الصوت: النظام</string>
+    <string name="volume_steps_voice_call_title">درجات صوت: المكالمة</string>
+    <string name="volume_steps_reset">إعادة ضبط</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">صوت التطبيق</string>
+    <string name="app_volume_title">التحكم في الصوت لكل تطبيق</string>
+    <string name="app_volume_summary">السماح بالتحكم بحجم الصوت لكل تطبيق</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">صوت التقاط صورة للشاشة</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">تحكمات أخرى</string>
+    <string name="fullscreen_gestures_title">إيماءات ملء الشاشة</string>
+    <string name="fullscreen_gestures_summary">إخفاء شريط التنقل والمساحة تحت لوحة المفاتيح</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Gesture navbar length</string>
+    <string name="short_label">ضغطة قصيرة</string>
+    <string name="long_label">ضغطة طويلة</string>
+    <!-- 3-Button navigation settings -->
+    <string name="navigation_bar_inverse_title">عكس التخطيط</string>
+    <string name="navigation_bar_inverse_summary">السحب بين زر الرجوع وتطبيقات الخلفية</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">نصف قطر الكره</string>
+    <string name="thin_label">رفيع</string>
+    <string name="thick_label">سميك</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">نقر مزدوج</string>
+    <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
+    <string name="doze_double_tap_summary">نبض الإشعارات بالنقر المزدوج</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">ممتلئة</string>
+    <string name="back_height_high_label">الأسفل</string>
+    <string name="back_options_dialog_title">الخيارات</string>
+    <string name="back_height_message">مقدار ارتفاع الشاشة المستخدم كمنطقة ملموسة لإيماءة الرجوع.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">التشغيل دائماً عند الشحن</string>
+    <string name="doze_on_charge_summary">إظهار شاشة الاسبات طوال الوقت عند الشحن</string>
+    <!-- Volume Cursor -->
+    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
+    <string name="volume_key_cursor_control_off">معطل</string>
+    <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">إستشعار الجيب</string>
+    <string name="pocket_judge_summary">منع الشاشة و ضغط الازرار العرضي عندما يكون الجهاز في الجيب</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">الإيقاظ عند التوصيل</string>
+    <string name="wake_when_plugged_or_unplugged_summary">تشغيل الشاشة عند توصيل أو قطع مصدر الطاقة</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">إيقاظ عبر زر الصفحة الرئيسية</string>
+    <string name="home_wake_button_summary">تمكين زر الصفحة الرئيسية لتشغيل الشاشة</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">بلا إجراء</string>
+    <string name="action_menu">القائمة</string>
+    <string name="action_app_switch">التطبيقات الحديثة</string>
+    <string name="action_voice_search">البحث الصوتي</string>
+    <string name="action_launch_camera">الكاميرا</string>
+    <string name="action_last_app">التطبيق الأخير</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">تسجيل الخروج</string>
+    <string name="action_clear_notifications">مسح الإشعارات</string>
+    <string name="action_volume_panel">لوحة التحكم بالصوت</string>
+    <string name="action_screen_off">قفل الشاشة</string>
+    <string name="action_notifications">الإشعارات</string>
+    <string name="action_power_menu">قائمة التشغيل</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">لوحة الإعدادات السريعة</string>
+    <string name="action_app_action">التطبيق</string>
+    <string name="action_ringer_modes">اوضاع الرنين</string>
+    <string name="kill_app">قتل التطبيق الموجود في المقدمة</string>
+    <string name="recent_app_toggle">تبديل التطبيق الأخير</string>
+    <string name="skip_song">تخطي الأغنية</string>
+    <string name="prev_song">الأغنية السابقة</string>
+    <string name="show_powermenu">إظهار قائمة التشغيل</string>
+    <string name="partial_screenshot">صورة جزئية للشاشة</string>
+    <string name="hush_mute">كل الإشعارات صامتة</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">خيارات الإيماءات المتقدمة</string>
+    <string name="navbar_gesture_tweaks_pref_summary">تخصيص الإيماءات وتعيين إجراءات مخصصة</string>
+    <string name="navbar_gesture_tweaks_cat_title">إعدادات متقدمة</string>
+    <string name="swipe_app_select_summary">حدد تطبيق لتشغيله مع إجراء الضغط</string>
+    <string name="long_back_swipe_timeout_title">مهلة إجراء السحب الطويل</string>
+    <string name="left_swipe_actions_title">إجراء السحب الطويل لليسار</string>
+    <string name="left_swipe_app_action_title">حدد تطبيق السحب لليسار الطويل</string>
+    <string name="right_swipe_actions_title">إجراء السحب الطويل لليمين</string>
+    <string name="right_swipe_app_action_title">حدد تطبيق السحب لليسار الطويل</string>
+    <string name="left_vertical_swipe_actions_title">إجراء السحب الرأشي على شكل L إلى اليسار</string>
+    <string name="left_vertical_swipe_app_action_title">حدد تطبيق السحب الرأسي لليسار L بشكل الطويل</string>
+    <string name="right_vertical_swipe_actions_title">إجراء السحب الرأسي لليسار على شكل L</string>
+    <string name="right_vertical_swipe_app_action_title">حدد تطبيق السحب الرأسي لليمينL بشكل الطويل</string>
+    <string name="gesture_nav_tweaks_footer_info">لاختيار نشاط تطبيق محدد للعمل، اضغط مطولاً على أي تطبيق في منتقي التطبيقات.\n\nإذا كان المشغل يظهر، قم بالسحب في الجزء السفلي من الشاشة لتفعيل الإجراء.</string>
+    <string name="back_swipe_extended_title">إجراء السحب الموسع</string>
+    <string name="back_swipe_extended_summary">إجراء التفعيل على التمرير الأوسع (أكثر من نصف حجم العرض)، أو التمرير L (أطول رأسياً بما فيه الكفاية)</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">حساسية ذات لمس عالي</string>
+    <string name="high_touch_sensitivity_summary">زيادة حساسية شاشة اللمس حتى يمكن استخدامها أثناء ارتداء القفازات</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">المرور فوق الشاشة اللمسية</string>
+    <string name="touchscreen_hovering_summary">يسمح لك بالمرور فوق الشاشة مثل الماوس في مستعرضات الويب، أو سطح المكتب عن بُعد، إلخ</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">حساسية اللمس العالية</string>
+    <string name="high_touch_polling_rate_summary">زيادة حساسية لمس الشاشة</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">تحسين الشاشة بحسب الوقت من اليوم والإضاءة المحيطة لتسهيل القراءة وتقليل إجهاد العين</string>
+    <string name="live_display_mode">وضع العرض</string>
+    <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
+    <string name="live_display_color_temperature_summary">اليوم: <xliff:g id="day_temperature">%1$d</xliff:g>K الليل: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">نهار</string>
+    <string name="live_display_night">ليل</string>
+    <string name="live_display_outdoor_mode_title">الوضع التلقائي في الخارج</string>
+    <string name="live_display_outdoor_mode_summary">زيادة الإضاءة والإشباع تلقائيًا تحت أشعة الشمس</string>
+    <string name="live_display_anti_flicker_title">مضاد رعش الشاشة</string>
+    <string name="live_display_anti_flicker_summary">منع الوميض الشديد وتقليل إجهاد العين في ظروف الضوء المنخفضة. قد يؤدي إلى تدهور دِقَّة الألوان والتأثير على طريقة عرض بعض العناصر.</string>
+    <string name="live_display_low_power_title">تقليل استهلاك الطاقة</string>
+    <string name="live_display_low_power_summary">ضبط الشاشة لاستهلاك أقل للطاقة دون تشويش ما يُعرض</string>
+    <string name="live_display_enhance_color_title">تحسين الألوان</string>
+    <string name="live_display_enhance_color_summary">تحسين حيوية درجات ألوان البشرة والمشاهد الطبيعية وغيرها من الصور</string>
+    <string name="live_display_color_profile_title">ملف الألوان</string>
+    <string name="live_display_color_profile_standard_title">قياسي</string>
+    <string name="live_display_color_profile_standard_summary">ألوان دقيقة وبياض ساطع</string>
+    <string name="live_display_color_profile_natural_title">طبيعي</string>
+    <string name="live_display_color_profile_natural_summary">ألوان ودرجات لون بشرة واقعية</string>
+    <string name="live_display_color_profile_dynamic_title">ديناميكي</string>
+    <string name="live_display_color_profile_dynamic_summary">ألوان محسنة وبياض ساطع</string>
+    <string name="live_display_color_profile_cinema_title">سينما</string>
+    <string name="live_display_color_profile_cinema_summary">إعادة إنتاج لون متطابق للفيديو</string>
+    <string name="live_display_color_profile_astronomy_title">فلكِي</string>
+    <string name="live_display_color_profile_astronomy_summary">أحمر عميق للحفاظ على الرؤية الليلية</string>
+    <string name="live_display_color_profile_photography_title">التصوير</string>
+    <string name="live_display_color_profile_photography_summary">إنتاج اللون المتطابق للصور</string>
+    <string name="live_display_color_profile_basic_title">أساسي</string>
+    <string name="live_display_color_profile_basic_summary">استخدام العرض غير المعاير</string>
+    <string name="live_display_color_profile_adaptive_title">توافقية</string>
+    <string name="live_display_color_profile_adaptive_summary">تتكيف الألوان مع الإضاءة المحيطة</string>
+    <string name="live_display_color_profile_reading_title">قراءة</string>
+    <string name="live_display_color_profile_reading_summary">ألوان أكثر دفئًا لإجهاد أقل للعين</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">الألوان مضبوطة لألوان فضاء sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">الألوان مضبوطة لألوان فضاء DCI-P3</string>
+    <string name="live_display_reading_mode_title">وضع القراءة</string>
+    <string name="live_display_reading_mode_summary">وضع التدرج الرمادي للقراءة على المدى الطويل</string>
+    <string name="color_calibration_title">معايرة الألوان</string>
+    <string name="color_calibration_summary">معايرة الألوان الظاهرة على الشاشة</string>
+    <string name="color_red_title">أحمر</string>
+    <string name="color_green_title">أخضر</string>
+    <string name="color_blue_title">أزرق</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">ضبط الصورة</string>
+    <string name="picture_adjustment_summary">ضبط تدرج اللون والتشبع، والكثافة، والتباين</string>
+    <string name="adj_hue_title">تدرج اللون</string>
+    <string name="adj_saturation_title">التشبع</string>
+    <string name="adj_intensity_title">درجة السطوع</string>
+    <string name="adj_contrast_title">التباين</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">تطبيقات تملأ الشاشة</string>
+    <string name="display_cutout_force_fullscreen_summary">إجبار التطبيقات على تجاهل مساحة النوتش</string>
+    <string name="search">بحث</string>
+    <string name="search_apps">البحث عن التطبيقات</string>
+    <string name="application_icon">أيقونة التطبيق</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">مردود فعل لمسي</string>
+    <string name="back_gesture_haptic_summary">تفعيل الإهتزاز عند إيماء الرجوع</string>
+    <string name="back_gesture_arrow_message">تأثير حركة إيماءة الرجوع</string>
+    <string name="back_gesture_arrow_summary">إظهار سهم متحرك لإيماء الرجوع</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">السطوع التلقائي لقطة واحدة</string>
+    <string name="auto_brightness_one_shot_summary">سيتم تعديل السطوع فقط في اللحظة التي يتم فيها تشغيل الشاشة</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">إيقاف تشغيل Wi-Fi تلقائياً</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
+    <string name="wifi_timeout_summary2">معطل</string>
+    <string name="custom_timeout_summary_never">أبدًا</string>
+    <string name="custom_timeout_summary_15secs">15 ثانية</string>
+    <string name="custom_timeout_summary_30secs">30 seconds</string>
+    <string name="custom_timeout_summary_1min">دقيقة</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">٥ دقائق</string>
+    <string name="custom_timeout_summary_10mins">٥ دقائق</string>
+    <string name="custom_timeout_summary_20mins">20 minutes</string>
+    <string name="custom_timeout_summary_30mins">30 minutes</string>
+    <string name="custom_timeout_summary_1hour">ساعة واحدة</string>
+    <string name="custom_timeout_summary_2hours">ساعتان</string>
+    <string name="custom_timeout_summary_4hours">4 ساعات</string>
+    <string name="custom_timeout_summary_8hours">8 ساعات</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">مهلة البلوتوث</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">سيتم إيقاف تشغيل البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يكن هناك جهاز متصل</string>
+    <string name="bluetooth_timeout_summary2">لا تقم بإيقاف تشغيل البلوتوث تلقائياً</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">تأثير تكبير الخلفية</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">تكبير خلفية الشاشة من أجل إظهار حركة عمق التصعيد. قد تعاني الخلفيات من انخفاض الجودة</string>
+    <!-- Volume panel -->
+    <string name="volume_panel_on_left_title">لوحة الصوت على اليسار</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">الإصدار</string>
+    <string name="spark_device_title">جهاز</string>
+    <string name="spark_release_type_title">نوع الإصدار</string>
+    <string name="spark_maintainer_title">المشرف</string>
+    <!-- About page -->
+    <string name="battery">البطارية</string>
+    <string name="display">العرض</string>
+    <string name="storage">التخزين</string>
+    <string name="chipset">شرائح</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Settings</string>
+    <string name="wellbeing_title">رفاهية جوجل</string>
+    <string name="usercard_summary">المستخدم النشط الحالي، انقر للحصول على مزيد من المعلومات</string>
+    <string name="connectivity_category_title">الإتصال</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">الشحن الذًكي</string>
+    <string name="smart_charging_summary">ضبط الحد الأقصى لمستوى الشحن</string>
+    <string name="smart_charging_switch_title">استخدم الشحن الذكي</string>
+    <string name="smart_charging_level_title">مستوى الإيقاف</string>
+    <string name="smart_charging_resume_level_title">مستوى بدء الشحن</string>
+    <string name="smart_charging_reset_stats_title">إعادة تعيين إحصائيات البطارية</string>
+    <string name="smart_charging_reset_stats_summary">إعادة تعيين إحصائيات البطارية بعد الوصول إلى مستوى الشحن المحدد من قبل المستخدم</string>
+    <string name="smart_charging_footer">يتيح لك الشحن الذكي ضبط مستوى الشحن الأقصى لتمديد عمر البطارية</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">السعة الإجمالية للبطارية</string>
+    <string name="designed_battery_capacity">السعة المصممة للبطارية</string>
+    <string name="battery_charge_cycles">دورات الشحن المكتملة</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">السماح للعملاء باستخدام VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">السماح لعملاء نقطة الاتصال باستخدام اتصالات الـVPN لهذا الجهاز\u2019</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="longpress_to_clipboard">اضغط مطوّلاً للإيقاف</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">الشحن السريع</string>
+    <string name="fast_charging_summary">قم بتعطيله لتقليل الحرارة التي ينتجها الجهاز أثناء الشحن أو لتمديد عمر البطارية</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
+    <string name="max_refresh_rate_title">معدل تحديث الشاشة الأعلى</string>
+    <string name="low_power_refresh_rate_title_custom">معدل تحديث الطاقة المنخفضة</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">شبكة مخفية</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">لن يظهر اسم نقطة اتصال هاتفك المحمول في قائمة شبكات WLAN المتاحة.</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="zero">إيقاف التشغيل عند عدم توصيل أي جهاز لمدة <xliff:g id="DURATION">%1$d</xliff:g> دقيقة</item>
+        <item quantity="other">إيقاف التشغيل عند عدم توصيل أي جهاز لمدة <xliff:g id="DURATION">%1$d</xliff:g> دقيقة</item>
+        <item quantity="one">إيقاف التشغيل عند عدم توصيل أي جهاز لمدة <xliff:g id="DURATION">%1$d</xliff:g> دقيقة</item>
+        <item quantity="two">إيقاف التشغيل عند عدم توصيل أي جهاز لمدة <xliff:g id="DURATION">%1$d</xliff:g> دقيقة</item>
+        <item quantity="few">إيقاف التشغيل عند عدم توصيل أي جهاز لمدة <xliff:g id="DURATION">%1$d</xliff:g> دقيقة</item>
+        <item quantity="many">إيقاف التشغيل عند عدم توصيل أي جهاز لمدة <xliff:g id="DURATION">%1$d</xliff:g> دقيقة</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">لا تقم أبدًا بإيقاف تشغيل نقطة الاتصال</string>
+    <string name="wifi_hotspot_client_manager_title">الأجهزة المتّصلة</string>
+    <string name="wifi_hotspot_client_manager_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال وإدارتها ، وتعيين حد عدد العملاء</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال وإدارتها</string>
+    <string name="wifi_hotspot_client_limit_title">حد الأجهزة المتصلة</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="zero">هذا الجهاز\"<xliff:g id="device_num">%1$d</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</item>
+        <item quantity="other">هذا الجهاز\"<xliff:g id="device_num">%1$d</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</item>
+        <item quantity="one">هذا الجهاز\"<xliff:g id="device_num">%1$d</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</item>
+        <item quantity="two">هذا الجهاز\"<xliff:g id="device_num">%1$d</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</item>
+        <item quantity="few">هذا الجهاز\"<xliff:g id="device_num">%1$d</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</item>
+        <item quantity="many">هذا الجهاز\"<xliff:g id="device_num">%1$d</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">الأجهزة المحظورة</string>
+    <string name="wifi_hotspot_connected_clients_list_title">الأجهزة المتّصلة</string>
+    <string name="wifi_hotspot_block_client_dialog_title">حظر الجهاز</string>
+    <string name="wifi_hotspot_block_client_dialog_text">سيؤدي هذا الإجراء إلى قطع اتصال \"<xliff:g id="device_name">%1$s</xliff:g>\"من هذا الجهاز وإضافته إلى قائمة الحظر</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">إلغاء حظر الجهاز</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">هذا الجهاز\"<xliff:g id="device_name">%1$s</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</string>
+    <string name="wifi_hotspot_client_manager_footer_text">لا يوجد عملاء متوفرين حاليا. سيتم إدراج الأجهزة الموصولة والمحظورة هنا عندما تكون متاحة.</string>
+    <!-- GmsCompat -->
+    <string name="sandboxed_google_play">Sandboxed Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
+    <string name="privileged_euicc_management_title">Enable privileged eSIM management</string>
+    <string name="privileged_euicc_management_summary">Requires Sandboxed Google Play installation</string>
+    <!-- Storage scopes -->
+    <string name="storage_scopes">Storage Scopes</string>
+    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <!-- Custom toggle preference controller -->
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">مستوى الإيقاف</string>
+    <string name="smart_cutoff_resume_level_title">مستوى بدء الشحن</string>
+</resources>
