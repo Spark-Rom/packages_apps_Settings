@@ -159,16 +159,26 @@
     </string-array>
 
     <string-array name="entries_font_size">
-        <item msgid="6490061470416867723">Small</item>
+        <item msgid="7800061470416867723">Smallest</item>
+        <item msgid="6490061470416867723">Smaller</item>
+        <item msgid="5400061470416867723">Small</item>
         <item msgid="3579015730662088893">Default</item>
         <item msgid="1678068858001018666">Large</item>
-        <item msgid="490158884605093126">Largest</item>
+        <item msgid="2808068858001018666">Larger</item>
+        <item msgid="4901588846050931264">Largest</item>
     </string-array>
 
     <string-array name="entryvalues_font_size" translatable="false">
+        <item>0.80</item>
         <item>0.85</item>
-        <item>1.0</item>
+        <item>0.90</item>
+        <item>0.95</item>
+        <item>1.00</item>
+        <item>1.05</item>
+        <item>1.10</item>
         <item>1.15</item>
+        <item>1.20</item>
+        <item>1.25</item>
         <item>1.30</item>
     </string-array>
 
