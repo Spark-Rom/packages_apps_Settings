@@ -92,11 +92,7 @@ public class PrivacyDashboardFragment extends DashboardFragment {
     }
 
     private static int getPreferenceScreenResId(Context context) {
-        if (SafetyCenterManagerWrapper.get().isEnabled(context)) {
-            return R.xml.privacy_advanced_settings;
-        } else {
             return R.xml.privacy_dashboard_settings;
-        }
     }
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(
