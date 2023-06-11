@@ -111,7 +111,6 @@ public class HighlightablePreferenceGroupAdapter extends PreferenceGroupAdapter 
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder, int position) {
         super.onBindViewHolder(holder, position);
-        updateBackground(holder, position);
     }
 
     @VisibleForTesting

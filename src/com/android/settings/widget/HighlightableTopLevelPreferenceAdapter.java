@@ -90,7 +90,6 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
     public void onBindViewHolder(PreferenceViewHolder holder, int position) {
         super.onBindViewHolder(holder, position);
         mViewHolders.put(position, holder);
-        updateBackground(holder, position);
     }
 
     @VisibleForTesting
