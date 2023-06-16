@@ -2700,6 +2700,10 @@ Learn more at g.co/pixel/faceunlock."</string>
     <!-- Dialog message for forget confirmation dialog -->
     <string name="wifi_forget_dialog_message">All passwords for this network will be deleted</string>
 
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+
     <!-- Wi-Fi Advanced Settings --> <skip />
     <!-- Wi-Fi settings screen, Saved networks summary.  This shows below the "Saved networks" item and indicates the number of networks, not including passpoint network, a user has saved. [CHAR LIMIT=30] -->
     <plurals name="wifi_saved_access_points_summary">
