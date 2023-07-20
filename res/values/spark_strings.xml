@@ -314,6 +314,11 @@
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
 
+        <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>

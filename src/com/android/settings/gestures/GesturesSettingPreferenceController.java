@@ -69,6 +69,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
 
         controllers.add(new AssistGestureSettingsPreferenceController(context, FAKE_PREF_KEY)
                 .setAssistOnly(false));
+	controllers.add(new DoubleTapAmbientPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new SwipeToNotificationPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new DoubleTwistPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new DoubleTapPowerPreferenceController(context, FAKE_PREF_KEY));
