@@ -40,6 +40,16 @@
         android:defaultValue="1"
         settings:interval="1"/>
 
+    <!-- QS tile haptics intensity -->
+    <com.spark.settings.preferences.CustomSeekBarPreference
+        android:key="qs_panel_tile_haptic"
+        android:title="@string/qs_panel_tile_haptic_intensity_title"
+        android:order="-997"
+        android:max="5"
+        settings:min="0"
+        android:defaultValue="0"
+        settings:interval="1" />
+        
     <!-- Edge scrolling intensity -->
     <com.spark.settings.preferences.CustomSeekBarPreference
         android:key="edge_scrolling_haptics_intensity"
@@ -49,6 +59,7 @@
         settings:min="0"
         android:defaultValue="3"
         settings:interval="1"/>
+
 
     <!-- Volume slider intensity -->
     <com.spark.settings.preferences.CustomSeekBarPreference
