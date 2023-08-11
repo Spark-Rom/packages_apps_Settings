@@ -28,5 +28,5 @@
         android:width="@dimen/dashboard_tile_foreground_image_size"
         android:height="@dimen/dashboard_tile_foreground_image_size"
         android:gravity="center"
-        android:drawable="@drawable/ic_phone_info" />
+        android:drawable="@drawable/ic_settings_about_device" />
 </layer-list>
