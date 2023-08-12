@@ -259,8 +259,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 	    if (key.equals("top_level_usercard")){
 	        preference.setLayoutResource(R.layout.usercard);
             } else if (key.equals("top_level_network")
+                || key.equals("top_level_notifications")
             	|| key.equals("top_level_fireworks")
-            	|| key.equals("top_level_apps")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")){
                 preference.setLayoutResource(R.layout.top_level_preference_top);
@@ -268,8 +268,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
-            	|| key.equals("top_level_storage")
-            	|| key.equals("top_level_notifications")){
+            	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
             } else if (key.equals("top_level_about_device")){
                 preference.setLayoutResource(isDefault ? R.layout.top_level_preference_bottom : (isLarge ? R.layout.top_level_preference_about_high : R.layout.top_level_preference_about));
@@ -298,7 +297,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 // nothing to do here
             } else if (key.equals("top_level_network")
             	|| key.equals("top_level_fireworks")
-            	|| key.equals("top_level_apps")
+            	|| key.equals("top_level_notifications")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")){
                 preference.setLayoutResource(R.layout.top_level_preference_oos_top);
@@ -306,8 +305,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
-            	|| key.equals("top_level_storage")
-            	|| key.equals("top_level_notifications")){
+            	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_oos_middle);
             } else if (key.equals("top_level_about_device")){
                 preference.setLayoutResource(isDefault ? R.layout.top_level_preference_oos_bottom : (isLarge ? R.layout.top_level_preference_about_high : R.layout.top_level_preference_about));
@@ -363,7 +361,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 	        preference.setLayoutResource(R.layout.usercard_round);
             } else if (key.equals("top_level_network")
             	|| key.equals("top_level_fireworks")
-            	|| key.equals("top_level_apps")
+            	|| key.equals("top_level_notifications")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")){
                 preference.setLayoutResource(R.layout.top_level_preference_mt_top);
@@ -371,8 +369,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
-            	|| key.equals("top_level_storage")
-            	|| key.equals("top_level_notifications")){
+            	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_mt_middle);
             } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")
             	|| key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.home.TopLevelSettingsActivity")
@@ -401,7 +398,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 	        preference.setLayoutResource(R.layout.usercard_round_circle);
             } else if (key.equals("top_level_network")
             	|| key.equals("top_level_fireworks")
-            	|| key.equals("top_level_apps")
+            	|| key.equals("top_level_notifications")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")){
                 preference.setLayoutResource(R.layout.top_level_preference_top_card);
@@ -409,8 +406,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
-            	|| key.equals("top_level_storage")
-            	|| key.equals("top_level_notifications")){
+            	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle_card);
             } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")
             	|| key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.home.TopLevelSettingsActivity")
