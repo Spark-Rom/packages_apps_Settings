@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fireworks -->
+    <string name="fireworks_title">Fireworks</string>
+    <string name="build_tweaks_summary_title">自定义及更多！</string>
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">Version</string>
+    <string name="about_device_info">Spark 设备</string>
+    <string name="spark_device_title">设备</string>
+    <string name="spark_build_version_title">构建版本</string>
+    <string name="spark_build_date_title">构建日期</string>
+    <string name="wellbeing_title">Google 健康</string>
+    <string name="gesture_illustration_description">轻松控制您的设备。</string>
+    <string name="connected_setting_description">管理您的设备连接。</string>
+    <string name="accessibility_illustration_description">方便每个人的访问功能。</string>
+    <string name="account_illustration_description">管理您的密码和用户帐户。</string>
+    <string name="display_illustration_description">调整显示配置，如亮度、颜色等。</string>
+    <string name="wifi_illustration_description">管理网络连接、DNS 供应商、热点等。</string>
+    <string name="sec_illustration_description">安全和保护您的设备。</string>
+    <string name="sound_illustration_description">配置设备铃声、音量和界面声音。</string>
+    <string name="privacy_illustration_description">管理设备的隐私访问/信息。</string>
+    <string name="system_illustration_description">配置系统语言、日期、时间、手势等。</string>
+    <string name="apps_illustration_description">管理已安装的应用程序（默认应用程序）、检查具有特殊访问权限的应用程序、启用或禁用应用程序等。</string>
+    <string name="battery_illustration_description">监视电池健康、使用情况并提高电池使用率。</string>
+    <string name="connectivity_category_title">连接</string>
+    <string name="navbar_gesture_custom">自定义导航手势</string>
+    <string name="usercard_summary">Current active user, tap for more information</string>
+    <!-- About page -->
+    <string name="battery">电池</string>
+    <string name="display">显示</string>
+    <string name="storage">存储</string>
+    <string name="chipset">处理器</string>
+    <!-- About phone cards -->
+    <string name="about_device_nearby">设备名称会被附近的设备看到。</string>
+    <string name="about_device_version_type_gapps">Pixel</string>
+    <string name="about_device_version_type_vanilla">原版</string>
+    <string name="version">SparkOS</string>
+    <string name="edit">编辑</string>
+    <string name="device_name">设备名称</string>
+    <string name="about_us_info_category_title">关于我们</string>
+    <string name="spark_revision">Spark 版本</string>
+    <string name="spark_model_info">设备信息</string>
+    <string name="dashboard_morning1">积极地开始新的一天！</string>
+    <string name="dashboard_morning2">太阳升起来了！</string>
+    <string name="dashboard_morning3">一个不错的早晨...</string>
+    <string name="dashboard_morning4">又活了一天..</string>
+    <string name="dashboard_morning5">新的一天..</string>
+    <string name="dashboard_morning_greeting1">早上好</string>
+    <string name="dashboard_morning_greeting2">今天好</string>
+    <string name="dashboard_noon1">好好生活。</string>
+    <string name="dashboard_noon2">享受夕阳西下。</string>
+    <string name="dashboard_noon3">欢迎回家..</string>
+    <string name="dashboard_noon4">享受这一天！</string>
+    <string name="dashboard_noon5">欢迎回来..</string>
+    <string name="dashboard_noon_greeting1">下午好</string>
+    <string name="dashboard_early_night1">夜幕降临..</string>
+    <string name="dashboard_early_night2">晚餐时间到！</string>
+    <string name="dashboard_early_night_greeting1">晚上好</string>
+    <string name="dashboard_night3">祝你好梦！</string>
+    <string name="dashboard_night4">现在该睡觉了..</string>
+    <string name="dashboard_night5">睡个好觉！</string>
+    <string name="dashboard_night_greetings1">晚安</string>
+    <string name="dashboard_midnight1">享受静谧..</string>
+    <string name="dashboard_midnight2">您需要帮助...</string>
+    <string name="dashboard_midnight3">去睡一会..</string>
+    <string name="dashboard_midnight4">休息一下..</string>
+    <string name="dashboard_midnight5">晚睡了？</string>
+    <string name="dashboard_random1">嘿</string>
+    <string name="dashboard_random2">您好</string>
+    <string name="dashboard_random3">嗨</string>
+    <string name="dashboard_random4">今天好</string>
+    <string name="dashboard_random5">您好呀</string>
+    <string name="dashboard_random6">怎么了</string>
+    <string name="dashboard_random_greetings1">尝试找到一些复活节彩蛋！</string>
+    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings3">尝试使用搜索栏！</string>
+    <string name="dashboard_random_greetings4">Want some soda?</string>
+    <string name="settings_random1">正在找什么？</string>
+    <string name="settings_random2">找到你就会看到</string>
+    <string name="settings_random3">寻找，你就会找到</string>
+    <string name="settings_random4">发现者守护者</string>
+    <string name="settings_random5">搜索设置</string>
+    <string name="settings_random6">你找不到不存在的东西！</string>
+    <string name="default_user">用户</string>
+    <string name="build_status">构建状态</string>
+    <string name="build_status_summary_placeholder">怎么了?</string>
+    <string name="build_is_official_title">设备已被正式支持！</string>
+    <string name="build_is_community_title">设备未被正式支持！</string>
+    <string name="build_is_official_summary">%s 用爱建造</string>
+    <string name="build_is_official_summary_oopsie">但是谁制作了此构建？</string>
+    <string name="build_is_community_summary">由 %s 创建的非官方版本</string>
+    <string name="build_is_community_summary_oopsie">喂！请告诉构建者他/她忘了添加所需的构建标志！</string>
+    <string name="top_level_settings_title">设置</string>
+    <string name="my_device_settings">我的设备</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">显示历史通知记录</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">不到 1 分钟</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今日 %1$s</string>
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏的网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称将不会出现在可用的 WLAN 网络列表中。</string>
+    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">已连接设备的限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">被屏蔽的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将会断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与本设备的连接，并将其添加到屏蔽列表中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解封设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">最多可以有 <xliff:g id="device_num">%1$d</xliff:g> 个设备连接到这个热点上</item>
+    </plurals>
+    <!-- APK details on App info screen -->
+    <string name="app_info_install_time">安装时间：%1$s</string>
+    <string name="app_info_update_time">更新时间：%1$s</string>
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按复制</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">来电振动样式</string>
+    <string name="pattern_dzzz_dzzz">滋滋</string>
+    <string name="pattern_dzzz_da">滋哒</string>
+    <string name="pattern_mm_mm_mm">嗡嗡嗡</string>
+    <string name="pattern_da_da_dzzz">哒哒滋</string>
+    <string name="pattern_da_dzzz_da">哒滋哒</string>
+    <string name="pattern_custom">自定义</string>
+    <string name="custom_vibration_pattern_title">自定义样式</string>
+    <string name="custom_vibration_pattern_summary">设置自定义振动样式</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">自定义振动样式</string>
+    <string name="notification_custom_vibrate_summary">仅替换默认模式\n应用程序自身的模式设置优先</string>
+    <string name="notification_custom_vibrate_slider1">振动</string>
+    <string name="notification_custom_vibrate_slider2">暂停</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">在连接时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">滑动截屏</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">手势导航栏长度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">长</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">手势导航栏半径</string>
+    <string name="thin_label">细</string>
+    <string name="thick_label">粗</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">完整</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_height_title">返回手势高度</string>
+    <string name="back_height_summary">屏幕高度适用于返回手势</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">显示返回手势的动画箭头</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary_auto">如果没有网络连接，WiFi 将在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭</string>
+    <string name="bluetooth_timeout">蓝牙连接超时</string>
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary_auto">如果没有连接设备，蓝牙将在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭</string>
+    <string name="custom_timeout_summary_never">一律不</string>
+    <string name="custom_timeout_summary_5secs">5 秒</string>
+    <string name="custom_timeout_summary_10secs">10 秒</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1分钟</string>
+    <string name="custom_timeout_summary_2mins">2 分钟</string>
+    <string name="custom_timeout_summary_5mins">5分钟</string>
+    <string name="custom_timeout_summary_10mins">10 分钟</string>
+    <string name="custom_timeout_summary_20mins">20 分钟</string>
+    <string name="custom_timeout_summary_30mins">30 分钟</string>
+    <string name="custom_timeout_summary_1hour">1 小时</string>
+    <string name="custom_timeout_summary_2hours">2 小时</string>
+    <string name="custom_timeout_summary_4hours">4 小时</string>
+    <string name="custom_timeout_summary_8hours">8 小时</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">截图声音</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">自适应播放</string>
+    <string name="adaptive_playback_master_switch_title">使用自适应播放</string>
+    <string name="adaptive_playback_disabled_summary">已关闭</string>
+    <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复。</string>
+    <string name="adaptive_playback_timeout_title">指定时间内解除自动续播</string>
+    <string name="adaptive_playback_timeout_none">不限时</string>
+    <string name="adaptive_playback_timeout_none_summary">开启 (无超时)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分钟</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1 分钟)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启(2分钟)</string>
+    <string name="adaptive_playback_timeout_5_min">5分钟</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启(5分钟)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启(10分钟)</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">显示悬浮剪贴板</string>
+    <string name="show_clipboard_overlay_summary">当复制某些内容时，在屏幕的左下角显示悬浮剪贴板</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">应用独立音量</string>
+    <string name="app_volume_title">每个应用的音量单独控制</string>
+    <string name="app_volume_summary">允许为每个应用设置不同的音量级别</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
+    <!-- App lock -->
+    <string name="app_lock_title">应用锁</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> 应用程序受到保护</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">解锁</string>
+    <string name="enable_debugging">启用调试</string>
+    <string name="disable_debugging">禁用调试</string>
+    <string name="app_lock_packages_title">受保护的应用</string>
+    <string name="app_lock_packages_summary">选择要使用生物识别或设备凭据保护的应用</string>
+    <string name="app_lock_timeout_title">超时自动锁定</string>
+    <string name="app_lock_timeout_summary">一段时间后，后台解锁的应用程序应被锁定</string>
+    <string name="app_lock_notifications_title">编辑通知</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">首先保护应用程序</string>
+    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
+    <string name="app_lock_footer_text">超时后气泡会自动消失</string>
+    <string name="enable_protection">启用保护</string>
+    <string name="hide_from_launcher_title">从启动器中隐藏</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时一直开启</string>
+    <string name="doze_on_charge_summary">充电时一直处于息屏显示</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">深度睡眠</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">隐藏输入法按键空间</string>
+    <string name="navigation_bar_ime_space_summary">隐藏键盘下方输入法按键空间</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">忽略安全窗口标志</string>
+    <string name="ignore_window_secure_summary">移除所有应用程序的截图和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">System haptics</string>
+    <string name="haptics_settings_summary">Modify system haptics intensities</string>
+    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
+    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
+    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
+    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+</resources>

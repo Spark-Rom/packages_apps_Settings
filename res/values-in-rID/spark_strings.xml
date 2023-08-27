@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fireworks -->
+    <string name="fireworks_title">Fireworks</string>
+    <string name="build_tweaks_summary_title">Kustomisasi dan lainnya!</string>
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">Versi SparkOS</string>
+    <string name="about_device_info">Perangkat Spark</string>
+    <string name="spark_device_title">Perangkat</string>
+    <string name="spark_build_version_title">Versi Build</string>
+    <string name="spark_build_date_title">Tanggal Build</string>
+    <string name="wellbeing_title">Kesehatan Digital Google</string>
+    <string name="gesture_illustration_description">Kontrol perangkat Anda dengan mudah.</string>
+    <string name="connected_setting_description">Kelola koneksi perangkat Anda.</string>
+    <string name="accessibility_illustration_description">Kemudahan fitur akses untuk semua orang.</string>
+    <string name="account_illustration_description">Kelola kata sandi dan akun pengguna Anda.</string>
+    <string name="display_illustration_description">Sesuaikan konfigurasi tampilan seperti kecerahan, warna, dll.</string>
+    <string name="wifi_illustration_description">Kelola koneksi jaringan, penyedia DNS, hotspot, dll.</string>
+    <string name="sec_illustration_description">Amankan dan lindungi perangkat Anda.</string>
+    <string name="sound_illustration_description">Konfigurasikan nada dering perangkat, volume, dan suara UI.</string>
+    <string name="privacy_illustration_description">Kelola akses/informasi privasi untuk perangkat Anda.</string>
+    <string name="system_illustration_description">Konfigurasikan bahasa sistem, tanggal, waktu, gestur, dan lainnya.</string>
+    <string name="apps_illustration_description">Kelola aplikasi yang diinstal, yang merupakan aplikasi default, periksa aplikasi dengan akses khusus, aktifkan atau nonaktifkan aplikasi, dll. </string>
+    <string name="battery_illustration_description">Pantau kesehatan baterai, penggunaan, dan tingkatkan penggunaan baterai.</string>
+    <string name="connectivity_category_title">Konektivitas</string>
+    <string name="navbar_gesture_custom">Kustomisasi Gestur Navigasi</string>
+    <string name="usercard_summary">Pemilik perangkat</string>
+    <!-- About page -->
+    <string name="battery">Baterai</string>
+    <string name="display">Tampilan</string>
+    <string name="storage">Penyimpanan</string>
+    <string name="chipset">Prosesor</string>
+    <!-- About phone cards -->
+    <string name="about_device_nearby">Nama perangkat dapat dan akan dilihat oleh perangkat terdekat.</string>
+    <string name="about_device_version_type_gapps">Pixel</string>
+    <string name="about_device_version_type_vanilla">Vanilla</string>
+    <string name="version">SparkOS</string>
+    <string name="edit">Edit</string>
+    <string name="device_name">Nama perangkat</string>
+    <string name="about_us_info_category_title">Tentang Kami</string>
+    <string name="spark_revision">Revisi Spark</string>
+    <string name="spark_model_info">Informasi perangkat</string>
+    <string name="dashboard_morning1">Mulailah harimu dengan positif!</string>
+    <string name="dashboard_morning2">Matahari sudah terbit!</string>
+    <string name="dashboard_morning3">Pagi yang indah</string>
+    <string name="dashboard_morning4">Hari lain untuk hidup...</string>
+    <string name="dashboard_morning5">A new day..</string>
+    <string name="dashboard_morning_greeting1">Selamat pagi</string>
+    <string name="dashboard_morning_greeting2">Hari yang indah</string>
+    <string name="dashboard_noon1">Live your life.</string>
+    <string name="dashboard_noon2">Nikmati senjamu!</string>
+    <string name="dashboard_noon3">Selamat datang</string>
+    <string name="dashboard_noon4">Nikmati harimu!</string>
+    <string name="dashboard_noon5">Selamat datang kembali!</string>
+    <string name="dashboard_noon_greeting1">Selamat siang</string>
+    <string name="dashboard_early_night1">Malam akan datang..</string>
+    <string name="dashboard_early_night2">Waktunya makan malam!</string>
+    <string name="dashboard_early_night_greeting1">Good Evening</string>
+    <string name="dashboard_night3">Sweet Dreams!</string>
+    <string name="dashboard_night4">Time to sleep now..</string>
+    <string name="dashboard_night5">Sleep tight!</string>
+    <string name="dashboard_night_greetings1">Good Night</string>
+    <string name="dashboard_midnight1">Enjoy the silence..</string>
+    <string name="dashboard_midnight2">You need help..</string>
+    <string name="dashboard_midnight3">Get some sleep..</string>
+    <string name="dashboard_midnight4">Take rest..</string>
+    <string name="dashboard_midnight5">Sleeping late?</string>
+    <string name="dashboard_random1">Hey</string>
+    <string name="dashboard_random2">Halo</string>
+    <string name="dashboard_random3">Hai</string>
+    <string name="dashboard_random4">Hari yang indah</string>
+    <string name="dashboard_random5">Howdy</string>
+    <string name="dashboard_random6">Apa kabar?</string>
+    <string name="dashboard_random_greetings1">Try to find some easter eggs!</string>
+    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings3">Try using the search bar!</string>
+    <string name="dashboard_random_greetings4">Hai, capek ya?</string>
+    <string name="settings_random1">Searching for something?</string>
+    <string name="settings_random2">Find and you shall see</string>
+    <string name="settings_random3">Seek and you shall find</string>
+    <string name="settings_random4">Finders keepers</string>
+    <string name="settings_random5">Pencarian setelan</string>
+    <string name="settings_random6">You can\'t find something that doesn\'t exists!</string>
+    <string name="default_user">Pengguna</string>
+    <string name="build_status">Status Build</string>
+    <string name="build_status_summary_placeholder">Apa yang baru?</string>
+    <string name="build_is_official_title">Perangkat didukung secara resmi!</string>
+    <string name="build_is_community_title">Perangkat tidak didukung secara resmi!</string>
+    <string name="build_is_official_summary">Dibangun dengan cinta oleh %s</string>
+    <string name="build_is_official_summary_oopsie">tapi, siapa yang membuat build ini?</string>
+    <string name="build_is_community_summary">Build tidak resmi oleh %s</string>
+    <string name="build_is_community_summary_oopsie">Psst! Tolong beri tahu pembangun bahwa dia lupa menambahkan build flags yang diperlukan!</string>
+    <string name="top_level_settings_title">Setelan</string>
+    <string name="my_device_settings">Perangkat saya</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Tampilkan log riwayat notifikasi</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot seluler Anda tidak akan muncul dalam daftar jaringan WiFi yang tersedia.</string>
+    <string name="wifi_hotspot_client_manager_title">Perangkat terhubung</string>
+    <string name="wifi_hotspot_client_manager_summary">Daftar dan kelola perangkat yang terhubung ke hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Daftar perangkat yang terhubung ke hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Batas perangkat yang terhubung</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Perangkat Diblokir</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Perangkat Terhubung</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokir perangkat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tindakan ini akan memutuskan \"<xliff:g id="device_name">%1$s</xliff:g>\" dari perangkat ini dan menambahkannya ke daftar blokir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat ini \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Hingga <xliff:g id="device_num">%1$d</xliff:g> perangkat dapat terhubung ke hotspot ini</item>
+    </plurals>
+    <!-- APK details on App info screen -->
+    <string name="app_info_install_time">Terpasang: %1$s</string>
+    <string name="app_info_update_time">Diperbarui: %1$s</string>
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">Disalin ke papan klip</string>
+    <string name="longpress_to_clipboard">Tekan lama untuk menyalin</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Pola getaran nada dering</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Kustom</string>
+    <string name="custom_vibration_pattern_title">Pola kustom</string>
+    <string name="custom_vibration_pattern_summary">Setel pola getaran kustom</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Pola getaran kustom</string>
+    <string name="notification_custom_vibrate_summary">Menggantikan pola default saja\nPola kumpulan aplikasi diutamakan</string>
+    <string name="notification_custom_vibrate_slider1">Bergetar untuk</string>
+    <string name="notification_custom_vibrate_slider2">Jeda untuk</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
+    <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Gesek untuk menangkap layar</string>
+    <string name="swipe_to_screenshot_gesture_summary">Gesek tiga jari untuk mengambil tangkapan layar</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Panjang gestur bilah navigasi</string>
+    <string name="short_label">Pendek</string>
+    <string name="long_label">Panjang</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
+    <string name="thin_label">Tipis</string>
+    <string name="thick_label">Tebal</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Penuh</string>
+    <string name="back_height_high_label">Bawah</string>
+    <string name="back_height_title">Tinggi gestur kembali</string>
+    <string name="back_height_summary">Tinggi layar berlaku untuk gestur kembali</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animasi gestur kembali</string>
+    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
+    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada gestur kembali</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteksi Saku</string>
+    <string name="pocket_judge_summary">Blokir sentuh tombol dan layar saat perangkat berada dalam saku</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Batas waktu WiFi</string>
+    <string name="wifi_timeout_summary">Jangan nonaktifkan WiFi secara otomatis</string>
+    <string name="wifi_timeout_summary_auto">WiFi akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Jangan nonaktifkan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
+    <string name="custom_timeout_summary_never">Tidak pernah</string>
+    <string name="custom_timeout_summary_5secs">5 detik</string>
+    <string name="custom_timeout_summary_10secs">10 detik</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_20mins">20 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Suara notifikasi jika aktif</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi saat layar hidup</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Buka kunci cepat</string>
+    <string name="unlock_quick_unlock_control_summary">Buka kunci secara otomatis ketika PIN/kata sandi yang benar dimasukkan</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Jeda Cerdas</string>
+    <string name="adaptive_playback_master_switch_title">Gunakan Jeda Cerdas</string>
+    <string name="adaptive_playback_disabled_summary">Nonaktif</string>
+    <string name="adaptive_playback_intro_text">Secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Aktif (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Aktif (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Aktif (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Tampilkan hamparan papan klip</string>
+    <string name="show_clipboard_overlay_summary">Tampilkan hamparan di sudut kiri bawah layar ketika sesuatu disalin ke papan klip</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">Volume aplikasi</string>
+    <string name="app_volume_title">Kontrol volume per aplikasi</string>
+    <string name="app_volume_summary">Tampilkan tombol volume per aplikasi ke dalam dialog volume</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Kunci Aplikasi</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikasi dilindungi</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Buka</string>
+    <string name="enable_debugging">Aktifkan debugging</string>
+    <string name="disable_debugging">Nonaktifkan debugging</string>
+    <string name="app_lock_packages_title">Aplikasi dilindungi</string>
+    <string name="app_lock_packages_summary">Pilih aplikasi yang akan dilindungi dengan biometrik atau kredensial perangkat</string>
+    <string name="app_lock_timeout_title">Batas waktu penguncian otomatis</string>
+    <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi yang tidak terkunci di latar belakang harus dikunci</string>
+    <string name="app_lock_notifications_title">Nonaktifkan notifikasi</string>
+    <string name="app_lock_notifications_summary">Konten notifikasi akan disembunyikan dan diciutkan untuk aplikasi yang dipilih saat dikunci. Notifikasi mengambang akan dinonaktifkan secara otomatis.</string>
+    <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
+    <string name="app_lock_biometrics_allowed_title">Aktifkan biometrik untuk membuka kunci</string>
+    <string name="app_lock_footer_text">Gelembung akan ditutup secara otomatis setelah waktu habis</string>
+    <string name="enable_protection">Aktifkan perlindungan</string>
+    <string name="hide_from_launcher_title">Sembunyikan dari peluncur</string>
+    <string name="hide_from_launcher_summary">Cegah aplikasi ini muncul di peluncur apa pun. Membutuhkan mulai ulang peluncur agar perubahan diterapkan.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Tidur nyenyak</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Sembunyikan ruang tombol IME</string>
+    <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Abaikan hamparan pengaman privasi</string>
+    <string name="ignore_window_secure_summary">Hapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Hal ini bisa memudahkan dalam beberapa kasus, tetapi bisa menyebabkan kebocoran privasi.</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">System haptics</string>
+    <string name="haptics_settings_summary">Modify system haptics intensities</string>
+    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
+    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
+    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
+    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+</resources>

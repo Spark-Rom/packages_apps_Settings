@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fireworks -->
+    <string name="fireworks_title">Fireworks</string>
+    <string name="build_tweaks_summary_title">追加のカスタマイズなどをしましょう!</string>
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">バージョン</string>
+    <string name="about_device_info">Spark Device</string>
+    <string name="spark_device_title">端末</string>
+    <string name="spark_build_version_title">ビルド番号</string>
+    <string name="spark_build_date_title">ビルド日時</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="gesture_illustration_description">端末を簡単に制御します</string>
+    <string name="connected_setting_description">端末の接続を管理します</string>
+    <string name="accessibility_illustration_description">簡単なアクセス機能</string>
+    <string name="account_illustration_description">アカウントとパスワードを管理します</string>
+    <string name="display_illustration_description">明るさ、色などの表示設定を調整します</string>
+    <string name="wifi_illustration_description">ネットワーク接続やDNSプロバイダー、ホットスポットなどを管理します</string>
+    <string name="sec_illustration_description">端末を安全に保護します</string>
+    <string name="sound_illustration_description">端末の着信音や音量、UIサウンドを設定します</string>
+    <string name="privacy_illustration_description">端末のプライバシーアクセス/情報を管理します</string>
+    <string name="system_illustration_description">システム言語、日付、時刻、ジェスチャーなどを設定します</string>
+    <string name="apps_illustration_description">インストールされているアプリのデフォルトアプリの設定や特別なアクセス権限などの管理をします</string>
+    <string name="battery_illustration_description">バッテリーの状態をモニターし、バッテリー使用量を改善します</string>
+    <string name="connectivity_category_title">接続</string>
+    <string name="navbar_gesture_custom">ナビゲーションジェスチャーのカスタマイズ</string>
+    <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
+    <!-- About page -->
+    <string name="battery">バッテリー</string>
+    <string name="display">ディスプレイ</string>
+    <string name="storage">ストレージ</string>
+    <string name="chipset">チップセット</string>
+    <!-- About phone cards -->
+    <string name="about_device_nearby">端末名は近くの端末に表示されます</string>
+    <string name="about_device_version_type_gapps">Pixel</string>
+    <string name="about_device_version_type_vanilla">Vanilla</string>
+    <string name="version">SparkOS</string>
+    <string name="edit">編集</string>
+    <string name="device_name">端末名</string>
+    <string name="about_us_info_category_title">About Us</string>
+    <string name="spark_revision">Spark Revision</string>
+    <string name="spark_model_info">端末情報</string>
+    <string name="dashboard_morning1">Start your day positively!</string>
+    <string name="dashboard_morning2">The Sun is up!</string>
+    <string name="dashboard_morning3">A nice morning..</string>
+    <string name="dashboard_morning4">Another day to live..</string>
+    <string name="dashboard_morning5">A new day..</string>
+    <string name="dashboard_morning_greeting1">Good Morning</string>
+    <string name="dashboard_morning_greeting2">Good day</string>
+    <string name="dashboard_noon1">Live your life.</string>
+    <string name="dashboard_noon2">Enjoy the Sunset.</string>
+    <string name="dashboard_noon3">Welcome Home..</string>
+    <string name="dashboard_noon4">Enjoy the day!</string>
+    <string name="dashboard_noon5">Welcome back..</string>
+    <string name="dashboard_noon_greeting1">Good Afternoon</string>
+    <string name="dashboard_early_night1">The night is coming..</string>
+    <string name="dashboard_early_night2">Time for dinner!</string>
+    <string name="dashboard_early_night_greeting1">Good Evening</string>
+    <string name="dashboard_night3">Sweet Dreams!</string>
+    <string name="dashboard_night4">Time to sleep now..</string>
+    <string name="dashboard_night5">Sleep tight!</string>
+    <string name="dashboard_night_greetings1">Good Night</string>
+    <string name="dashboard_midnight1">Enjoy the silence..</string>
+    <string name="dashboard_midnight2">You need help..</string>
+    <string name="dashboard_midnight3">Get some sleep..</string>
+    <string name="dashboard_midnight4">Take rest..</string>
+    <string name="dashboard_midnight5">Sleeping late?</string>
+    <string name="dashboard_random1">Hey</string>
+    <string name="dashboard_random2">Hello</string>
+    <string name="dashboard_random3">Hi</string>
+    <string name="dashboard_random4">Good day</string>
+    <string name="dashboard_random5">Howdy</string>
+    <string name="dashboard_random6">What\'s up</string>
+    <string name="dashboard_random_greetings1">Try to find some easter eggs!</string>
+    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings3">Try using the search bar!</string>
+    <string name="dashboard_random_greetings4">Want some soda?</string>
+    <string name="settings_random1">Searching for something?</string>
+    <string name="settings_random2">Find and you shall see</string>
+    <string name="settings_random3">Seek and you shall find</string>
+    <string name="settings_random4">Finders keepers</string>
+    <string name="settings_random5">Search settings</string>
+    <string name="settings_random6">You can\'t find something that doesn\'t exists!</string>
+    <string name="default_user">ユーザー</string>
+    <string name="build_status">Build Status</string>
+    <string name="build_status_summary_placeholder">What\'s up?</string>
+    <string name="build_is_official_title">公式にサポートされているデバイスです</string>
+    <string name="build_is_community_title">公式にサポートされているデバイスではありません</string>
+    <string name="build_is_official_summary">%s がビルドしました</string>
+    <string name="build_is_official_summary_oopsie">ビルドした人</string>
+    <string name="build_is_community_summary">%s による非公式ビルド</string>
+    <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add required build flags!</string>
+    <string name="top_level_settings_title">設定</string>
+    <string name="my_device_settings">My device</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">通知履歴を表示します</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1分未満</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">本日: %1$s</string>
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
+    <string name="wifi_hotspot_client_manager_title">接続済みのデバイス</string>
+    <string name="wifi_hotspot_client_manager_summary">ホットスポットへ接続済みの端末のリストと管理、クライアント数の上限を設定します。</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続された端末一覧</string>
+    <string name="wifi_hotspot_client_limit_title">接続する端末の上限数</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みの端末</string>
+    <string name="wifi_hotspot_connected_clients_list_title">接続された端末</string>
+    <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
+    <string name="wifi_hotspot_block_client_dialog_text">この操作によりこの端末から \"<xliff:g id="device_name">%1$s</xliff:g>\" を切断しブロックリストに追加します</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
+    <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">最大<xliff:g id="device_num">%1$d</xliff:g>台の端末がこのホットポットに接続できます</item>
+    </plurals>
+    <!-- APK details on App info screen -->
+    <string name="app_info_install_time">インストール日時: %1$s</string>
+    <string name="app_info_update_time">更新日時: %1$s</string>
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="longpress_to_clipboard">長押しでコピー</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">着信音の振動パターン</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">振動パターンをカスタマイズします</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">カスタムバイブパターン</string>
+    <string name="notification_custom_vibrate_summary">デフォルトのパターンを変更します\nアプリの設定パターンが優先されます</string>
+    <string name="notification_custom_vibrate_slider1">Vibrate for</string>
+    <string name="notification_custom_vibrate_slider2">Pause for</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中の振動オプション</string>
+    <string name="incall_vibrate_connect_title">接続時に振動</string>
+    <string name="incall_vibrate_call_wait_title">割込通話時に振動</string>
+    <string name="incall_vibrate_disconnect_title">切断時に振動</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
+    <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">ジェスチャーバーの長さ</string>
+    <string name="short_label">短い</string>
+    <string name="long_label">長い</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">ピルの丸みの半径</string>
+    <string name="thin_label">細い</string>
+    <string name="thick_label">太い</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全画面</string>
+    <string name="back_height_high_label">下部</string>
+    <string name="back_height_title">戻るジェスチャーの範囲</string>
+    <string name="back_height_summary">画面内で戻るジェスチャーが有効な範囲</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">戻るジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">触覚フィードバック</string>
+    <string name="back_gesture_haptic_summary">戻るジェスチャー時の触覚フィードバックを有効にします</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
+    <string name="wifi_timeout_summary_auto">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>秒後に Wi-Fi をオフにします</string>
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth はオフになります</string>
+    <string name="bluetooth_timeout_summary_auto">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>秒後に Bluetooth をオフにします</string>
+    <string name="custom_timeout_summary_never">なし</string>
+    <string name="custom_timeout_summary_5secs">5秒</string>
+    <string name="custom_timeout_summary_10secs">10秒</string>
+    <string name="custom_timeout_summary_15secs">15秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分</string>
+    <string name="custom_timeout_summary_2mins">2分</string>
+    <string name="custom_timeout_summary_5mins">5分</string>
+    <string name="custom_timeout_summary_10mins">10分</string>
+    <string name="custom_timeout_summary_20mins">20分</string>
+    <string name="custom_timeout_summary_30mins">30分</string>
+    <string name="custom_timeout_summary_1hour">1時間</string>
+    <string name="custom_timeout_summary_2hours">2時間</string>
+    <string name="custom_timeout_summary_4hours">4時間</string>
+    <string name="custom_timeout_summary_8hours">8時間</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">画面点灯中の通知の音楽</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音とバイブを鳴らす</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">アダプティブ再生</string>
+    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_intro_text">音量をミュートにした時はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
+    <string name="adaptive_playback_timeout_title">使用時間</string>
+    <string name="adaptive_playback_timeout_none">制限なし</string>
+    <string name="adaptive_playback_timeout_none_summary">ON (制限なし)</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ON (1分)</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ON (2分)</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">クリップボードをオーバーレイ表示</string>
+    <string name="show_clipboard_overlay_summary">クリップボードにコピーされた時、画面の左下にコピー内容をオーバーレイで表示します</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">アプリの音量</string>
+    <string name="app_volume_title">アプリごとの音量調節</string>
+    <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
+    <!-- App lock -->
+    <string name="app_lock_title">アプリロック</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g>個のアプリが保護されています</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">ロック解除して続行</string>
+    <string name="enable_debugging">デバッグを有効にする</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">アプリの保護</string>
+    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
+    <string name="app_lock_timeout_title">アプリを自動ロックするまでの時間</string>
+    <string name="app_lock_timeout_summary">ロック解除されたアプリがバックグラウンドで再ロックされるまでの時間</string>
+    <string name="app_lock_notifications_title">ロックされたアプリの通知の消去</string>
+    <string name="app_lock_notifications_summary">         選択されたアプリがロックされると、通知の内容は非表示になり消去されます。
+         ポップアップ通知は自動的に無効化されます。
+     </string>
+    <string name="app_lock_notifications_disabled_summary">最初にアプリを保護します</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効にする</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">保護を有効にする</string>
+    <string name="hide_from_launcher_title">アプリアイコンの非表示</string>
+    <string name="hide_from_launcher_summary">        ランチャーでこのアプリが表示されないようにします。変更を適用するにはランチャーアプリの再起動が必要です。
+    </string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時の Always On Display</string>
+    <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Deep Sleep</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペースを非表示</string>
+    <string name="navigation_bar_ime_space_summary">キーボード下部の IME ボタンのスペースを非表示にする</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">セキュアウィンドウフラグを無視</string>
+    <string name="ignore_window_secure_summary">全てのアプリでスクリーンショットや画面録画の制限を解除します。役に立ちますが、プライバシーが漏洩する可能性があります。</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">System haptics</string>
+    <string name="haptics_settings_summary">Modify system haptics intensities</string>
+    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
+    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
+    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
+    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+</resources>
