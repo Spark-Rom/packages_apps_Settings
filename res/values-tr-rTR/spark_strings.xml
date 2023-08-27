@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fireworks -->
+    <string name="fireworks_title">SparkOS Ayarları</string>
+    <string name="build_tweaks_summary_title">Kişiselleştirme ve daha fazlası !</string>
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">Sürüm</string>
+    <string name="about_device_info">Spark Cihazı</string>
+    <string name="spark_device_title">Cihaz</string>
+    <string name="spark_build_version_title">Oluşturma sürümü</string>
+    <string name="spark_build_date_title">Oluşturma tarihi</string>
+    <string name="wellbeing_title">Google sağlık</string>
+    <string name="gesture_illustration_description">Cihazınızı kolaylıkla kontrol edin.</string>
+    <string name="connected_setting_description">Cihazınızın bağlantılarını yönetin.</string>
+    <string name="accessibility_illustration_description">Herkes için erişim kolaylığı özellikleri.</string>
+    <string name="account_illustration_description">Şifrelerinizi ve kullanıcı hesaplarınızı yönetin.</string>
+    <string name="display_illustration_description">Parlaklık, renkler vb. gibi ekran yapılandırmalarını ayarlayın.</string>
+    <string name="wifi_illustration_description">Ağ bağlantılarını, DNS sağlayıcılarını, etkin noktayı vb. yönetin.</string>
+    <string name="sec_illustration_description">Cihazınızı güvene alın ve koruyun.</string>
+    <string name="sound_illustration_description">Cihaz zil seslerini, ses düzeylerini ve kullanıcı arayüzü seslerini yapılandırın.</string>
+    <string name="privacy_illustration_description">Cihazınız için gizlilik erişimini/bilgilerini yönetin.</string>
+    <string name="system_illustration_description">Sistem dilini, tarihi, saati, hareketleri ve daha fazlasını yapılandırın.</string>
+    <string name="apps_illustration_description">Varsayılan uygulamalar olan yüklü uygulamaları yönetin, özel erişime sahip uygulamaları kontrol edin, uygulamaları etkinleştirin veya devre dışı bırakın vb. </string>
+    <string name="battery_illustration_description">Sistem dilini, tarihi, saati, hareketleri ve daha fazlasını yapılandırın.</string>
+    <string name="connectivity_category_title">bağlantı</string>
+    <string name="navbar_gesture_custom">Gezinme hareketleri özelleştirmeleri</string>
+    <string name="usercard_summary">Mevcut aktif kullanıcı, daha fazla bilgi için dokunun</string>
+    <!-- About page -->
+    <string name="battery">Pil</string>
+    <string name="display">Ekran</string>
+    <string name="storage">Depolama</string>
+    <string name="chipset">Yonga seti</string>
+    <!-- About phone cards -->
+    <string name="about_device_nearby">Cihaz adı yakındaki cihazlar tarafından görülebilir ve görülecektir.</string>
+    <string name="about_device_version_type_gapps">Pixel</string>
+    <string name="about_device_version_type_vanilla">Vanilla</string>
+    <string name="version">SparkOS</string>
+    <string name="edit">Düzenle</string>
+    <string name="device_name">Cihaz adı</string>
+    <string name="about_us_info_category_title">Hakkımızda</string>
+    <string name="spark_revision">Spark revizyonu</string>
+    <string name="spark_model_info">Cihaz bilgisi</string>
+    <string name="dashboard_morning1">Güne pozitif başlayın!</string>
+    <string name="dashboard_morning2">Güneş doğdu!</string>
+    <string name="dashboard_morning3">Güzel bir sabah..</string>
+    <string name="dashboard_morning4">Yaşanacak bir gün daha..</string>
+    <string name="dashboard_morning5">Yeni bir gün..</string>
+    <string name="dashboard_morning_greeting1">Günaydın</string>
+    <string name="dashboard_morning_greeting2">İyi günler</string>
+    <string name="dashboard_noon1">Hayatını yaşa.</string>
+    <string name="dashboard_noon2">Gün batımının tadını çıkar.</string>
+    <string name="dashboard_noon3">Eve hoşgeldin..</string>
+    <string name="dashboard_noon4">Günün keyfini çıkar!</string>
+    <string name="dashboard_noon5">Tekrar hoş geldin..</string>
+    <string name="dashboard_noon_greeting1">Tünaydın</string>
+    <string name="dashboard_early_night1">Gece geliyor..</string>
+    <string name="dashboard_early_night2">Akşam yemeği vakti!</string>
+    <string name="dashboard_early_night_greeting1">İyi akşamlar</string>
+    <string name="dashboard_night3">Tatlı rüyalar!</string>
+    <string name="dashboard_night4">Şimdi uyku zamanı..</string>
+    <string name="dashboard_night5">İyi uykular!</string>
+    <string name="dashboard_night_greetings1">İyi geceler</string>
+    <string name="dashboard_midnight1">Sessizliğin tadını çıkar..</string>
+    <string name="dashboard_midnight2">Yardıma ihtiyacın var..</string>
+    <string name="dashboard_midnight3">Biraz uyu..</string>
+    <string name="dashboard_midnight4">Dinlen..</string>
+    <string name="dashboard_midnight5">Geç uyumak?</string>
+    <string name="dashboard_random1">Hey</string>
+    <string name="dashboard_random2">Merhaba</string>
+    <string name="dashboard_random3">Selam</string>
+    <string name="dashboard_random4">İyi günler</string>
+    <string name="dashboard_random5">Merhaba</string>
+    <string name="dashboard_random6">Naber</string>
+    <string name="dashboard_random_greetings1">Biraz paskalya yumurtası bulmaya çalışın!</string>
+    <string name="dashboard_random_greetings2">Geceyi Aydınlatma Zamanı!</string>
+    <string name="dashboard_random_greetings3">Arama çubuğunu kullanmayı deneyin!</string>
+    <string name="dashboard_random_greetings4">Soda ister misin?</string>
+    <string name="settings_random1">Bir şey mi arıyorsun?</string>
+    <string name="settings_random2">Bul ve göreceksin</string>
+    <string name="settings_random3">Ara ve bulacaksın</string>
+    <string name="settings_random4">Kim bulduysa onundur</string>
+    <string name="settings_random5">Ayarlarda ara</string>
+    <string name="settings_random6">Olmayan bir şeyi bulamazsınız!</string>
+    <string name="default_user">Kullanıcı</string>
+    <string name="build_status">Oluştruma durumu</string>
+    <string name="build_status_summary_placeholder">Naber?</string>
+    <string name="build_is_official_title">Cihaz resmi olarak destekleniyor!</string>
+    <string name="build_is_community_title">Cihaz resmi olarak desteklenmiyor!</string>
+    <string name="build_is_official_summary">%s tarafından sevgiyle inşa edildi</string>
+    <string name="build_is_official_summary_oopsie">ama bu yapıyı kim yaptı?</string>
+    <string name="build_is_community_summary">%s tarafından resmi olmayan yapı</string>
+    <string name="build_is_community_summary_oopsie">Psst! lütfen derleyiciye gerekli yapı bayraklarını eklemeyi unuttuğunu söyleyin!</string>
+    <string name="top_level_settings_title">Ayarlar</string>
+    <string name="my_device_settings">Cihazım</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google play</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1 dakikadan az</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">Bugün %1$s</string>
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Mobil erişim noktanızın adı, kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
+    <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">Hotspot\'a bağlı cihazları listeleyin ve yönetin ve bağlı cihaz sayısı sınırını ayarlayın</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Hotspot\'a bağlı cihazları listeleyin</string>
+    <string name="wifi_hotspot_client_limit_title">Bağlı cihaz sınırı</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Engellenen cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı engelle</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu eylem \"<xliff:g id="device_name">%1$s</xliff:g>\" bu cihazdan bağlantıyı kesecek ve kara listeye ekleyecek</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz engelini kaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot\'a bağlanabilecek</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Bu cihazlar <xliff:g id="device_num">%1$d</xliff:g> hotspot\'a bağlanabilecek</item>
+        <item quantity="one">Bu cihaz <xliff:g id="device_num">%1$d</xliff:g> hotspot\'a bağlanabilecek</item>
+    </plurals>
+    <!-- APK details on App info screen -->
+    <string name="app_info_install_time">Yüklendi: %1$s</string>
+    <string name="app_info_update_time">Güncellendi: %1$s</string>
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Zil sesi titreşim modeli</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Özel</string>
+    <string name="custom_vibration_pattern_title">Özel model</string>
+    <string name="custom_vibration_pattern_summary">Özel bir titreşim modeli ayarlayın</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Özel titreşim modeli</string>
+    <string name="notification_custom_vibrate_summary">Sadece varsayılan modeli değiştirir\nUygulama ayarlı model önceliklidir</string>
+    <string name="notification_custom_vibrate_slider1">İçin titret</string>
+    <string name="notification_custom_vibrate_slider2">İçin duraklat</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
+    <string name="incall_vibrate_connect_title">Arama bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Arama bağlantısı kesildiğinde titret</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Ekran görüntüsü almak için kaydırın</string>
+    <string name="swipe_to_screenshot_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
+    <string name="short_label">Kısa</string>
+    <string name="long_label">Uzun</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Hap yarıçapı</string>
+    <string name="thin_label">İnce</string>
+    <string name="thick_label">Kalın</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Tam</string>
+    <string name="back_height_high_label">Alt</string>
+    <string name="back_height_title">Geri hareketi yüksekliği</string>
+    <string name="back_height_summary">Geri hareket için geçerli ekran yüksekliği</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
+    <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Dokunumsal geri bildirim</string>
+    <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Wi-Fi\'ı otomatik olarak kapat</string>
+    <string name="wifi_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
+    <string name="wifi_timeout_summary_auto">Bağlantılı bir ağ yoksa WiFi <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapanacak</string>
+    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
+    <string name="bluetooth_timeout_summary">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
+    <string name="bluetooth_timeout_summary_auto">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
+    <string name="custom_timeout_summary_never">Asla</string>
+    <string name="custom_timeout_summary_5secs">5 saniye</string>
+    <string name="custom_timeout_summary_10secs">10 saniye</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_20mins">20 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Ekran açıkken bildirim sesi</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">PIN/Şifre doğru girildiğinde otomatik olarak kilidi aç</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Akıllı duraklatma</string>
+    <string name="adaptive_playback_master_switch_title">Akıllı duraklatmayı kullan</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_intro_text">Ses kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses geri yüklendiğinde otomatik olarak devam eder.</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullan</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 dakika)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
+    <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Kayan döndürme tuşunu kullan</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Uygulama kilidi</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> uygulama korunuyor</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> uygulamalar korunuyor</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Kilidi aç</string>
+    <string name="enable_debugging">Hata ayıklamayı etkinleştir</string>
+    <string name="disable_debugging">Hata ayıklamayı devre dışı bırak</string>
+    <string name="app_lock_packages_title">Korunan uygulamalar</string>
+    <string name="app_lock_packages_summary">Biyometri veya cihaz kimlik bilgileri ile korunacak uygulamaları seçin</string>
+    <string name="app_lock_timeout_title">Otomatik kilit zaman aşımı</string>
+    <string name="app_lock_timeout_summary">Kilidi açılan bir uygulamanın arka planda ne kadar süre sonra kilitleneceği</string>
+    <string name="app_lock_notifications_title">Bildirimleri daralt</string>
+    <string name="app_lock_notifications_summary">Seçilen uygulamalar kilitlendiğinde bildirim içeriği gizlenecek ve daraltılacaktır.
+          Bildirim pencereleri otomatik olarak devre dışı bırakılır.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Önce bir uygulama koruyun</string>
+    <string name="app_lock_biometrics_allowed_title">Kilidi açmak için parmak izi kullan</string>
+    <string name="app_lock_footer_text">Baloncuklar zaman aşımından sonra otomatik olarak yok sayılacak</string>
+    <string name="enable_protection">Korumayı etkinleştir</string>
+    <string name="hide_from_launcher_title">Başlatıcıdan gizle</string>
+    <string name="hide_from_launcher_summary">Bu uygulamanın başlatıcıda görünmesini engelle. Değişikliklerin etkili olması için başlatıcının yeniden başlatılması gerekir.    </string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Derin uyku</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanını gizle</string>
+    <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Güvenli pencere bayrağını yoksay</string>
+    <string name="ignore_window_secure_summary">Tüm uygulamalar için ekran görüntüsü ve ekran kaydı sınırlarını kaldırın. Bu bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir.</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
+    <string name="always_on_display_schedule_sunset">Gün batımı</string>
+    <string name="always_on_display_schedule_sunrise">Gün doğumu</string>
+    <string name="always_on_display_schedule_mixed_sunset">Belirli bir saatten gün batımına kadar açılır</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Belirli bir saatten gün doğumuna kadar açılır</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Tahmini pil kapasitesi</string>
+    <string name="battery_charge_cycles">Tamamlanan şarj döngüsü</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Pil sıcaklığı</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">Sistem titreşimleri</string>
+    <string name="haptics_settings_summary">Sistem titreşim yoğunluklarını değiştirin</string>
+    <string name="back_gesture_haptic_intensity_title">Geri hareketi dokunma titreşimi yoğunluğu</string>
+    <string name="edge_scrolling_haptics_intensity_title">Kenar kaydırma titreşim yoğunluğu</string>
+    <string name="brightness_slider_haptics_intensity_title">Parlaklık kaydırıcısı titreşim yoğunluğu</string>
+    <string name="volume_slider_haptics_intensity_title">Ses düzeyi kaydırıcısı titreşim yoğunluğu</string>
+    <string name="qs_panel_tile_haptic_intensity_title">Hızlı ayarlar karesi titreşim yoğunluğu</string>
+</resources>

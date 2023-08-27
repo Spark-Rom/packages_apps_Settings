@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2022 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fireworks -->
+    <string name="fireworks_title">Феєрверки</string>
+    <string name="build_tweaks_summary_title">Кастомізація та інше!</string>
+    <!-- SparkOS versioning -->
+    <string name="spark_version_title">Версія SparkOS</string>
+    <string name="about_device_info">Spark пристрій</string>
+    <string name="spark_device_title">Пристрій</string>
+    <string name="spark_build_version_title">Версія збірки</string>
+    <string name="spark_build_date_title">Дата збірки</string>
+    <string name="wellbeing_title">Google Добробут</string>
+    <string name="gesture_illustration_description">Керуйте вашим пристроєм з легкістю.</string>
+    <string name="connected_setting_description">Керуйте підключенням вашого пристрою.</string>
+    <string name="accessibility_illustration_description">Простою доступ до функцій для всіх.</string>
+    <string name="account_illustration_description">Керування паролями і обліковими записами користувачів.</string>
+    <string name="display_illustration_description">Налаштувати налаштування екрану - яскравість, кольори і т. д.</string>
+    <string name="wifi_illustration_description">Керування мережевим підключенням, DNS-провайдерами, доступом і т. д.</string>
+    <string name="sec_illustration_description">Захистіть ваш пристрій.</string>
+    <string name="sound_illustration_description">Налаштування мелодій та звуків інтерфейсу пристрою.</string>
+    <string name="privacy_illustration_description">Керування доступом до приватності/інформацією для вашого пристрою.</string>
+    <string name="system_illustration_description">Налаштування мови системи, час, жести та багато іншого.</string>
+    <string name="apps_illustration_description">Керування встановленими додатками, які є типовими, перевірка за допомогою спеціального доступу, вмикання або вимикання додатки тощо. </string>
+    <string name="battery_illustration_description">Моніторинг енергоспоживання, використання та збільшення споживання заряду акумулятора.</string>
+    <string name="connectivity_category_title">підключення</string>
+    <string name="navbar_gesture_custom">Налаштування жестів навігації</string>
+    <string name="usercard_summary">Власник пристрою</string>
+    <!-- About page -->
+    <string name="battery">Батарея</string>
+    <string name="display">Дисплей</string>
+    <string name="storage">Сховище</string>
+    <string name="chipset">Процесор</string>
+    <!-- About phone cards -->
+    <string name="about_device_nearby">Ім\'я пристрою можуть бачити і будуть бачити сусідні пристрої.</string>
+    <string name="about_device_version_type_gapps">Pixel</string>
+    <string name="about_device_version_type_vanilla">Vanilla</string>
+    <string name="version">SparkOS</string>
+    <string name="edit">Редагувати</string>
+    <string name="device_name">Назва пристрою</string>
+    <string name="about_us_info_category_title">Про нас</string>
+    <string name="spark_revision">=ревізія</string>
+    <string name="spark_model_info">Інформація про пристрій</string>
+    <string name="dashboard_morning1">Почніть позитивно свій день!</string>
+    <string name="dashboard_morning2">Сонце!</string>
+    <string name="dashboard_morning3">Гарного ранку..</string>
+    <string name="dashboard_morning4">Ще один день для життя..</string>
+    <string name="dashboard_morning5">Новий день..</string>
+    <string name="dashboard_morning_greeting1">Доброго ранку</string>
+    <string name="dashboard_morning_greeting2">Гарного дня!</string>
+    <string name="dashboard_noon1">Живи своїм життям.</string>
+    <string name="dashboard_noon2">Насолоджуйся заходом сонця!</string>
+    <string name="dashboard_noon3">Ласкаво просимо додому!</string>
+    <string name="dashboard_noon4">Насолоджуйся днем!</string>
+    <string name="dashboard_noon5">З поверненням..</string>
+    <string name="dashboard_noon_greeting1">Доброго дня</string>
+    <string name="dashboard_early_night1">Ніч наближається..</string>
+    <string name="dashboard_early_night2">Час вечеряти!</string>
+    <string name="dashboard_early_night_greeting1">Доброго вечора</string>
+    <string name="dashboard_night3">Солодких снів!</string>
+    <string name="dashboard_night4">Час спати..</string>
+    <string name="dashboard_night5">Спіть міцно!</string>
+    <string name="dashboard_night_greetings1">Спокійної ночі</string>
+    <string name="dashboard_midnight1">Насолоджуйся тишею..</string>
+    <string name="dashboard_midnight2">Вам потрібна допомога..</string>
+    <string name="dashboard_midnight3">Поспи, просто поспи..</string>
+    <string name="dashboard_midnight4">Відпочиньте..</string>
+    <string name="dashboard_midnight5">Пізно лягаєте?</string>
+    <string name="dashboard_random1">Агов</string>
+    <string name="dashboard_random2">Вітаю</string>
+    <string name="dashboard_random3">Привіт</string>
+    <string name="dashboard_random4">Гарного дня!</string>
+    <string name="dashboard_random5">Здоровенькі були</string>
+    <string name="dashboard_random6">Як життя</string>
+    <string name="dashboard_random_greetings1">Спробуй знайти пасхалки!</string>
+    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings3">Спробуйте скористатися полем пошуку!</string>
+    <string name="dashboard_random_greetings4">Насолоджуйся днем!</string>
+    <string name="settings_random1">Шукаєте що-небудь?</string>
+    <string name="settings_random2">Знайдеться все</string>
+    <string name="settings_random3">Шукайте, і ви знайдете</string>
+    <string name="settings_random4">Що з воза впало, те пропало</string>
+    <string name="settings_random5">Налаштування пошуку</string>
+    <string name="settings_random6">Ви не можете знайти щось, чого не існує!</string>
+    <string name="default_user">Користувач</string>
+    <string name="build_status">Статус збірки</string>
+    <string name="build_status_summary_placeholder">Що нового?</string>
+    <string name="build_is_official_title">Ваш пристрій офіційно підтримується!</string>
+    <string name="build_is_community_title">Ваш пристрій офіційно не підтримується!</string>
+    <string name="build_is_official_summary">Створено з любов\'ю від %s</string>
+    <string name="build_is_official_summary_oopsie">але хто створив цю збірку?</string>
+    <string name="build_is_community_summary">Неофіційна збірка від %s</string>
+    <string name="build_is_community_summary_oopsie">Хей! Будь ласка, повідомте збиральнику прошивки, щоб він не забув додати необхідні прапори збірки!</string>
+    <string name="top_level_settings_title">Налаштування</string>
+    <string name="my_device_settings">Мій пристрій</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показувати історію сповіщень</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Менше хвилини</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s сьогодні</string>
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Прихована мережа</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Назва вашої точки доступу не буде відображатися в списку доступних мереж WLAN.</string>
+    <string name="wifi_hotspot_client_manager_title">Приєднані пристрої</string>
+    <string name="wifi_hotspot_client_manager_summary">Список і керування пристроями підключених до точки доступу</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Список пристроїв, підключених до точки доступу</string>
+    <string name="wifi_hotspot_client_limit_title">Ліміт підключених пристроїв</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблоковані пристрої</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Підключені пристрої</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблокувати пристрій</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ця дія відключить \"<xliff:g id="device_name">%1$s</xliff:g>\" від цього пристрою і заблокує його</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Розблокувати пристрій</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Цей пристрій \"<xliff:g id="device_name">%1$s</xliff:g>\" зможе під\'єднатися до цієї точки доступу</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Наразі немає доступних клієнтів. Підключені та заблоковані пристрої з’являться тут, коли вони стануть доступними.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 ГГц &amp; 5 ГГц</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 ГГц &amp; 6 ГГц</string>
+    <string name="wifi_band_60ghz">60 ГГц</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">До цієї точки доступу можна під\'єднати <xliff:g id="device_num">%1$d</xliff:g> пристроїв</item>
+        <item quantity="one">До цієї точки доступу можна під\'єднати <xliff:g id="device_num">%1$d</xliff:g> пристрій</item>
+        <item quantity="few">До цієї точки доступу можна під\'єднати <xliff:g id="device_num">%1$d</xliff:g> пристроїв</item>
+        <item quantity="many">До цієї точки доступу можна під\'єднати <xliff:g id="device_num">%1$d</xliff:g> пристроїв</item>
+    </plurals>
+    <!-- APK details on App info screen -->
+    <string name="app_info_install_time">Встановлено: %1$s</string>
+    <string name="app_info_update_time">Оновлено: %1$s</string>
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">Скопійовано до буферу обміну</string>
+    <string name="longpress_to_clipboard">Довге натискання для копіювання</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Шаблон вібрації дзвінка</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дззз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Користувацький</string>
+    <string name="custom_vibration_pattern_title">Користувацький шаблон</string>
+    <string name="custom_vibration_pattern_summary">Встановити користувальницький шаблон вібрації</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Користувацький шаблон вібрації</string>
+    <string name="notification_custom_vibrate_summary">Замінює лише шаблон за замовчуванням\nПріоритет має встановлений шаблон</string>
+    <string name="notification_custom_vibrate_slider1">Вібрація для</string>
+    <string name="notification_custom_vibrate_slider2">Пауза для</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Параметри вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрувати при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати при очікуванні виклику</string>
+    <string name="incall_vibrate_disconnect_title">Вібрувати при відключенні</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Провести для знімку екрану</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведіть трьома пальцями для знімку екрану</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Довжина navbar</string>
+    <string name="short_label">Короткий</string>
+    <string name="long_label">Довгий</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Радіус жесту навігації</string>
+    <string name="thin_label">Тонкий</string>
+    <string name="thick_label">Товстий</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Повний</string>
+    <string name="back_height_high_label">Знизу</string>
+    <string name="back_height_title">Висота жесту \"Назад\"</string>
+    <string name="back_height_summary">Висота екрану дійсна для жесту \"Назад\"</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Анімація жесту \"Назад\"</string>
+    <string name="back_gesture_arrow_summary">Відображати анімовану стрілку жесту \"Назад\"</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Тактильний жест назад</string>
+    <string name="back_gesture_haptic_summary">Вібрувати при виконанні жесту назад</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Режим \"В кишені\"</string>
+    <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Час очікування Wi-Fi</string>
+    <string name="wifi_timeout_summary">Не вимикати WiFi автоматично</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi вимкнеться, після <xliff:g id="timeout_description">%1$s</xliff:g> якщо мережа не підключена</string>
+    <string name="bluetooth_timeout">Час вимкнення Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Не вимикати Bluetooth автоматично</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
+    <string name="custom_timeout_summary_never">Ніколи</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 хвилина</string>
+    <string name="custom_timeout_summary_2mins">2 хвилини</string>
+    <string name="custom_timeout_summary_5mins">5 хвилин</string>
+    <string name="custom_timeout_summary_10mins">10 хвилин</string>
+    <string name="custom_timeout_summary_20mins">20 хвилин</string>
+    <string name="custom_timeout_summary_30mins">30 хвилин</string>
+    <string name="custom_timeout_summary_1hour">1 година</string>
+    <string name="custom_timeout_summary_2hours">2 години</string>
+    <string name="custom_timeout_summary_4hours">4 години</string>
+    <string name="custom_timeout_summary_8hours">8 години</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Звук знімку екрану</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Галасливі сповіщення</string>
+    <string name="notification_sound_vib_screen_on_summary">Відтворювання звуку та вібрації для сповіщень при увімкненому екрані</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматично розблокувати пристрій, коли введено правильний PIN/пароль</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Розумна Пауза</string>
+    <string name="adaptive_playback_master_switch_title">Використовувати розумну паузу</string>
+    <string name="adaptive_playback_disabled_summary">Вимк.</string>
+    <string name="adaptive_playback_intro_text">Автоматично призупиняє відтворення медіафайлів, коли гучність вимкнено, і автоматично відновлює відтворення, коли гучність буде відновлено протягом встановленого часу.</string>
+    <string name="adaptive_playback_timeout_title">Використовуйте тайм-аут</string>
+    <string name="adaptive_playback_timeout_none">Безперервно</string>
+    <string name="adaptive_playback_timeout_none_summary">Увімкнено (безперервно)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Увімкнено (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 хвилина</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Увімкнено (1 хвилина)</string>
+    <string name="adaptive_playback_timeout_2_min">2 хвилини</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Увімкнено (2 хвилини)</string>
+    <string name="adaptive_playback_timeout_5_min">5 хвилин</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Увімкнено (5 хвилини)</string>
+    <string name="adaptive_playback_timeout_10_min">10 хвилин</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Увімкнено (10 хвилин)</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Показати вікно буфера обміну</string>
+    <string name="show_clipboard_overlay_summary">Показувати вікно в лівому нижньому куті екрана, коли щось копіюється в буфер обміну</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">Гучність додатків</string>
+    <string name="app_volume_title">Регулювання гучності для кожного додатку</string>
+    <string name="app_volume_summary">Показувати кнопку гучності для кожного додатку в діалоговому вікні гучності</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Використовувати плаваючу кнопку обертання</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Блокування додатків</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> додаток захищено</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> додатків захищено</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> додатків захищено</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> додатків захищено</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Розблокувати</string>
+    <string name="enable_debugging">Увімкнути налагодження</string>
+    <string name="disable_debugging">Вимкнути налагодження</string>
+    <string name="app_lock_packages_title">Захищені додатки</string>
+    <string name="app_lock_packages_summary">Виберіть програми для захисту за допомогою біометричних даних або облікових даних пристрою</string>
+    <string name="app_lock_timeout_title">Час автоблокування</string>
+    <string name="app_lock_timeout_summary">Тривалість часу, після якого розблокована програма у фоновому режимі має бути заблокована</string>
+    <string name="app_lock_notifications_title">Згорнути сповіщення</string>
+    <string name="app_lock_notifications_summary">Зміст сповіщень буде приховано і згорнуто для вибраних програм, коли вони заблоковані.
+ Спливаючі сповіщення будуть автоматично вимкнені.</string>
+    <string name="app_lock_notifications_disabled_summary">Спершу виберіть програму для захисту</string>
+    <string name="app_lock_biometrics_allowed_title">Увімкніть біометричні дані для розблокування</string>
+    <string name="app_lock_footer_text">Спливаючі повідомлення будуть автоматично видалені після закінчення тайм-ауту</string>
+    <string name="enable_protection">Увімкнути захист</string>
+    <string name="hide_from_launcher_title">Сховати значок з лаунчера</string>
+    <string name="hide_from_launcher_summary">Заборонити показ цієї програми в лаунчері. Необхідний перезапуск лаунчера, щоб зміни набрали чинності.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Завжди увімкнено під час заряджання</string>
+    <string name="doze_on_charge_summary">Завжди відображати Doze під час заряджання</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Глибокий сон</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Сховати простір IME кнопок</string>
+    <string name="navigation_bar_ime_space_summary">Сховати простір кнопки IME під клавіатурою</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ігнорувати перемикач захищеного вікна</string>
+    <string name="ignore_window_secure_summary">Видалити обмеження знімків екрану та запису екрану для всіх додатків. Це може бути зручно в деяких випадках, але може призвести до випливу конфіденційності.</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">System haptics</string>
+    <string name="haptics_settings_summary">Modify system haptics intensities</string>
+    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
+    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
+    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
+    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+</resources>
