@@ -268,6 +268,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
+                || key.equals("top_level_wallpaper")
             	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
             } else if (key.equals("top_level_about_device")){
@@ -305,6 +306,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
+                || key.equals("top_level_wallpaper")
             	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_oos_middle);
             } else if (key.equals("top_level_about_device")){
@@ -368,6 +370,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             } else if (key.equals("top_level_battery")
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
+                || key.equals("top_level_wallpaper")
             	|| key.equals("top_level_privacy")
             	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_mt_middle);
@@ -405,6 +408,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             } else if (key.equals("top_level_battery")
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
+                || key.equals("top_level_wallpaper")
             	|| key.equals("top_level_privacy")
             	|| key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle_card);
