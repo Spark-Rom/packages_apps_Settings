@@ -73,7 +73,7 @@
         android:title="@string/wallpaper_settings_title"
         android:summary="@string/wallpaper_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_wallpaper"
-        settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/
+        settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController" />
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.DisplaySettings"
