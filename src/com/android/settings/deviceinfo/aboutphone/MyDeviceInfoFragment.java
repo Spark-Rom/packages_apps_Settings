@@ -43,6 +43,9 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.ActionBarShadowController;
 import com.android.settingslib.widget.LayoutPreference;
 
+import com.android.settings.deviceinfo.firmwareversion.sparkInfoPreferenceController;
+import com.android.settings.deviceinfo.firmwareversion.InfoPrefsController;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -136,6 +139,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
     private static List<AbstractPreferenceController> buildPreferenceControllers(
             Context context, MyDeviceInfoFragment fragment, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new sparkInfoPreferenceController(context));
+        controllers.add(new InfoPrefsController(context));
         controllers.add(new SleeptimePreferenceController(context, lifecycle));
         controllers.add(new UptimePreferenceController(context, lifecycle));
         return controllers;

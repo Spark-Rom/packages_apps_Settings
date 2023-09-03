@@ -49,6 +49,10 @@ public class sparkInfoPreferenceController extends AbstractPreferenceController 
         super(context);
     }
 
+    private String getPropertyOrDefault(String propName) {
+        return SystemProperties.get(propName, this.mContext.getString(R.string.device_info_default));
+    }
+
     private String getDeviceName() {
         String device = SystemProperties.get(PROP_SPARK_DEVICE, "");
         if (device.equals("")) {
@@ -76,7 +80,7 @@ public class sparkInfoPreferenceController extends AbstractPreferenceController 
                 this.mContext.getString(R.string.device_info_default));
 	
         return releaseType.substring(0, 1).toUpperCase() +
-                 releaseType.substring(1).toLowerCase();
+               releaseType.substring(1).toLowerCase();
     }
     
     private String getSparkbuildStatus() {
@@ -116,28 +120,16 @@ public class sparkInfoPreferenceController extends AbstractPreferenceController 
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        final Preference arcVerPref = screen.findPreference(KEY_SPARK_VERSION);
-        final Preference arcDevPref = screen.findPreference(KEY_SPARK_DEVICE);
-        final Preference buildStatusPref = screen.findPreference(KEY_BUILD_STATUS);
-        final Preference buildVerPref = screen.findPreference(KEY_BUILD_VERSION);
-        final String SparkVersion = getSparkVersion();
-        final String SparkDevice = getDeviceName();
-        final String SparkReleaseType = getSparkReleaseType();
+
         final String SparkMaintainer = getSparkMaintainer();
-	final String buildStatus = getSparkbuildStatus();
-	final String buildVer = getSparkBuildVersion();
-	final String isOfficial = SystemProperties.get(PROP_SPARK_RELEASETYPE,
-                this.mContext.getString(R.string.device_info_default));
-	buildStatusPref.setTitle(buildStatus);
-	buildStatusPref.setSummary(SparkMaintainer);
-	buildVerPref.setSummary(buildVer);
-        arcVerPref.setSummary(SparkVersion);
-        arcDevPref.setSummary(SparkDevice);
-	if (isOfficial.toLowerCase().contains("official")) {
-		 buildStatusPref.setIcon(R.drawable.verified);
-	} else {
-		buildStatusPref.setIcon(R.drawable.unverified);
-	}
+        final String isOfficial = getPropertyOrDefault(PROP_SPARK_RELEASETYPE).toLowerCase();
+
+        screen.findPreference(KEY_BUILD_STATUS).setTitle(getSparkbuildStatus());
+        screen.findPreference(KEY_BUILD_STATUS).setSummary(SparkMaintainer);
+        screen.findPreference(KEY_BUILD_VERSION).setSummary(getSparkBuildVersion());
+        screen.findPreference(KEY_SPARK_VERSION).setSummary(getSparkVersion());
+        screen.findPreference(KEY_SPARK_DEVICE).setSummary(getDeviceName());
+        screen.findPreference(KEY_BUILD_STATUS).setIcon(isOfficial.equals("official") ? R.drawable.verified : R.drawable.unverified);
     }
 
     @Override

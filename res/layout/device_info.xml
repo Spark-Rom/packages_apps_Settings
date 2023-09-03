@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!--
 Copyright (C) The 2022 dotOS Project
 Copyright (C) The 2022 RiceDroid Project
+Copyright (C) The 2023 the risingOS Android Project
    Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -15,68 +16,115 @@ Copyright (C) The 2022 RiceDroid Project
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/entity_header"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="6sp">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="200dp"
         android:minWidth="160dp"
-        app:cardBackgroundColor="?android:attr/colorAccent"
-        app:cardCornerRadius="32dp"
-        app:strokeColor="@color/op_control_text_color_primary"
-        app:strokeWidth="4dp"
-        app:cardElevation="0dp">
+        app:cardCornerRadius="28dp"
+        app:cardElevation="3dp">
 
         <com.spark.utils.WallpaperBlurView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop"
+	    android:scaleType="centerCrop"
+            android:foreground="#7A000000"
             android:gravity="center"
             android:elevation="0dp"
             android:contentDescription="@null"
-            android:foreground="@drawable/wallpaper_scrim"
-            android:background="@drawable/wallpaper_scrim"
             android:orientation="vertical" />
                 
-                <LinearLayout
-                    android:id="@+id/banner_layout"
+        <LinearLayout
+            android:id="@+id/banner_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top">
+
+                <TextView
+                    android:id="@+id/romVersion"
+                    android:paddingTop="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_gravity="center">
+                    android:fadingEdge="horizontal"
+                    android:gravity="start"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="?android:attr/textColorPrimary"
+		    android:fontFamily="@*android:string/config_headlineFontFamily"
+                    android:textSize="22sp" />
 
-                    <TextView
-                        android:id="@+id/romVersion"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:fadingEdge="horizontal"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:scrollHorizontally="true"
-                        android:singleLine="true"
-                        android:textColor="@*android:color/white"
-                        android:textSize="40sp"
-                         />
+                <TextView
+                    android:id="@+id/deviceName"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="horizontal"
+		    android:paddingTop="45dp"
+		    android:layout_marginLeft="1dp"
+                    android:gravity="start"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?android:attr/textColorPrimary"
+		    android:fontFamily="@*android:string/config_headlineFontFamily"
+                    android:textSize="12sp" />
+            </RelativeLayout>
 
-                    <TextView
-                        android:id="@+id/deviceName"
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:fadingEdge="horizontal"
-                        android:paddingTop="9dp"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:scrollHorizontally="true"
-                        android:ellipsize="end"
-                        android:maxLines="1"
-                        android:textColor="@*android:color/white"
-                        android:textSize="24sp"
-                         />
-                        
-                </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/hashtag"
+                    android:text="#Light the night"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="start"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="19sp"
+                    android:fontFamily="@*android:string/config_headlineFontFamily" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="130dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:layout_centerVertical="true"
+        android:gravity="end"
+        android:layout_gravity="end"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="18dp"
+        app:strokeColor="?android:attr/textColorPrimary"
+        app:strokeWidth="3dp">
+
+        <com.spark.utils.aboutWallpaperView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+	    android:scaleType="centerCrop"
+            android:gravity="center"
+            android:elevation="0dp"
+            android:contentDescription="@null"
+            android:orientation="vertical" />
+
+    </com.google.android.material.card.MaterialCardView>
 
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
