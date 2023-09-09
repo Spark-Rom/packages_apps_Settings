@@ -58,7 +58,7 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:gravity="start"
                     android:scrollHorizontally="true"
                     android:singleLine="true"
-                    android:textColor="?android:attr/textColorPrimary"
+		    android:textColor="@color/about_card"
 		    android:fontFamily="@*android:string/config_headlineFontFamily"
                     android:textSize="22sp" />
 
@@ -73,7 +73,7 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:scrollHorizontally="true"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/about_card"
 		    android:fontFamily="@*android:string/config_headlineFontFamily"
                     android:textSize="12sp" />
             </RelativeLayout>
@@ -95,7 +95,7 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:scrollHorizontally="true"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/about_card"
                     android:textSize="19sp"
                     android:fontFamily="@*android:string/config_headlineFontFamily" />
             </RelativeLayout>
@@ -112,7 +112,7 @@ Copyright (C) The 2023 the risingOS Android Project
         android:layout_gravity="end"
         app:cardElevation="0dp"
         app:cardCornerRadius="18dp"
-        app:strokeColor="?android:attr/textColorPrimary"
+        app:strokeColor="@color/about_card"
         app:strokeWidth="3dp">
 
         <com.spark.utils.aboutWallpaperView
