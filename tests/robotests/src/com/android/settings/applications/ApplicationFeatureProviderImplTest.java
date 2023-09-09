@@ -353,7 +353,7 @@ public final class ApplicationFeatureProviderImplTest {
 
         final Set<String> allowlist = mProvider.getKeepEnabledPackages();
 
-        assertThat(allowlist).contains("com.android.packageinstaller");
+        assertThat(allowlist).contains("com.spark.packageinstaller");
     }
 
     private void setUpUsersAndInstalledApps() {
