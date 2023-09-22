@@ -100,10 +100,10 @@
     <string name="build_status">构建状态</string>
     <string name="build_status_summary_placeholder">怎么了?</string>
     <string name="build_is_official_title">设备已被正式支持！</string>
-    <string name="build_is_community_title">设备未被正式支持！</string>
+    <string name="build_is_community_title">设备已被正式支持！</string>
     <string name="build_is_official_summary">%s 用爱建造</string>
     <string name="build_is_official_summary_oopsie">但是谁制作了此构建？</string>
-    <string name="build_is_community_summary">由 %s 创建的非官方版本</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">喂！请告诉构建者他/她忘了添加所需的构建标志！</string>
     <string name="top_level_settings_title">设置</string>
     <string name="my_device_settings">我的设备</string>
@@ -275,6 +275,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">隐藏输入法按键空间</string>
     <string name="navigation_bar_ime_space_summary">隐藏键盘下方输入法按键空间</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略安全窗口标志</string>
     <string name="ignore_window_secure_summary">移除所有应用程序的截图和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
@@ -298,4 +302,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

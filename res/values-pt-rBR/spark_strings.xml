@@ -87,7 +87,7 @@
     <string name="dashboard_random5">E aí</string>
     <string name="dashboard_random6">Tudo em cima</string>
     <string name="dashboard_random_greetings1">Tente encontrar algum easter egg!</string>
-    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings2">Hora do LightTheNight!</string>
     <string name="dashboard_random_greetings3">Tente usar a barra de pesquisa!</string>
     <string name="dashboard_random_greetings4">Want some soda?</string>
     <string name="settings_random1">Procurando por algo?</string>
@@ -100,10 +100,10 @@
     <string name="build_status">Status de compilação</string>
     <string name="build_status_summary_placeholder">Tudo em cima?</string>
     <string name="build_is_official_title">Dispositivo oficialmente suportado!</string>
-    <string name="build_is_community_title">Dispositivo não é oficialmente suportado!</string>
+    <string name="build_is_community_title">Dispositivo oficialmente suportado!</string>
     <string name="build_is_official_summary">Construído com amor por %s</string>
     <string name="build_is_official_summary_oopsie">mas, quem fez essa compilação?</string>
-    <string name="build_is_community_summary">Compilação não oficial por %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! Por favor, diga ao construtor que ele/ela esqueceu de adicionar bandeiras de compilação necessárias!</string>
     <string name="top_level_settings_title">Configurações</string>
     <string name="my_device_settings">Meu dispositivo</string>
@@ -238,7 +238,7 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Mostrar sobreposição de texto</string>
     <string name="show_clipboard_overlay_summary">Exibe uma janela no canto inferior esquerdo da tela quando algum texto for copiado para área de transferência</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorar confirmação manual</string>
     <!-- Per-app volume -->
     <string name="app_volume">Volume de aplicativos</string>
     <string name="app_volume_title">Controle de volume por aplicativo</string>
@@ -277,27 +277,33 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Espaço sob o teclado</string>
     <string name="navigation_bar_ime_space_summary">Ocultar espaço na parte inferior do teclado</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Remover restrição de captura de tela</string>
     <string name="ignore_window_secure_summary">Remova as restrições de captura e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. (Use com cautela).</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Cronograma da tela ambiente</string>
+    <string name="always_on_display_schedule_sunset">Pôr do Sol</string>
+    <string name="always_on_display_schedule_sunrise">Nascer do Sol</string>
+    <string name="always_on_display_schedule_mixed_sunset">Ligar do pôr do Sol até um tempo específico</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Ativado do tempo específico até o amanhecer</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Battery temperature</string>
+    <string name="battery_temperature">Temperatura da bateria</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
-    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <string name="haptics_settings_title">Sistema tátil</string>
+    <string name="haptics_settings_summary">Modificar intensidade do sistema tátil</string>
+    <string name="back_gesture_haptic_intensity_title">Intensidade tátil do gesto de volta</string>
+    <string name="edge_scrolling_haptics_intensity_title">Intensidade tátil de rolagem das bordas</string>
+    <string name="brightness_slider_haptics_intensity_title">Intensidade tátil da barra de brilho</string>
+    <string name="volume_slider_haptics_intensity_title">Intensidade tátil do controle de volume</string>
+    <string name="qs_panel_tile_haptic_intensity_title">Intensidade tátil das configurações rápidas</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

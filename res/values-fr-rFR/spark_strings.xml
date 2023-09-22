@@ -56,22 +56,22 @@
     <string name="spark_revision">Spark Revision</string>
     <string name="spark_model_info">Device Information</string>
     <string name="dashboard_morning1">Start your day positively!</string>
-    <string name="dashboard_morning2">The Sun is up!</string>
-    <string name="dashboard_morning3">A nice morning..</string>
+    <string name="dashboard_morning2">Le soleil s\'est levé !</string>
+    <string name="dashboard_morning3">Un beau matin...</string>
     <string name="dashboard_morning4">Another day to live..</string>
-    <string name="dashboard_morning5">A new day..</string>
-    <string name="dashboard_morning_greeting1">Good Morning</string>
-    <string name="dashboard_morning_greeting2">Good day</string>
+    <string name="dashboard_morning5">Un nouveau jour...</string>
+    <string name="dashboard_morning_greeting1">Bonjour !</string>
+    <string name="dashboard_morning_greeting2">Bonne journée</string>
     <string name="dashboard_noon1">Live your life.</string>
-    <string name="dashboard_noon2">Enjoy the Sunset.</string>
-    <string name="dashboard_noon3">Welcome Home..</string>
-    <string name="dashboard_noon4">Enjoy the day!</string>
-    <string name="dashboard_noon5">Welcome back..</string>
-    <string name="dashboard_noon_greeting1">Good Afternoon</string>
-    <string name="dashboard_early_night1">The night is coming..</string>
-    <string name="dashboard_early_night2">Time for dinner!</string>
-    <string name="dashboard_early_night_greeting1">Good Evening</string>
-    <string name="dashboard_night3">Sweet Dreams!</string>
+    <string name="dashboard_noon2">Profitez du coucher de soleil !</string>
+    <string name="dashboard_noon3">Bienvenue à la maison...</string>
+    <string name="dashboard_noon4">Profitez de cette journée !</string>
+    <string name="dashboard_noon5">Bon retour parmi nous !</string>
+    <string name="dashboard_noon_greeting1">Bon après-midi !</string>
+    <string name="dashboard_early_night1">La nuit approche...</string>
+    <string name="dashboard_early_night2">Il est temps de dîner !</string>
+    <string name="dashboard_early_night_greeting1">Bonsoir !</string>
+    <string name="dashboard_night3">Faites de beaux rêves !</string>
     <string name="dashboard_night4">Time to sleep now..</string>
     <string name="dashboard_night5">Sleep tight!</string>
     <string name="dashboard_night_greetings1">Good Night</string>
@@ -83,7 +83,7 @@
     <string name="dashboard_random1">Hey</string>
     <string name="dashboard_random2">Hello</string>
     <string name="dashboard_random3">Hi</string>
-    <string name="dashboard_random4">Good day</string>
+    <string name="dashboard_random4">Bonne journée</string>
     <string name="dashboard_random5">Howdy</string>
     <string name="dashboard_random6">What\'s up</string>
     <string name="dashboard_random_greetings1">Try to find some easter eggs!</string>
@@ -100,10 +100,10 @@
     <string name="build_status">Build Status</string>
     <string name="build_status_summary_placeholder">What\'s up?</string>
     <string name="build_is_official_title">Device is officially supported!</string>
-    <string name="build_is_community_title">Device is not officially supported!</string>
+    <string name="build_is_community_title">Device is officially supported!</string>
     <string name="build_is_official_summary">Built with love by %s</string>
     <string name="build_is_official_summary_oopsie">but, who made this build?</string>
-    <string name="build_is_community_summary">Unofficial build by %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add required build flags!</string>
     <string name="top_level_settings_title">Settings</string>
     <string name="my_device_settings">My device</string>
@@ -277,6 +277,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
@@ -300,4 +304,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

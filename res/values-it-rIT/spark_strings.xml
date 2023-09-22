@@ -87,7 +87,7 @@
     <string name="dashboard_random5">Ehilà</string>
     <string name="dashboard_random6">Che succede</string>
     <string name="dashboard_random_greetings1">Cerca di trovare degli easter egg!</string>
-    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings2">Ora di LightTheNight!</string>
     <string name="dashboard_random_greetings3">Prova a usare la barra di ricerca!</string>
     <string name="dashboard_random_greetings4">Vuoi della soda?</string>
     <string name="settings_random1">Cerchi qualcosa?</string>
@@ -100,10 +100,10 @@
     <string name="build_status">Stato Build</string>
     <string name="build_status_summary_placeholder">Come va?</string>
     <string name="build_is_official_title">Il dispositivo è ufficialmente supportato!</string>
-    <string name="build_is_community_title">Il dispositivo non è ufficialmente supportato!</string>
+    <string name="build_is_community_title">Il dispositivo è ufficialmente supportato!</string>
     <string name="build_is_official_summary">Realizzato con amore da %s</string>
     <string name="build_is_official_summary_oopsie">ma, chi ha fatto questa build?</string>
-    <string name="build_is_community_summary">Build non ufficiale da %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! per favore dici allo sviluppatore che ha dimenticato di aggiungere i flag di costruzione richiesti!</string>
     <string name="top_level_settings_title">Impostazioni</string>
     <string name="my_device_settings">Il mio dispositivo</string>
@@ -238,7 +238,7 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Mostra l\'overlay degli appunti</string>
     <string name="show_clipboard_overlay_summary">Mostra una sovrapposizione nell\'angolo inferiore sinistro dello schermo quando copi qualcosa negli appunti</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <string name="skip_biometric_auth_confirmation_title">Salta la conferma manuale</string>
     <!-- Per-app volume -->
     <string name="app_volume">Volume app</string>
     <string name="app_volume_title">Controllo volume per app</string>
@@ -277,27 +277,33 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Nascondi spazio per il tasto IME</string>
     <string name="navigation_bar_ime_space_summary">Nascondi lo spazio del pulsante IME sotto la tastiera</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorare il flag della finestra sicura</string>
     <string name="ignore_window_secure_summary">Rimuovi i limiti agli screenshot e alle registrazioni schermo per tutte le app. Può essere utile in alcuni casi ma può compromettere la privacy.</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Pianificazione display Always on</string>
+    <string name="always_on_display_schedule_sunset">Tramonto</string>
+    <string name="always_on_display_schedule_sunrise">Alba</string>
+    <string name="always_on_display_schedule_mixed_sunset">Accendi dall\'alba a un orario</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Accendi da un orario all\'alba</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Capacità attuale della batteria</string>
+    <string name="designed_battery_capacity">Capacità totale batteria</string>
+    <string name="battery_charge_cycles">Cicli di carica completati</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Battery temperature</string>
+    <string name="battery_temperature">Temperatura della batteria</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
-    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <string name="haptics_settings_title">Feedback aptico di sistema</string>
+    <string name="haptics_settings_summary">Modifica l\'intensità del feedback aptico di sistema</string>
+    <string name="back_gesture_haptic_intensity_title">Intensità aptica gesto indietro</string>
+    <string name="edge_scrolling_haptics_intensity_title">Intensità aptica scorrimento bordi</string>
+    <string name="brightness_slider_haptics_intensity_title">Intensità aptica slider della luminosità</string>
+    <string name="volume_slider_haptics_intensity_title">Intensità aptica slider del volume</string>
+    <string name="qs_panel_tile_haptic_intensity_title">Intensità aptica tile QS</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

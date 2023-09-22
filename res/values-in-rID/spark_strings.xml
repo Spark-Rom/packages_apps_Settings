@@ -100,10 +100,10 @@
     <string name="build_status">Status Build</string>
     <string name="build_status_summary_placeholder">Apa yang baru?</string>
     <string name="build_is_official_title">Perangkat didukung secara resmi!</string>
-    <string name="build_is_community_title">Perangkat tidak didukung secara resmi!</string>
+    <string name="build_is_community_title">Perangkat didukung secara resmi!</string>
     <string name="build_is_official_summary">Dibangun dengan cinta oleh %s</string>
     <string name="build_is_official_summary_oopsie">tapi, siapa yang membuat build ini?</string>
-    <string name="build_is_community_summary">Build tidak resmi oleh %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! Tolong beri tahu pembangun bahwa dia lupa menambahkan build flags yang diperlukan!</string>
     <string name="top_level_settings_title">Setelan</string>
     <string name="my_device_settings">Perangkat saya</string>
@@ -272,6 +272,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Sembunyikan ruang tombol IME</string>
     <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Abaikan hamparan pengaman privasi</string>
     <string name="ignore_window_secure_summary">Hapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Hal ini bisa memudahkan dalam beberapa kasus, tetapi bisa menyebabkan kebocoran privasi.</string>
@@ -295,4 +299,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

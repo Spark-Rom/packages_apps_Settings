@@ -100,10 +100,10 @@
     <string name="build_status">Статус сборки</string>
     <string name="build_status_summary_placeholder">Что нового?</string>
     <string name="build_is_official_title">Устройство официально поддерживается!</string>
-    <string name="build_is_community_title">Устройство официально не поддерживается!</string>
+    <string name="build_is_community_title">Устройство официально поддерживается!</string>
     <string name="build_is_official_summary">Собрано с любовью %s</string>
     <string name="build_is_official_summary_oopsie">но кто сделал эту сборку?</string>
-    <string name="build_is_community_summary">Неофициальная сборка %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Ой! Пожалуйста, сообщите сборщику прошивки, что он забыл добавить необходимые флаги сборки!</string>
     <string name="top_level_settings_title">Настройки</string>
     <string name="my_device_settings">Моё устройство</string>
@@ -281,6 +281,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Скрыть пространство IME кнопок</string>
     <string name="navigation_bar_ime_space_summary">Скрыть пространство IME кнопок под клавиатурой</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Игнорировать безопасные окна</string>
     <string name="ignore_window_secure_summary">Снимите ограничения на скриншоты и записи экрана для всех приложений. В некоторых случаях это может быть удобно, но может привести к утечке конфиденциальной информации.</string>
@@ -298,10 +302,12 @@
     <string name="battery_temperature">Температура батареи</string>
     <!-- Haptics Settings -->
     <string name="haptics_settings_title">Системная вибрация</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
+    <string name="haptics_settings_summary">Изменение системной вибрации</string>
+    <string name="back_gesture_haptic_intensity_title">Вибрация жеста «Назад»</string>
     <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
-    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <string name="brightness_slider_haptics_intensity_title">Вибрация ползунка яркости</string>
+    <string name="volume_slider_haptics_intensity_title">Вибрация ползунка громкости</string>
+    <string name="qs_panel_tile_haptic_intensity_title">Вибрация плиток быстрых настроек</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
