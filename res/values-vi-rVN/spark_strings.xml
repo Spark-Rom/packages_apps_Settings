@@ -100,10 +100,10 @@
     <string name="build_status">Trạng thái bản dựng</string>
     <string name="build_status_summary_placeholder">Có chuyện gì vậy?</string>
     <string name="build_is_official_title">Thiết bị được hỗ trợ chính thức!</string>
-    <string name="build_is_community_title">Thiết bị không được hỗ trợ chính thức!</string>
+    <string name="build_is_community_title">Thiết bị được hỗ trợ chính thức!</string>
     <string name="build_is_official_summary">Được xây dựng bằng tình yêu bởi %s</string>
     <string name="build_is_official_summary_oopsie">nhưng, ai đã tạo ra công trình này?</string>
-    <string name="build_is_community_summary">Xây dựng không chính thức bởi %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Xin lỗi! vui lòng nói với người xây dựng rằng anh ấy/cô ấy quên thêm các cờ xây dựng cần thiết!</string>
     <string name="top_level_settings_title">Cài đặt</string>
     <string name="my_device_settings">Thiết bị của tôi</string>
@@ -274,6 +274,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Ẩn không gian nút IME</string>
     <string name="navigation_bar_ime_space_summary">Ẩn không gian nút IME bên dưới bàn phím</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Bỏ qua cờ cửa sổ an toàn</string>
     <string name="ignore_window_secure_summary">Loại bỏ giới hạn ảnh chụp màn hình và ghi màn hình cho tất cả các ứng dụng. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
@@ -297,4 +301,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

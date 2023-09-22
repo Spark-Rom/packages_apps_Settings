@@ -100,10 +100,10 @@
     <string name="build_status">Estado de la compilación</string>
     <string name="build_status_summary_placeholder">¿Qué pasa?</string>
     <string name="build_is_official_title">¡Dispositivo soportado oficialmente!</string>
-    <string name="build_is_community_title">¡El dispositivo no tiene soporte oficial!</string>
+    <string name="build_is_community_title">¡Dispositivo soportado oficialmente!</string>
     <string name="build_is_official_summary">Compilado con amor por %s</string>
     <string name="build_is_official_summary_oopsie">pero, ¿quién compiló esto?</string>
-    <string name="build_is_community_summary">Versión no oficial por %s</string>
+    <string name="build_is_community_summary">Versión oficial de %s</string>
     <string name="build_is_community_summary_oopsie">¡Psst! ¡Por favor, dile al constructor que ha olvidado añadir build flags necesarias!</string>
     <string name="top_level_settings_title">Ajustes</string>
     <string name="my_device_settings">Mi dispositivo</string>
@@ -277,6 +277,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
     <string name="navigation_bar_ime_space_summary">Ocultar botón de método de entrada debajo del teclado</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Pulso de notificaciones con doble toque</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorar limitaciones de ventana segura</string>
     <string name="ignore_window_secure_summary">Eliminar la limitación de captura y grabación de pantalla para todas las aplicaciones. Puede ser útil en algunos casos, pero puede llevar a fugas de privacidad.</string>
@@ -300,4 +304,6 @@
     <string name="brightness_slider_haptics_intensity_title">Intensidad háptica de la barra de brillo</string>
     <string name="volume_slider_haptics_intensity_title">Intensidad háptica de la barra de volumen</string>
     <string name="qs_panel_tile_haptic_intensity_title">Intensidad háptica de los ajustes rápidos</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Procesos en segundo plano</string>
 </resources>

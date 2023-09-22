@@ -100,10 +100,10 @@
     <string name="build_status">Build Status</string>
     <string name="build_status_summary_placeholder">What\'s up?</string>
     <string name="build_is_official_title">Device is officially supported!</string>
-    <string name="build_is_community_title">Device is not officially supported!</string>
+    <string name="build_is_community_title">Device is officially supported!</string>
     <string name="build_is_official_summary">Built with love by %s</string>
     <string name="build_is_official_summary_oopsie">but, who made this build?</string>
-    <string name="build_is_community_summary">Unofficial build by %s</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add required build flags!</string>
     <string name="top_level_settings_title">Setări</string>
     <string name="my_device_settings">My device</string>
@@ -279,6 +279,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Ascunde spațiul butonului IME</string>
     <string name="navigation_bar_ime_space_summary">Ascunde spațiul butonului IME de sub tastatură</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
@@ -302,4 +306,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

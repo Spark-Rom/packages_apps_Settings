@@ -100,10 +100,10 @@
     <string name="build_status">Oluştruma durumu</string>
     <string name="build_status_summary_placeholder">Naber?</string>
     <string name="build_is_official_title">Cihaz resmi olarak destekleniyor!</string>
-    <string name="build_is_community_title">Cihaz resmi olarak desteklenmiyor!</string>
+    <string name="build_is_community_title">Cihaz resmi olarak destekleniyor!</string>
     <string name="build_is_official_summary">%s tarafından sevgiyle inşa edildi</string>
     <string name="build_is_official_summary_oopsie">ama bu yapıyı kim yaptı?</string>
-    <string name="build_is_community_summary">%s tarafından resmi olmayan yapı</string>
+    <string name="build_is_community_summary">Official build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! lütfen derleyiciye gerekli yapı bayraklarını eklemeyi unuttuğunu söyleyin!</string>
     <string name="top_level_settings_title">Ayarlar</string>
     <string name="my_device_settings">Cihazım</string>
@@ -276,6 +276,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanını gizle</string>
     <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Güvenli pencere bayrağını yoksay</string>
     <string name="ignore_window_secure_summary">Tüm uygulamalar için ekran görüntüsü ve ekran kaydı sınırlarını kaldırın. Bu bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir.</string>
@@ -299,4 +303,6 @@
     <string name="brightness_slider_haptics_intensity_title">Parlaklık kaydırıcısı titreşim yoğunluğu</string>
     <string name="volume_slider_haptics_intensity_title">Ses düzeyi kaydırıcısı titreşim yoğunluğu</string>
     <string name="qs_panel_tile_haptic_intensity_title">Hızlı ayarlar karesi titreşim yoğunluğu</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
