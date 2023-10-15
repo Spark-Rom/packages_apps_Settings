@@ -76,9 +76,6 @@
         android:icon="@drawable/ic_spark"
         settings:enableCopying="true"
         android:selectable="true" >
-            <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://www.youtube.com/watch?v=POe9SOEKotk" />
       </Preference>
 
     <!-- Security patch -->
