@@ -25,7 +25,7 @@ class AboutDevice : FrameLayout {
     init {
         inflate(context, R.layout.device_info, this)
         // ROM Version
-        val versionCode = SystemProperties.get("ro.spark.version")
+        val versionCode = SystemProperties.get("ro.spark.build.version")
 
         findViewById<TextView>(R.id.romVersion).text = context.getString(R.string.version).toString() + " " + versionCode
 
