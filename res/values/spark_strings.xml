@@ -109,7 +109,7 @@
     <string name="build_status_summary_placeholder">What\'s up?</string>
     <string name="build_is_official_title">Device is officially supported!</string>
     <string name="build_is_community_title">Device is not officially supported!</string>
-    <string name="build_is_official_summary">Built with love by %s</string>
+    <string name="build_is_official_summary">Official Build by %s</string>
     <string name="build_is_official_summary_oopsie">but, who made this build?</string>
     <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add required build flags!</string>
