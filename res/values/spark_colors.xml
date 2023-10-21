@@ -40,4 +40,5 @@
     <color name="wave_homepage_icon_google_color">#4285f4</color>
     <color name="wave_homepage_icon_wellbeing_color">#f06292</color>
     <color name="rui_divider_bg">@*android:color/system_accent1_600</color>
+    <color name="about_card">#ffffffff</color>
 </resources>

@@ -96,7 +96,7 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
         preference.setCopyingEnabled(true);
         preference.setOrder(18);
         preference.setKey("build_number");
-        preference.setLayoutResource(R.layout.arc_card_about_top);
+        preference.setLayoutResource(R.layout.arc_card_about_middle);
     }
 
     @Override
