@@ -86,7 +86,7 @@ Copyright (C) The 2023 the risingOS Android Project
 
                 <TextView
                     android:id="@+id/hashtag"
-                    android:text="#Light the night"
+                    android:text="#Expose u'r dark-side"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:fadingEdge="horizontal"
@@ -96,7 +96,7 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="@color/about_card"
-                    android:textSize="19sp"
+                    android:textSize="15sp"
                     android:fontFamily="@*android:string/config_headlineFontFamily" />
             </RelativeLayout>
 
@@ -111,7 +111,7 @@ Copyright (C) The 2023 the risingOS Android Project
         android:gravity="end"
         android:layout_gravity="end"
         app:cardElevation="0dp"
-        app:cardCornerRadius="18dp"
+        app:cardCornerRadius="28dp"
         app:strokeColor="@color/about_card"
         app:strokeWidth="3dp">
 

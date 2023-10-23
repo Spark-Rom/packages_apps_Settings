@@ -100,7 +100,7 @@ Copyright (C) The 2023 the risingOS Android Project
         android:gravity="end"
         android:layout_gravity="end"
         app:cardElevation="0dp"
-        app:cardCornerRadius="18dp"
+        app:cardCornerRadius="28dp"
         app:strokeColor="?android:attr/textColorPrimary"
         app:strokeWidth="3dp">
 
